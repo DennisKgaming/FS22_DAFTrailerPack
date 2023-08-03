@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="75">
+	<author>Valentinootje, The King</author>
+    <version>2.0</version>
+
+	<title>
+		<en>DAF Trailer Pack</en>
+		<de>DAF Trailer Pack</de>
+		<fr>DAF Remorque Pack</fr>
+    </title>
+
+	<description>
+        <en>
+<![CDATA[This is the DAF trailer pack. It belongs to the DAF 105 XF, but you can also use it to any other vehicle if you want.
+You can choose between 3 different axles, except for the short one.
+The back axle is liftable with every configuration you like and if you choose to play with 3 axels the front axle is also liftable, except for the short one.
+All the trailers have AutoLoad functions.
+All the trailers have loading ramps for vehicles.
+
+Price: 20000€ - 35000€
+Brand: DAF
+-Wheel Configurations
+-Color Configurations
+-RimColor Configurations
+-Liftable axles
+-Ramps
+-AutoLoad
+
+Changelog 2.0.0.0:
+ - Fixed flying/driving backwards issue
+ - Fixed minor issues
+ - Optimized File
+]]>
+		</en>
+    </description>
+	<l10n>
+
+		<text name="3Axles">
+			<en>3 Axles</en>
+			<de>3 Achsen</de>
+			<fr>3 axes</fr>
+		</text>
+		<text name="2Axles">
+			<en>2 Axles</en>
+			<de>2 Achsen</de>
+			<fr>2 axes</fr>
+		</text>
+		<text name="2AxlesSideBar">
+			<en>2 Axles + Sidebar</en>
+			<de>2 Achsen + Seitenleiste</de>
+			<fr>2 essieux + barre latérale</fr>
+		</text>
+		<text name="hidden_col">
+			<en>Hidden Collision</en>
+			<de>Versteckte Kollision</de>
+			<fr>Collision cachée</fr>
+		</text>
+		<text name="visible_col">
+			<en>Visible Collision</en>
+			<de>Sichtbare Kollision</de>
+			<fr>Collision visible</fr>
+		</text>
+
+		<text name="input_Ramps">
+				<de>Open Ramps</de>
+				<en>Open Ramps</en>
+		</text>
+	</l10n>
+
+
+    <iconFilename>StoreIcon.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+		<brands>
+	        <brand name="DAF" title="DAF" image="storeBrand.dds"/>
+	    </brands>
+
+
+	<vehicleTypes>
+	
+		<!-- <type name="DAFTrailerLong" parent="dynamicMountAttacherTrailer" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="pickup" />
+		</type> -->
+		
+		<!-- <type name="DAFTrailer" parent="dynamicMountAttacherTrailer" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="pickup" />
+		</type> -->
+		
+		<type name="DAFTrailerShort" parent="dynamicMountAttacherTrailer" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<!--
+			<specialization name="tensionBelts" />
+			-->
+			<specialization name="pickup" /> 
+		</type>
+	</vehicleTypes>
+	
+	
+	<storeItems>
+        <!-- <storeItem rootNode="vehicle" xmlFilename="DAFTrailerLong.xml"/>
+		<storeItem rootNode="vehicle" xmlFilename="DAFTrailer.xml"/> -->
+		<storeItem rootNode="vehicle" xmlFilename="DAFTrailerShort.xml"/>
+    </storeItems>
+</modDesc>
