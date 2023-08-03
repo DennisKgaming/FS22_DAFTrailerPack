@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="flatdeck" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="1" filename="VP Model/textur/rrs-skt2.dds"/>
+        <File fileId="2" filename="VP Model/textur/specular1.dds"/>
+    </Files>
+    <Materials>
+        <Material name="material24" materialId="27">
+            <Texture fileId="1"/>
+            <Glossmap fileId="2"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="Schotelplaat.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="SchotelPlaat" translation="0 1.83315 4.734" nodeId="265">
+            <TransformGroup name="Plaat" nodeId="266">
+                <Shape shapeId="1" name="Cylinder05" translation="0 -0.348 0.458" rotation="180 0 0" scale="0.37 0.005 0.37" nodeId="267" materialIds="27" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="1" name="Cylinder05" translation="0 -0.427 0.458" rotation="180 0 0" scale="0.05 0.007 0.05" nodeId="268" materialIds="27" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="1" name="Cylinder05" translation="0 -0.236392 0.457592" rotation="180 0 0" scale="0.3 0.01 0.3" nodeId="269" materialIds="27" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="2" name="Plaat" translation="0 -0.407933 0.614531" rotation="90 0 0" scale="1.2 2.5 1" nodeId="270" materialIds="27" castsShadows="true" receiveShadows="true"/>
+                <TransformGroup name="transform" translation="0 -0.411864 1.311" rotation="-26 -0 0" scale="1 1 0.5" nodeId="271">
+                    <Shape shapeId="2" name="Plaat" translation="0 -1.23943e-08 0.289" rotation="90 0 0" scale="1.2 1 1" nodeId="272" materialIds="27" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+            </TransformGroup>
+        </TransformGroup>
+    </Scene>
+</i3D>

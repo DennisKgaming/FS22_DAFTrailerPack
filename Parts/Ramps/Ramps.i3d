@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="BaleTrailerVP" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files/>
+    <Materials>
+        <Material name="acmat_0" materialId="39" diffuseColor="1 1 1 1" specularColor="0.658824 1 1"/>
+        <Material name="Default" materialId="18" diffuseColor="0.694118 0.694118 0.694118 1" specularColor="0.701961 1 0.701961"/>
+    </Materials>
+    <Shapes externalShapesFile="Ramps.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="ramps" translation="0 0.125 -4.231" nodeId="163">
+            <TransformGroup name="ramps_2" translation="0 1.226 0" nodeId="164">
+                <Shape shapeId="1" name="ramp_L" translation="0.641 -0.013 0" scale="1.02 0.634 1" clipDistance="1000" nodeId="165" materialIds="39" castsShadows="true" receiveShadows="true">
+                    <TransformGroup name="transform" nodeId="166"/>
+                </Shape>
+                <Shape shapeId="1" name="ramp_R" translation="-0.981 0 0" scale="1.02 0.634 1" clipDistance="1000" nodeId="167" materialIds="39" castsShadows="true" receiveShadows="true">
+                    <TransformGroup name="transform" nodeId="168"/>
+                </Shape>
+                <Shape shapeId="2" name="ramp_col" compoundChild="true" collisionMask="8397061" nodeId="169" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </TransformGroup>
+        </TransformGroup>
+    </Scene>
+</i3D>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="DAFTrailerLong" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files/>
+    <Materials>
+        <Material name="ChromeCylinder" materialId="43" specularColor="0.827451 1 1"/>
+    </Materials>
+    <Shapes externalShapesFile="Schijven + Cylinder.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="Cylinder" translation="0.538427 -0.248755 -0.396447" rotation="0 0 -1.38644e-07" scale="0.15 0.0122503 0.15" nodeId="307" materialIds="43" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="Cylinder" translation="-0.538 -0.248755 -0.396447" rotation="0 0 -1.38644e-07" scale="0.15 0.0122503 0.15" nodeId="308" materialIds="43" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="Schijf" translation="-0.853181 -0.302538 -0.00303477" rotation="0 -0 90" scale="0.25 0.00156 0.25" nodeId="309" materialIds="43" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="Schijf" translation="0.853 -0.302538 -0.00303477" rotation="0 -0 -90" scale="0.25 0.00156 0.25" nodeId="310" materialIds="43" castsShadows="true" receiveShadows="true"/>
+    </Scene>
+</i3D>

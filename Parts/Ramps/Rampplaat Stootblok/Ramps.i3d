@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="BaleTrailerVP" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
+        <File fileId="1" filename="Addons/Bak/Plaat/Plaat_diffuse.dds"/>
+        <File fileId="2" filename="shared/dirt_lite.dds"/>
+    </Files>
+    <Materials>
+        <Material name="default" materialId="11" diffuseColor="1 1 1 1" customShaderId="3" customShaderVariation="colorMask">
+            <Glossmap fileId="2"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+            <CustomParameter name="colorMat0" value="0.8 0.55 0.05 32"/>
+            <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+            <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+            <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+            <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+            <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+            <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+            <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+        </Material>
+        <Material name="default" materialId="43" customShaderId="3">
+            <Texture fileId="1"/>
+            <Glossmap fileId="2"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="Ramps.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="StootBlokken" rotation="90 -0 0" nodeId="362" materialIds="43" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="2" name="RampPlaat" translation="0 -0.021 -2.225" rotation="90 -0 0" nodeId="363" materialIds="11" castsShadows="true" receiveShadows="true"/>
+    </Scene>
+</i3D>

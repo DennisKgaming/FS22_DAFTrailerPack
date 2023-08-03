@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="BaleTrailerVP" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files/>
+    <Materials>
+        <Material name="UnnamedMaterial" materialId="51" diffuseColor="1 1 1 1"/>
+    </Materials>
+    <Shapes externalShapesFile="BeamLights.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="belichting" translation="0 0.31 -2.11" scale="0.83 0.9 0.9" nodeId="267">
+            <TransformGroup name="Hoofdlicht" nodeId="268">
+                <Light name="frontLight" translation="0 0.835 3.695" rotation="176.324 0 180" nodeId="269" type="spot" color="0 0 0" emitDiffuse="true" emitSpecular="false" decayRate="1" range="0.01" coneAngle="0" dropOff="0">
+                    <Light name="highBeamLow" translation="-1.582 -0.821 2.633" rotation="65 86.5 90" clipDistance="75" nodeId="270" type="spot" color="5 2 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.5" coneAngle="125" dropOff="2"/>
+                    <Light name="highBeamLow" translation="-1.582 -0.9156 4.11141" rotation="65 86.5 90" clipDistance="75" nodeId="271" type="spot" color="5 2 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.5" coneAngle="125" dropOff="2"/>
+                    <Light name="highBeamLow" translation="-1.582 -1.00522 5.51714" rotation="65 86.5 90" clipDistance="75" nodeId="272" type="spot" color="5 2 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.5" coneAngle="125" dropOff="2"/>
+                    <Light name="highBeamLow" translation="-1.58203 -1.102 7.0034" rotation="65 86.5 90" clipDistance="75" nodeId="273" type="spot" color="5 2 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.5" coneAngle="125" dropOff="2"/>
+                    <Light name="highBeamLow" translation="1.59 -0.821 2.633" rotation="-65 86.5 90" clipDistance="75" nodeId="274" type="spot" color="5 2 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.5" coneAngle="125" dropOff="2"/>
+                    <Light name="highBeamLow" translation="1.59 -0.916141 4.12025" rotation="-65 86.5 90" clipDistance="75" nodeId="275" type="spot" color="5 2 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.5" coneAngle="125" dropOff="2"/>
+                    <Light name="highBeamLow" translation="1.59 -1.00569 5.52482" rotation="-65 86.5 90" clipDistance="75" nodeId="276" type="spot" color="5 2 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.5" coneAngle="125" dropOff="2"/>
+                    <Light name="highBeamLow" translation="1.59 -1.10213 7.00555" rotation="-65 86.5 90" clipDistance="75" nodeId="277" type="spot" color="5 2 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.5" coneAngle="125" dropOff="2"/>
+                    <Light name="Lightred" translation="-0.984123 -0.69 11" rotation="125 0 -180" nodeId="278" type="spot" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="2.5" coneAngle="120" dropOff="2"/>
+                    <Light name="Lightred" translation="0.984 -0.69 11" rotation="125 0 -180" nodeId="279" type="spot" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="2.5" coneAngle="120" dropOff="2"/>
+                    <Light name="highBeamLow" translation="-0.233 -0.694315 11.066" rotation="0 -90 4.86516e-06" clipDistance="75" nodeId="280" type="spot" color="5 2 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.5" coneAngle="100" dropOff="2"/>
+                    <Light name="highBeamLow" translation="0.233 -0.694315 11.066" rotation="0 90 4.86516e-06" clipDistance="75" nodeId="281" type="spot" color="5 2 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.5" coneAngle="100" dropOff="2"/>
+                    <Light name="highBeamLow" translation="-1.58203 -1.21319 8.821" rotation="65 86.5 90" clipDistance="75" nodeId="282" type="spot" color="5 2 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.5" coneAngle="125" dropOff="2"/>
+                    <Light name="highBeamLow" translation="-1.58203 -1.3299 10.5683" rotation="65 86.5 90" clipDistance="75" nodeId="283" type="spot" color="5 2 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.5" coneAngle="125" dropOff="2"/>
+                    <Light name="highBeamLow" translation="1.59 -1.21322 8.82193" rotation="-65 86.5 90" clipDistance="75" nodeId="284" type="spot" color="5 2 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.5" coneAngle="125" dropOff="2"/>
+                    <Light name="highBeamLow" translation="1.59 -1.33112 10.588" rotation="-65 86.5 90" clipDistance="75" nodeId="285" type="spot" color="5 2 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.5" coneAngle="125" dropOff="2"/>
+                </Light>
+            </TransformGroup>
+            <TransformGroup name="Remmen" nodeId="286">
+                <Light name="Lightred" translation="1.219 0.86 -7.37" rotation="-49.431 -0 0" nodeId="287" type="spot" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="2.5" coneAngle="120" dropOff="2">
+                    <Light name="Lightred" translation="-2.439 0 0" nodeId="288" type="spot" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="2.5" coneAngle="120" dropOff="2"/>
+                </Light>
+            </TransformGroup>
+            <TransformGroup name="turnRight" translation="0 0 -1.49503" nodeId="289">
+                <Light name="blinkerRightBack" translation="-1.388 0.85 -5.9" rotation="-7.413 -0 0" clipDistance="75" nodeId="290" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="4" coneAngle="140" dropOff="3"/>
+            </TransformGroup>
+            <TransformGroup name="turnLeft" translation="0 0 -1.49503" nodeId="291">
+                <Light name="blinkerLeftBack" translation="1.387 0.85 -5.9" rotation="-7.413 0 0" clipDistance="75" nodeId="292" type="spot" color="0.31 0.14 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="4" coneAngle="140" dropOff="3"/>
+            </TransformGroup>
+            <TransformGroup name="-" translation="0 -0.0372443 0.19964" nodeId="293"/>
+            <TransformGroup name="Reverse" translation="0 -0.046 4.046" rotation="0 180 0" nodeId="294">
+                <Light name="frontLight" translation="-0.344 0.88 11.4189" rotation="145 -3.225e-05 -180" nodeId="295" type="spot" color="1 1 2" emitDiffuse="true" emitSpecular="true" decayRate="1" range="2.5" coneAngle="120" dropOff="2">
+                    <Light name="frontLight" translation="-0.666961 -0.0147765 -0.00374126" rotation="0 0 -180" nodeId="296" type="spot" color="1 1 2" emitDiffuse="true" emitSpecular="true" decayRate="1" range="2.5" coneAngle="120" dropOff="2"/>
+                </Light>
+            </TransformGroup>
+            <TransformGroup name="beaconLights" translation="0 0.186422 -1.514" nodeId="297">
+                <TransformGroup name="beaconLights1" translation="0.914 0.239223 -5.879" scale="1.1 1.1 1.1" nodeId="298">
+                    <Shape shapeId="1" name="cube" scale="0.17372 0.01 0.172469" nodeId="299" materialIds="51" distanceBlending="false"/>
+                    <Shape shapeId="1" name="cube" translation="0 -0.0509481 -0.0609895" rotation="-112.662 -0 0" scale="0.17372 0.01 0.104526" nodeId="300" materialIds="51" distanceBlending="false"/>
+                    <Shape shapeId="1" name="cube" translation="0 -0.051 0.061" rotation="112.662 -0 0" scale="0.17372 0.01 0.104526" nodeId="301" materialIds="51" distanceBlending="false"/>
+                </TransformGroup>
+                <TransformGroup name="beaconLights2" translation="-0.914 0.239 -5.879" scale="1.1 1.1 1.1" nodeId="302">
+                    <Shape shapeId="1" name="cube" scale="0.17372 0.01 0.172469" nodeId="303" materialIds="51" distanceBlending="false"/>
+                    <Shape shapeId="1" name="cube" translation="0 -0.0509481 -0.0609895" rotation="-112.662 -0 0" scale="0.17372 0.01 0.104526" nodeId="304" materialIds="51" distanceBlending="false"/>
+                    <Shape shapeId="1" name="cube" translation="0 -0.051 0.061" rotation="112.662 -0 0" scale="0.17372 0.01 0.104526" nodeId="305" materialIds="51" distanceBlending="false"/>
+                </TransformGroup>
+            </TransformGroup>
+        </TransformGroup>
+    </Scene>
+</i3D>
