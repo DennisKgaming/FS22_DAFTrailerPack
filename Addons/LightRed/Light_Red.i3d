@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="DAF XF 105 DAF XF 105" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="../../../DAFXF_105_VP_converted/shaders/emissiveLightsShader.xml"/>
+    <File fileId="2" filename="../../../DAFXF_105_VP_converted/textur/car_corona_red_diffuse.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="car_corona_red_mat" materialId="52" specularColor="0 1 1" alphaBlending="true" customShaderId="3" customShaderVariation="BILLBOARD">
+      <Emissivemap fileId="2"/>
+      <CustomParameter name="blinkOffset" value="0 0 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Light_Red.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="corona_red6" translation="0.811045 3.47848 1.08016" rotation="-180 0 -180" scale="0.7 0.7 0.7" nodeId="1052" materialIds="52" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+</i3D>

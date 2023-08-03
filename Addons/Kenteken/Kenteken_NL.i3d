@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="man22s" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="5" filename="../../../DAF_105XF_VP/Addons/Textur/caseIH1455_diffuse.dds"/>
+    <File fileId="6" filename="../../../DAF_105XF_VP/Addons/Textur/caseIH1455_specular.dds"/>
+    <File fileId="2" filename="../../../DAF_105XF_VP/parts/kenteken plaat/Texture/MB100.dds"/>
+    <File fileId="4" filename="../../../DAF_105XF_VP/parts/kenteken plaat/Texture/dirt_normal.dds"/>
+    <File fileId="1" filename="../../../DAF_105XF_VP/parts/kenteken plaat/Texture/ns_jukka.dds"/>
+    <File fileId="3" filename="../../../DAF_105XF_VP/parts/kenteken plaat/Texture/vehicleShaderDirt.xml"/>
+    <File fileId="7" filename="../../../DAF_105XF_VP/shaders/vehicleShaderDirt.xml"/>
+    <File fileId="9" filename="../../../DAF_105XF_VP/textur/Blauw.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="caseIH1455_mat" materialId="27" customShaderId="7">
+      <Texture fileId="5"/>
+      <Glossmap fileId="6"/>
+      <CustomParameter name="RDT" value="1 0 20 20"/>
+    </Material>
+    <Material name="default" materialId="45" specularColor="0.827451 1 0">
+      <Texture fileId="9"/>
+    </Material>
+    <Material name="01 - Default" materialId="96" customShaderId="3">
+      <Texture fileId="1"/>
+      <Glossmap fileId="2"/>
+      <Custommap name="DirtNmap" fileId="4"/>
+      <CustomParameter name="RDT" value="1 0 20 20"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Kenteken_NL.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="Kenteken" translation="-1.36317 0.557949 -2.22019" rotation="180 0 -180" scale="0.8 0.8 1" nodeId="891">
+      <Shape shapeId="1" name="ns_grosz" translation="-2.89917 0.0572881 -0.0704644" rotation="-90 0 180" scale="0.04 0.04 0.04" nodeId="892" materialIds="96" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="lights" translation="-2.9 -0.120844 -2.20262" rotation="180 0 -9.4315e-14" scale="0.92 1 1" nodeId="893" materialIds="27" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="cube" translation="-2.89993 0.0572968 -0.0836082" rotation="90 -1.30929e-16 8.14222e-13" scale="0.57 0.01 0.12" nodeId="894" materialIds="45" distanceBlending="false"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="DAFTrailerShort" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files/>
+    <Materials>
+        <Material name="lambert1" materialId="34" diffuseColor="0.494118 0.494118 0.494118 1"/>
+    </Materials>
+    <Shapes externalShapesFile="dynamicMountTrigger.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="dynamicMountTrigger" translation="0 2.533 -4.12656" kinematic="true" compound="true" trigger="true" collisionMask="16777216" nodeId="222" materialIds="34" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+    </Scene>
+</i3D>

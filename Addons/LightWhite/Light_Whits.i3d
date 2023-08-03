@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="DAF XF 105 DAF XF 105" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="../../../DAFXF_105_VP_converted/shaders/emissiveLightsShader.xml"/>
+    <File fileId="2" filename="../../../DAFXF_105_VP_converted/textur/car_corona_white_diffuse.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="car_corona_white_mat" materialId="58" specularColor="0 1 1" alphaBlending="true" customShaderId="3" customShaderVariation="BILLBOARD">
+      <Emissivemap fileId="2"/>
+      <CustomParameter name="blinkOffset" value="0 0 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Light_Whits.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="corona_white12" translation="-0.201 3.20902 3.46387" rotation="-21.3594 0 2.02776e-06" nodeId="1067" materialIds="58" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+</i3D>

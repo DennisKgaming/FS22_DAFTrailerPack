@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="DDR Ballenwagen DDR Ballenwagen" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="8" filename="Exports/Textures/dlinnomer.dds"/>
+        <File fileId="9" filename="Exports/Textures/spec1.dds"/>
+        <File fileId="10" filename="Exports/shared/vehicleShaderDirt.xml"/>
+        <File fileId="3" filename="Textures/spec.dds"/>
+        <File fileId="4" filename="fs17VehicleShader.xml"/>
+        <File fileId="2" filename="shared/default_normal.dds"/>
+        <File fileId="1" filename="texture1/black.dds"/>
+        <File fileId="6" filename="texture1/fari.dds"/>
+        <File fileId="7" filename="texture1/fari_spec.dds"/>
+    </Files>
+    <Materials>
+        <Material name="03 - Default" materialId="26" customShaderId="4">
+            <Texture fileId="1"/>
+            <Normalmap fileId="2" bumpDepth="0.1"/>
+            <Glossmap fileId="3"/>
+            <CustomParameter name="RDT" value="1 1 20 20"/>
+        </Material>
+        <Material name="Fars" materialId="28" customShaderId="4">
+            <Texture fileId="6"/>
+            <Normalmap fileId="2" bumpDepth="0.1"/>
+            <Glossmap fileId="7"/>
+            <CustomParameter name="RDT" value="1 1 20 20"/>
+        </Material>
+        <Material name="01 - Default" materialId="4" customShaderId="10">
+            <Texture fileId="8"/>
+            <Glossmap fileId="9"/>
+            <CustomParameter name="RDT" value="1 1 20 20"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="Bewegende Spatlappen.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="Br011" translation="0.979103 0.348 -2.546" dynamic="true" compound="true" density="10" clipDistance="200" nodeId="376" materialIds="26" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="1" name="Br011" nodeId="377" materialIds="26" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="Katafot006" translation="0 -0.0748191 -0.00422071" nodeId="378" materialIds="28" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="3" name="logo001" translation="0.00510608 -0.356235 0.0239661" rotation="0 180 0" scale="1 0.6 1" nodeId="379" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="1" name="Br012" translation="-0.979 0.348 -2.54561" dynamic="true" compound="true" density="10" clipDistance="200" nodeId="380" materialIds="26" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="1" name="Br011" nodeId="381" materialIds="26" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="Katafot006" translation="0 -0.075 -0.004" nodeId="382" materialIds="28" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="3" name="logo001" translation="-0.000550232 -0.358522 0.0236138" rotation="0 180 0" scale="1 0.6 1" nodeId="383" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="4" name="Br009" translation="0.956727 0.327178 0.991001" dynamic="true" compound="true" density="10" clipDistance="200" nodeId="384" materialIds="26" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="4" name="Br009" nodeId="385" materialIds="26" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="4" name="Br010" translation="-0.991093 0.319563 0.99237" dynamic="true" compound="true" density="10" clipDistance="200" nodeId="386" materialIds="26" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="4" name="Br009" nodeId="387" materialIds="26" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+    </Scene>
+</i3D>

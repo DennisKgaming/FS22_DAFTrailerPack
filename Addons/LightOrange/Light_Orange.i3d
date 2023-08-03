@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="DAF XF 105 DAF XF 105" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="../../../DAFXF_105_VP_converted/shaders/emissiveLightsShader.xml"/>
+    <File fileId="2" filename="../../../DAFXF_105_VP_converted/textur/corona_orange.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="corona_mat" materialId="39" specularColor="0 1 1" alphaBlending="true" customShaderId="3" customShaderVariation="BILLBOARD">
+      <Emissivemap fileId="2"/>
+      <CustomParameter name="blinkOffset" value="0 0 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Light_Orange.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="corona_orange6" translation="-0.284 0.353183 3.6908" rotation="0 90 0" scale="0.3 0.3 0.2" nodeId="1064" materialIds="39" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+</i3D>
