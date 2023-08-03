@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="SchwartzMueller_3Achser.blend" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+        <File fileId="2" filename="$data/vehicles/kinze/kinze_normal.png"/>
+        <File fileId="3" filename="$data/vehicles/kinze/kinze_specular.png"/>
+        <File fileId="8" filename="$data/vehicles/unverferth/seedRunner3755xl/seedRunner3755xl_normal.png"/>
+        <File fileId="9" filename="$data/vehicles/unverferth/seedRunner3755xl/seedRunner3755xl_specular.png"/>
+    </Files>
+    <Materials>
+        <Material name="seedRunner3755xl_mat" materialId="23" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+            <Normalmap fileId="8"/>
+            <Glossmap fileId="9"/>
+            <CustomParameter name="RDT" value="0 0 30 60"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+            <CustomParameter name="colorMat0" value="0.8275 0.8275 0.8275 0"/>
+            <CustomParameter name="colorMat1" value="0.4979 0.4158 0.2705 0"/>
+            <CustomParameter name="colorMat2" value="1 0.8277 0 1"/>
+            <CustomParameter name="colorMat3" value="0.9941 0 0 1"/>
+            <CustomParameter name="colorMat4" value="0.0864 0.0864 0.0864 5"/>
+            <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+            <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+            <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+        </Material>
+        <Material name="kinze_mat" materialId="7" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+            <Normalmap fileId="2"/>
+            <Glossmap fileId="3"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+            <CustomParameter name="colorMat0" value="0.004 0.2664 0.6038 0"/>
+            <CustomParameter name="colorMat1" value="0.1 0.1 0.1 5"/>
+            <CustomParameter name="colorMat2" value="0 0.1604 0.0546 1"/>
+            <CustomParameter name="colorMat3" value="0.8879 0.8388 0.5457 1"/>
+            <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+            <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+            <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+            <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="ConnectionTriangleHoses.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="dynamicHoses" translation="0.0809655 -0.213227 1.46459" rotation="8.31599 3.043 0.832672" nodeId="283">
+            <TransformGroup name="hydraulicOut01" translation="-0.187 0.214 0.24" rotation="-11.8523 17.9348 -2.98581" nodeId="284">
+                <Shape shapeId="1" name="hydraulicOut01_detached" translation="-0.146155 -0.870668 -5.8311" clipDistance="300" nodeId="285" materialIds="7" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="2" name="detachedPart02" translation="0.119835 0.343424 6.19527" rotation="90 0 0" clipDistance="300" nodeId="286" materialIds="7" castsShadows="true" receiveShadows="true"/>
+                </Shape>
+            </TransformGroup>
+            <TransformGroup name="hydraulicIn01" translation="-0.18083 0.213803 0.238227" rotation="-11.8994 18.6134 -3.136" nodeId="287">
+                <Shape shapeId="3" name="hydraulicIn01_detached" translation="-0.171584 -0.870668 -5.831" clipDistance="300" nodeId="288" materialIds="7" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="4" name="detachedPart04" translation="0.119835 0.343424 6.19527" rotation="90 0 0" clipDistance="300" nodeId="289" materialIds="7" castsShadows="true" receiveShadows="true"/>
+                </Shape>
+            </TransformGroup>
+            <TransformGroup name="electric" translation="-0.131202 0.219065 0.518839" rotation="-6.548 -3.62854e-06 -2.46527e-05" nodeId="290">
+                <Shape shapeId="5" name="detachedState" translation="-0.0463443 -0.495601 -4.083" clipDistance="200" nodeId="291" materialIds="23" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+        </TransformGroup>
+    </Scene>
+</i3D>

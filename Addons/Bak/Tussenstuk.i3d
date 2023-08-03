@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="Blender" version="2.79.0" />
+  </Asset>
+  <Files />
+  <Materials>
+    <Material ambientColor="1 1 1" diffuseColor="0.3 0.3 0.3 1" materialId="1" name="default" specularColor="0 0 0" />
+  </Materials>
+  <Shapes>
+    <IndexedTriangleSet bvCenter="-0.007220 -0.064000 -0.145551" bvRadius="0.325689" isOptimized="false" name="Cube.003" shapeId="1">
+      <Vertices count="16" normal="true">
+        <v n="-0.622242 -0.707450 0.335063" p="-0.014771 -0.014349 -0.011570" />
+        <v n="-0.551103 0.376293 -0.744743" p="-0.014771 0.111053 -0.373260" />
+        <v n="-0.618275 -0.701468 -0.354411" p="-0.014771 -0.014349 -0.280840" />
+        <v n="0.618275 -0.701468 -0.354411" p="-0.003287 -0.014349 -0.280840" />
+        <v n="0.551103 0.376293 -0.744743" p="-0.003287 0.111053 -0.373260" />
+        <v n="0.622242 -0.707450 0.335063" p="-0.003287 -0.014349 -0.011570" />
+        <v n="0.549577 0.357585 0.754997" p="-0.003287 0.111053 0.091120" />
+        <v n="-0.594226 -0.645253 0.480117" p="-0.007553 -0.388875 -0.131894" />
+        <v n="-0.564501 0.500168 -0.656606" p="-0.007553 0.036169 -0.285337" />
+        <v n="-0.592792 -0.640614 -0.487991" p="-0.007553 -0.388875 -0.168225" />
+        <v n="0.592792 -0.640614 -0.487991" p="-0.003269 -0.388875 -0.168225" />
+        <v n="0.564501 0.500168 -0.656606" p="-0.003269 0.036169 -0.285337" />
+        <v n="0.594226 -0.645253 0.480117" p="-0.003269 -0.388875 -0.131894" />
+        <v n="0.563524 0.493118 0.662740" p="-0.003269 0.036169 -0.004402" />
+        <v n="-0.549577 0.357585 0.755028" p="-0.014771 0.111053 0.091120" />
+        <v n="-0.563524 0.493118 0.662740" p="-0.007553 0.036169 -0.004402" />
+      </Vertices>
+      <Triangles count="24">
+        <t vi="0 1 2" />
+        <t vi="1 3 2" />
+        <t vi="4 5 3" />
+        <t vi="6 0 5" />
+        <t vi="3 0 2" />
+        <t vi="1 6 4" />
+        <t vi="7 8 9" />
+        <t vi="8 10 9" />
+        <t vi="11 12 10" />
+        <t vi="13 7 12" />
+        <t vi="10 7 9" />
+        <t vi="8 13 11" />
+        <t vi="0 14 1" />
+        <t vi="1 4 3" />
+        <t vi="4 6 5" />
+        <t vi="6 14 0" />
+        <t vi="3 5 0" />
+        <t vi="1 14 6" />
+        <t vi="7 15 8" />
+        <t vi="8 11 10" />
+        <t vi="11 13 12" />
+        <t vi="13 15 7" />
+        <t vi="10 12 7" />
+        <t vi="8 15 13" />
+      </Triangles>
+      <Subsets count="1">
+        <Subset firstIndex="0" firstVertex="0" numIndices="72" numVertices="16" />
+      </Subsets>
+    </IndexedTriangleSet>
+  </Shapes>
+  <Scene>
+    <Shape castsShadows="true" materialIds="1" name="Cube.001" nodeId="1" receiveShadows="true" rotation="-0.000 -0.000 0.000" scale="1.000000 1.000000 1.000000" shapeId="1" skinWidth="0.05000000074505806" static="true" translation="1.281621 1.013830 -6.718795" />
+  </Scene>
+  <Animation />
+  <UserAttributes />
+</i3D>

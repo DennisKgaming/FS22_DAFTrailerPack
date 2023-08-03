@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="DAF XF 105 DAF XF 105" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="../../../../../DAFXF_105_VP_converted/Addons/ZwaarTransport/parts/Width_Lights - Copy/Width_Lights.dds"/>
+    <File fileId="2" filename="../../../../../DAFXF_105_VP_converted/Addons/ZwaarTransport/parts/Width_Lights/Width_Lights.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="acmat_0" materialId="20">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="acmat_0" materialId="21" alphaBlending="true">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="acmat_0" materialId="96">
+      <Texture fileId="2"/>
+    </Material>
+    <Material name="acmat_0" materialId="103" alphaBlending="true">
+      <Texture fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="WidthLights.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="Width_Lighting_1" translation="-1.245 0.875 -1.021" rotation="-90 -90 -180" nodeId="338">
+      <Shape shapeId="1" name="Width_Lighting_1_Right" translation="0.08 0 0" nodeId="339" materialIds="21" receiveShadows="true">
+        <Shape shapeId="2" name="1" nodeId="340" materialIds="20" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+    </TransformGroup>
+    <TransformGroup name="Width_Lighting_1" translation="1.245 0.875 -1.021" rotation="-90 -90 2.79565e-05" nodeId="335">
+      <Shape shapeId="1" name="Width_Lighting_1_Right" translation="0.08 0 0" nodeId="336" materialIds="103" receiveShadows="true">
+        <Shape shapeId="2" name="1" nodeId="337" materialIds="96" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

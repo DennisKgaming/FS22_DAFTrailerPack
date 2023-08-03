@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="ITR Schienentrailer ITR Container Trailer" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+        <File fileId="8" filename="$data/shared/connectionHoses/connectors_normal.png"/>
+        <File fileId="9" filename="$data/shared/connectionHoses/connectors_specular.png"/>
+        <File fileId="2" filename="$data/vehicles/fortschritt/hw80/hw80_normal.png"/>
+        <File fileId="3" filename="$data/vehicles/fortschritt/hw80/hw80_specular.png"/>
+    </Files>
+    <Materials>
+        <Material name="connectors_mat" materialId="16" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+            <Normalmap fileId="8"/>
+            <Glossmap fileId="9"/>
+            <CustomParameter name="RDT" value="1 1 20 20"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+            <CustomParameter name="colorMat0" value="0.5356 0.0254 0.0254 1"/>
+            <CustomParameter name="colorMat1" value="0.673 0.4783 0.023 1"/>
+            <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+            <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+            <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+            <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+            <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+            <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+        </Material>
+        <Material name="hw80_mat" materialId="11" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+            <Normalmap fileId="2"/>
+            <Glossmap fileId="3"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+            <CustomParameter name="colorMat0" value="0.0789 0.239 0.083 0"/>
+            <CustomParameter name="colorMat1" value="0.0789 0.239 0.083 6"/>
+            <CustomParameter name="colorMat2" value="0.6412 0.0656 0.0519 0"/>
+            <CustomParameter name="colorMat3" value="0.0265 0.0265 0.029 0"/>
+            <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+            <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+            <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+            <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="Connection Airhoses.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="connectionHoses" translation="-0.210357 -1.4 -7.03771" rotation="-2.60616 1.49645 -0.0606841" scale="1 1.1 2" nodeId="252">
+            <TransformGroup name="hydraulicIn01" translation="-0.166727 0.949 4.19699" rotation="0 24.9103 0" nodeId="253">
+                <Shape shapeId="1" name="hydraulicIn01_detached" translation="1.91898 -0.948882 -3.73631" rotation="0 -24.9103 0" clipDistance="300" nodeId="254" materialIds="11" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="2" name="air" translation="0.0614533 0.813874 4.84735" rotation="82.7022 90 0" clipDistance="50" nodeId="255" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                </Shape>
+            </TransformGroup>
+            <TransformGroup name="hydraulicOut01" translation="-0.169928 0.932301 4.20831" rotation="0 24.9103 0" nodeId="256">
+                <Shape shapeId="3" name="hydraulicOut01_detached" translation="1.92665 -0.932301 -3.74523" rotation="0 -24.9103 0" clipDistance="300" nodeId="257" materialIds="11" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="4" name="air1" translation="0.0381289 0.815089 4.8412" rotation="82.7022 -90 0" clipDistance="50" nodeId="258" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                </Shape>
+            </TransformGroup>
+            <TransformGroup name="hydraulicIn02" translation="0.168792 0.954167 4.18325" rotation="0 -24.085 0" nodeId="259">
+                <Shape shapeId="5" name="hydraulicIn02_detached" translation="-1.86124 -0.954167 -3.75018" rotation="0 24.085 0" clipDistance="300" nodeId="260" materialIds="11" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="hydraulicOut02" translation="0.168792 0.944032 4.18334" rotation="0 -24.085 0" nodeId="261">
+                <Shape shapeId="6" name="hydraulicOut02_detached" translation="-1.86128 -0.944032 -3.75026" rotation="0 24.085 0" clipDistance="300" nodeId="262" materialIds="11" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="electricFront" translation="-1.19209e-07 1.22365 2.28433" nodeId="263"/>
+        </TransformGroup>
+    </Scene>
+</i3D>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="DAF XF 105 DAF XF 105" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="17" filename="../../../DAFXF_105_VP_converted/Addons/AchterBumper/achterlichten/Lampen...achter/Hella lampen/Lamp/import/lightsoffroad/luzes/luzes/HellaRally3000/textures/alpha.dds"/>
+    <File fileId="18" filename="../../../DAFXF_105_VP_converted/Addons/AchterBumper/achterlichten/Lampen...achter/Hella lampen/Lamp/import/lightsoffroad/luzes/luzes/HellaRally3000/textures/glass.dds"/>
+    <File fileId="23" filename="../../../DAFXF_105_VP_converted/Addons/Vloer/flatbedsemiV2diff.dds"/>
+    <File fileId="24" filename="../../../DAFXF_105_VP_converted/Addons/Vloer/flatbedsemiV2spec.dds"/>
+    <File fileId="4" filename="../../../DAFXF_105_VP_converted/Addons/ZwaarTransport/Addons/Chassis 6x6/Kelsa/kelsaSidebar_diffuse.png"/>
+    <File fileId="7" filename="../../../DAFXF_105_VP_converted/Addons/ZwaarTransport/Addons/Chassis 6x6/daf_XF_105.460_Couleur01_diffuse.png"/>
+    <File fileId="10" filename="../../../DAFXF_105_VP_converted/Addons/ZwaarTransport/Addons/Chassis 6x6/daf_XF_105.460_Couleur02_diffuse.dds"/>
+    <File fileId="8" filename="../../../DAFXF_105_VP_converted/Addons/ZwaarTransport/Addons/Chassis 6x6/daf_XF_105.460_Couleur_specular.png"/>
+    <File fileId="9" filename="../../../DAFXF_105_VP_converted/Addons/ZwaarTransport/Addons/shaders/vehicleShader.xml"/>
+    <File fileId="11" filename="../../../DAFXF_105_VP_converted/Addons/ZwaarTransport/parts/Width_Lights - Copy/Width_Lights.dds"/>
+    <File fileId="12" filename="../../../DAFXF_105_VP_converted/Addons/ZwaarTransport/parts/Width_Lights/Width_Lights.dds"/>
+    <File fileId="28" filename="../../../DAFXF_105_VP_converted/Addons/ZwaarTransport/textur/Blauw.png"/>
+    <File fileId="13" filename="../../../DAFXF_105_VP_converted/Addons/ZwaarTransport/textur/Gris3.dds"/>
+    <File fileId="5" filename="../../../DAFXF_105_VP_converted/shaders/vehicleShaderDirt.xml"/>
+    <File fileId="3" filename="../../../DAFXF_105_VP_converted/textur/Blauw.png"/>
+    <File fileId="26" filename="../../../DAFXF_105_VP_converted/textur/Warning L.dds"/>
+    <File fileId="27" filename="../../../DAFXF_105_VP_converted/textur/Warning R.dds"/>
+    <File fileId="19" filename="../../../DAFXF_105_VP_converted/textur/Witcreme.png"/>
+    <File fileId="22" filename="../../../DAFXF_105_VP_converted/textur/cvet_spec_dirt3.dds"/>
+    <File fileId="25" filename="../../../DAFXF_105_VP_converted/textur/rearlights.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="chrom" materialId="27" diffuseColor="0.0392157 0.0392157 0.0392157 1" specularColor="1 1 1">
+    </Material>
+    <Material name="default" materialId="40" diffuseColor="0.294118 0.294118 0.294118 1">
+    </Material>
+    <Material name="default" materialId="14" specularColor="0.827451 1 0">
+      <Texture fileId="19"/>
+    </Material>
+    <Material name="default" materialId="32" diffuseColor="0.294118 0.294118 0.294118 1" specularColor="0.827451 1 0">
+    </Material>
+    <Material name="acmat_0" materialId="18">
+      <Texture fileId="11"/>
+    </Material>
+    <Material name="default" materialId="36" diffuseColor="0 0 0 1" specularColor="0.827451 1 0">
+    </Material>
+    <Material name="UnnamedMaterial" materialId="13">
+      <Texture fileId="27"/>
+    </Material>
+    <Material name="acmat_0" materialId="22" alphaBlending="true">
+      <Texture fileId="11"/>
+    </Material>
+    <Material name="default" materialId="28" specularColor="0.827451 1 0">
+      <Texture fileId="13"/>
+    </Material>
+    <Material name="alpha" materialId="12">
+      <Texture fileId="17"/>
+    </Material>
+    <Material name="hella" materialId="39" diffuseColor="0.219608 0.219608 0.219608 1" specularColor="1 1 1">
+    </Material>
+    <Material name="lambert1" materialId="9" customShaderId="9">
+      <Texture fileId="7"/>
+      <Glossmap fileId="8"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="84" specularColor="0.819608 1 0">
+      <Texture fileId="19"/>
+    </Material>
+    <Material name="acmat_0" materialId="93" alphaBlending="true">
+      <Texture fileId="12"/>
+    </Material>
+    <Material name="lambert1" materialId="47">
+      <Texture fileId="10"/>
+      <Glossmap fileId="8"/>
+    </Material>
+    <Material name="Material #2481" materialId="67" specularColor="0.827451 1 0" customShaderId="5">
+      <Texture fileId="4"/>
+      <CustomParameter name="RDT" value="1 0 20 20"/>
+    </Material>
+    <Material name="default" materialId="79">
+      <Texture fileId="25"/>
+    </Material>
+    <Material name="default" materialId="83">
+      <Texture fileId="19"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="66">
+      <Texture fileId="26"/>
+    </Material>
+    <Material name="default" materialId="70" specularColor="0.827451 1 0" customShaderId="5">
+      <Texture fileId="28"/>
+      <CustomParameter name="RDT" value="1 0 20 20"/>
+    </Material>
+    <Material name="default" materialId="89" diffuseColor="0 0 0 1">
+      <Glossmap fileId="22"/>
+    </Material>
+    <Material name="default" materialId="94">
+      <Texture fileId="23"/>
+      <Glossmap fileId="24"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="49" specularColor="0.827451 1 0" customShaderId="5">
+      <Texture fileId="3"/>
+      <CustomParameter name="RDT" value="1 0 20 20"/>
+    </Material>
+    <Material name="cubemap" materialId="103" specularColor="1 1 1" alphaBlending="true">
+      <Texture fileId="18"/>
+    </Material>
+    <Material name="acmat_0" materialId="102">
+      <Texture fileId="12"/>
+    </Material>
+    <Material name="default" materialId="98" specularColor="0.827451 1 0">
+      <Texture fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Bak_daf105_XF.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="DAF_E6" translation="0 0.30883 -0.631" rotation="90 0 0" scale="1.01 1.05 1.01" nodeId="306">
+      <TransformGroup name="CAB_Chassis" nodeId="307">
+        <TransformGroup name="Chassis_6x4_kort" translation="0 -0.647726 0.207" rotation="-90 0 0" scale="1.02 1 1" nodeId="308">
+          <TransformGroup name="zijkant" translation="-0.00502102 0 0" nodeId="309">
+            <TransformGroup name="Spoiler" nodeId="310">
+              <TransformGroup name="Plastik" nodeId="311">
+                <Shape shapeId="1" name="Spoiler_Parts" translation="0.019 -0.094 1.205" rotation="90 -0 0" scale="0.95 0.94 0.99" nodeId="312" materialIds="32" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="2" name="Spoiler_Parts" translation="0.015 -0.098 -6.92917" rotation="90 179.999 0" scale="0.962 0.78 0.99" nodeId="313" materialIds="40" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+              <TransformGroup name="Color" nodeId="314">
+                <Shape shapeId="3" name="Zijskirt" translation="0.007 -0.0775093 1.24598" rotation="90 -0 0" scale="0.97 0.95 0.98" nodeId="315" materialIds="98" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="Zijskirt2.003" translation="0.011 -0.104205 1.28111" rotation="90 -0 0" scale="0.965 0.957 0.99" nodeId="316" materialIds="98" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+              <TransformGroup name="sidebar" translation="0 0.0530562 -3.86337" scale="1 1 3.3" nodeId="317">
+                <Shape shapeId="5" name="kelsaSidebar" translation="1.238 0.322 1.07192" scale="1 1 0.54" nodeId="318" materialIds="67" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="kelsaSidebar" translation="-1.238 0.322 1.07192" rotation="-3.18055e-15 180 0" scale="1 1 0.54" nodeId="319" materialIds="67" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Spatlap_DAF" translation="0 0 -1.2865" scale="1.02 1 1" nodeId="320">
+            <TransformGroup name="Spatlap_DAF_" nodeId="321">
+              <TransformGroup name="Spat01" nodeId="322">
+                <Shape shapeId="6" name="Spatlap" translation="0 0 -0.209" clipDistance="300" nodeId="323" materialIds="9" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+              <TransformGroup name="Spat02" translation="0 -600 0" nodeId="324">
+                <Shape shapeId="6" name="Spatlap" translation="0 0 -0.209" clipDistance="300" nodeId="325" materialIds="47" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="Width_Lighting_1" translation="-1.245 -1.059 -1.021" rotation="-90 -90 -180" nodeId="326">
+          <Shape shapeId="7" name="Width_Lighting_1_Right" translation="0.08 0 0" nodeId="327" materialIds="22" receiveShadows="true">
+            <Shape shapeId="8" name="1" nodeId="328" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="Width_Lighting_1" translation="-1.245 -5.844 -1.021" rotation="-90 -90 -180" nodeId="329">
+          <Shape shapeId="7" name="Width_Lighting_1_Right" translation="0.08 0 0" nodeId="330" materialIds="22" receiveShadows="true">
+            <Shape shapeId="8" name="1" nodeId="331" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="Width_Lighting_1" translation="1.245 -5.844 -1.021" rotation="-90 -90 2.79565e-05" nodeId="332">
+          <Shape shapeId="7" name="Width_Lighting_1_Right" translation="0.08 0 0" nodeId="333" materialIds="93" receiveShadows="true">
+            <Shape shapeId="8" name="1" nodeId="334" materialIds="102" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <Shape shapeId="9" name="Chassis voorstuk" translation="0 0.480993 0.33" scale="0.011 0.01 0.01" nodeId="335" materialIds="28" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="Width_Lighting_1" translation="1.245 0.875 -1.021" rotation="-90 -90 2.79565e-05" nodeId="336">
+          <Shape shapeId="7" name="Width_Lighting_1_Right" translation="0.08 0 0" nodeId="337" materialIds="93" receiveShadows="true">
+            <Shape shapeId="8" name="1" nodeId="338" materialIds="102" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="Width_Lighting_1" translation="-1.245 0.875 -1.021" rotation="-90 -90 -180" nodeId="339">
+          <Shape shapeId="7" name="Width_Lighting_1_Right" translation="0.08 0 0" nodeId="340" materialIds="22" receiveShadows="true">
+            <Shape shapeId="8" name="1" nodeId="341" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="Width_Lighting_1" translation="1.245 -1.059 -1.021" rotation="-90 -90 0.000206282" nodeId="342">
+          <Shape shapeId="7" name="Width_Lighting_1_Right" translation="0.08 0 0" nodeId="343" materialIds="93" receiveShadows="true">
+            <Shape shapeId="8" name="1" nodeId="344" materialIds="102" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="ChassisBalken" translation="0 0.144279 -0.597571" scale="1.01 1.35 0.4" nodeId="345">
+          <Shape shapeId="10" name="cube" translation="0.41963 -1.91613 -0.750582" rotation="-90 5.00227e-06 -90" scale="5.1 0.4 0.18" nodeId="346" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-0.42 -1.91613 -0.750582" rotation="-90 5.00227e-06 -90" scale="5.1 0.4 0.18" nodeId="347" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="6.91053e-08 -4.37668 -0.750582" rotation="-90 -1.76747e-06 180" scale="1 0.4 0.18" nodeId="348" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="1.59778e-08 -3.76897 -0.750582" rotation="-90 -1.76747e-06 180" scale="1 0.4 0.18" nodeId="349" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.36414e-07 -2.02581 -0.750582" rotation="-90 -1.76747e-06 180" scale="1 0.4 0.18" nodeId="350" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-2.89706e-07 -0.272352 -0.750582" rotation="-90 -1.76747e-06 180" scale="1 0.4 0.18" nodeId="351" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="0 0.544019 -0.750582" rotation="-90 -1.76747e-06 180" scale="1 0.4 0.18" nodeId="352" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.73918e-09 0.544019 -0.807" rotation="-90 -1.76747e-06 180" scale="1.02 0.4 0.18" nodeId="353" materialIds="49" distanceBlending="false"/>
+        </TransformGroup>
+        <TransformGroup name="AchterRoofLichten" translation="0 5.956 -2.47466" rotation="-90 -0 0" nodeId="354">
+          <TransformGroup name="Lampen" translation="0 0.017 -0.84492" nodeId="355">
+            <Shape shapeId="10" name="cube" translation="-0.613 0.606969 -3.75846" scale="0.45 0.14 0.1" nodeId="356" materialIds="98" distanceBlending="false"/>
+            <Shape shapeId="11" name="HellaRally3000" translation="-0.777 0.599577 -3.76783" rotation="0 180 0" scale="0.45 0.45 0.76" nodeId="357" materialIds="39,27,12,103" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="11" name="HellaRally3000" translation="-0.667 0.599577 -3.76783" rotation="0 180 0" scale="0.45 0.45 0.76" nodeId="358" materialIds="39,27,12,103" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="11" name="HellaRally3000" translation="-0.557 0.599577 -3.76783" rotation="0 180 0" scale="0.45 0.45 0.76" nodeId="359" materialIds="39,27,12,103" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="11" name="HellaRally3000" translation="-0.447 0.599577 -3.76783" rotation="0 180 0" scale="0.45 0.45 0.76" nodeId="360" materialIds="39,27,12,103" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="11" name="HellaRally3000" translation="0.777 0.599577 -3.76783" rotation="0 180 0" scale="0.45 0.45 0.76" nodeId="361" materialIds="39,27,12,103" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="11" name="HellaRally3000" translation="0.667 0.599577 -3.76783" rotation="0 180 0" scale="0.45 0.45 0.76" nodeId="362" materialIds="39,27,12,103" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="11" name="HellaRally3000" translation="0.557 0.599577 -3.76783" rotation="0 180 0" scale="0.45 0.45 0.76" nodeId="363" materialIds="39,27,12,103" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="11" name="HellaRally3000" translation="0.447 0.599577 -3.76783" rotation="0 180 0" scale="0.45 0.45 0.76" nodeId="364" materialIds="39,27,12,103" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="11" name="HellaRally3000" translation="0.181232 0.750605 -3.81275" rotation="-165.386 13.2418 -178.744" scale="0.76 0.76 0.76" nodeId="365" materialIds="39,27,12,103" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="11" name="HellaRally3000" translation="-0.181 0.750605 -3.81275" rotation="-165.386 -13.242 -178.744" scale="0.76 0.76 0.76" nodeId="366" materialIds="39,27,12,103" castsShadows="true" receiveShadows="true"/>
+            <TransformGroup name="Kap" nodeId="367">
+              <Shape shapeId="10" name="cube" translation="0.613 0.606969 -3.7538" scale="0.49 0.16 0.12" nodeId="368" materialIds="98" distanceBlending="false"/>
+              <Shape shapeId="10" name="cube" translation="0.613 0.682147 -3.81354" scale="0.49 0.01 0.03" nodeId="369" materialIds="98" distanceBlending="false"/>
+              <Shape shapeId="10" name="cube" translation="0.613 0.532077 -3.81354" scale="0.49 0.01 0.03" nodeId="370" materialIds="98" distanceBlending="false"/>
+              <Shape shapeId="10" name="cube" translation="0.850295 0.608784 -3.81354" rotation="6.01125e-13 6.42472e-13 -90" scale="0.15 0.015 0.03" nodeId="371" materialIds="98" distanceBlending="false"/>
+              <Shape shapeId="10" name="cube" translation="0.375972 0.608784 -3.81354" rotation="6.01125e-13 6.42472e-13 -90" scale="0.15 0.015 0.03" nodeId="372" materialIds="98" distanceBlending="false"/>
+            </TransformGroup>
+            <TransformGroup name="Kap" translation="-1.226 0 0" nodeId="373">
+              <Shape shapeId="10" name="cube" translation="0.613 0.606969 -3.7538" scale="0.49 0.16 0.12" nodeId="374" materialIds="98" distanceBlending="false"/>
+              <Shape shapeId="10" name="cube" translation="0.613 0.682147 -3.81354" scale="0.49 0.01 0.03" nodeId="375" materialIds="98" distanceBlending="false"/>
+              <Shape shapeId="10" name="cube" translation="0.613 0.532077 -3.81354" scale="0.49 0.01 0.03" nodeId="376" materialIds="98" distanceBlending="false"/>
+              <Shape shapeId="10" name="cube" translation="0.850295 0.608784 -3.81354" rotation="6.01125e-13 6.42472e-13 -90" scale="0.15 0.015 0.03" nodeId="377" materialIds="98" distanceBlending="false"/>
+              <Shape shapeId="10" name="cube" translation="0.375972 0.608784 -3.81354" rotation="6.01125e-13 6.42472e-13 -90" scale="0.15 0.015 0.03" nodeId="378" materialIds="98" distanceBlending="false"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="lampkap" translation="-1.545 -0.102 0.017" scale="1 1.3 1" nodeId="379">
+            <Shape shapeId="10" name="cube" translation="1.16 0.558952 -4.63026" rotation="0 -0 -90" scale="0.1 0.005 0.12" nodeId="380" materialIds="84" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="0.93264 0.611096 -4.63026" scale="0.46 0.005 0.12" nodeId="381" materialIds="84" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="0.93264 0.506884 -4.63026" scale="0.46 0.005 0.12" nodeId="382" materialIds="84" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="0.705 0.558952 -4.63026" rotation="0 -0 -90" scale="0.1 0.005 0.12" nodeId="383" materialIds="84" distanceBlending="false"/>
+          </TransformGroup>
+          <TransformGroup name="lampkap" translation="-0.32 -0.102 0.017" scale="1 1.3 1" nodeId="384">
+            <Shape shapeId="10" name="cube" translation="1.16 0.558952 -4.63026" rotation="0 -0 -90" scale="0.1 0.005 0.12" nodeId="385" materialIds="84" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="0.93264 0.611096 -4.63026" scale="0.46 0.005 0.12" nodeId="386" materialIds="84" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="0.93264 0.506884 -4.63026" scale="0.46 0.005 0.12" nodeId="387" materialIds="84" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="0.705 0.558952 -4.63026" rotation="0 -0 -90" scale="0.1 0.005 0.12" nodeId="388" materialIds="84" distanceBlending="false"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="Spatlap" nodeId="389">
+          <Shape shapeId="12" name="Spatlap" translation="0 -2.32931 0.516144" scale="0.99 1 1.3" nodeId="390" materialIds="89" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="12" name="Spatlap" translation="0 3.45435 0.516144" scale="0.99 1 1.3" nodeId="391" materialIds="89" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="12" name="Spatlap" translation="0 5.33186 0.633" scale="0.9 1 1.3" nodeId="392" materialIds="89" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <Shape shapeId="13" name="Spatbord" translation="0 -2.29972 -0.288681" scale="0.99 0.96 0.99" nodeId="393" materialIds="98" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="14" name="Chassis_lang" translation="0 0.596911 0.311689" scale="0.98 0.952 1" nodeId="394" materialIds="98" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="15" name="fliegl_vis" translation="0 14.9265 0.387" nodeId="395" materialIds="83" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="Plaat" translation="0 -0.447695 -0.32514" rotation="-90 -0 0" scale="1 1 2.95" nodeId="396">
+          <Shape shapeId="10" name="cube" translation="0 0.604969 -0.177" scale="2.15 0.01 1.6" nodeId="397" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="1.15192 0.573 -0.177" rotation="0 -0 -21.861" scale="0.17 0.01 1.6" nodeId="398" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="1.104 0.48083 -0.971" rotation="-90 -9.36824e-07 -21.455" scale="0.18 0.01 0.2" nodeId="399" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="0 0.50914 -0.971" rotation="-90 -0 0" scale="2.15 0.01 0.2" nodeId="400" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.10421 0.48083 -0.971" rotation="-90 -9.36824e-07 21.455" scale="0.18 0.01 0.2" nodeId="401" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="1.23921 0.516093 -0.177" rotation="0 -0 -67.645" scale="0.06 0.01 1.6" nodeId="402" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.152 0.573344 -0.177" rotation="0 -0 21.861" scale="0.17 0.01 1.6" nodeId="403" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.239 0.516093 -0.177" rotation="0 -0 67.645" scale="0.06 0.01 1.6" nodeId="404" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.18953 0.495252 -0.971" rotation="-90 -2.76012e-06 -20.726" scale="0.1 0.01 0.06" nodeId="405" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="1.20334 0.478583 -0.971" rotation="-90 3.07855e-05 112.516" scale="0.1 0.01 0.1" nodeId="406" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="1.20334 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="407" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.203 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="408" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="1.20334 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="409" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.203 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="410" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.203 0.478583 -0.971" rotation="-90 3.07855e-05 -112.516" scale="0.1 0.01 0.1" nodeId="411" materialIds="49" distanceBlending="false"/>
+          <TransformGroup name="Plaatvoor" translation="-8.10671e-15 -5.36883e-08 -0.355561" rotation="-180 0 180" nodeId="412">
+            <Shape shapeId="10" name="cube" translation="1.104 0.48083 -0.971" rotation="-90 -9.36824e-07 -21.455" scale="0.18 0.01 0.2" nodeId="413" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="0 0.50914 -0.971" rotation="-90 -0 0" scale="2.15 0.01 0.2" nodeId="414" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="-1.10421 0.48083 -0.971" rotation="-90 -9.36824e-07 21.455" scale="0.18 0.01 0.2" nodeId="415" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="-1.18953 0.495252 -0.971" rotation="-90 -2.76012e-06 -20.726" scale="0.1 0.01 0.06" nodeId="416" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="1.20334 0.478583 -0.971" rotation="-90 3.07855e-05 112.516" scale="0.1 0.01 0.1" nodeId="417" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="1.20334 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="418" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="-1.203 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="419" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="1.20334 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="420" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="-1.203 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="421" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="-1.203 0.478583 -0.971" rotation="-90 3.07855e-05 -112.516" scale="0.1 0.01 0.1" nodeId="422" materialIds="49" distanceBlending="false"/>
+          </TransformGroup>
+        </TransformGroup>
+        <Shape shapeId="16" name="bed" translation="0.00310324 0.570236 0.318892" scale="1 0.97 1" nodeId="423" materialIds="94" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="Plaat" translation="0 -5.33695 -0.32514" rotation="-90 -1.94436e-06 -180" scale="1 1 0.98" nodeId="424">
+          <Shape shapeId="10" name="cube" translation="0 0.604969 -0.177" scale="2.15 0.01 1.6" nodeId="425" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="1.15192 0.573 -0.177" rotation="0 -0 -21.861" scale="0.17 0.01 1.6" nodeId="426" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="1.104 0.48083 -0.971" rotation="-90 -9.36824e-07 -21.455" scale="0.18 0.01 0.2" nodeId="427" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="0 0.50914 -0.971" rotation="-90 -0 0" scale="2.15 0.01 0.2" nodeId="428" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.10421 0.48083 -0.971" rotation="-90 -9.36824e-07 21.455" scale="0.18 0.01 0.2" nodeId="429" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="1.23921 0.516093 -0.177" rotation="0 -0 -67.645" scale="0.06 0.01 1.6" nodeId="430" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.152 0.573344 -0.177" rotation="0 -0 21.861" scale="0.17 0.01 1.6" nodeId="431" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.239 0.516093 -0.177" rotation="0 -0 67.645" scale="0.06 0.01 1.6" nodeId="432" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.18953 0.495252 -0.971" rotation="-90 -2.76012e-06 -20.726" scale="0.1 0.01 0.06" nodeId="433" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="1.20334 0.478583 -0.971" rotation="-90 3.07855e-05 112.516" scale="0.1 0.01 0.1" nodeId="434" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="1.20334 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="435" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.203 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="436" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="1.20334 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="437" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.203 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="438" materialIds="49" distanceBlending="false"/>
+          <Shape shapeId="10" name="cube" translation="-1.203 0.478583 -0.971" rotation="-90 3.07855e-05 -112.516" scale="0.1 0.01 0.1" nodeId="439" materialIds="49" distanceBlending="false"/>
+          <TransformGroup name="Plaatvoor" translation="4.83758e-10 -0.0055337 -3.29573" rotation="-180 0 180" scale="1 1 4" nodeId="440">
+            <Shape shapeId="10" name="cube" translation="1.104 0.48083 -0.971" rotation="-90 -9.36824e-07 -21.455" scale="0.18 0.01 0.2" nodeId="441" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="0 0.50914 -0.971" rotation="-90 -0 0" scale="2.15 0.01 0.2" nodeId="442" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="-1.10421 0.48083 -0.971" rotation="-90 -9.36824e-07 21.455" scale="0.18 0.01 0.2" nodeId="443" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="-1.18953 0.495252 -0.971" rotation="-90 -2.76012e-06 -20.726" scale="0.1 0.01 0.06" nodeId="444" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="1.20334 0.478583 -0.971" rotation="-90 3.07855e-05 112.516" scale="0.1 0.01 0.1" nodeId="445" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="1.20334 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="446" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="-1.203 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="447" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="1.20334 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="448" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="-1.203 0.405316 -0.971" rotation="-90 5.73574e-05 90" scale="0.1 0.01 0.1" nodeId="449" materialIds="49" distanceBlending="false"/>
+            <Shape shapeId="10" name="cube" translation="-1.203 0.478583 -0.971" rotation="-90 3.07855e-05 -112.516" scale="0.1 0.01 0.1" nodeId="450" materialIds="49" distanceBlending="false"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="Width_Lighting_1" translation="1.245 -4.419 -1.021" rotation="-90 -90 0" nodeId="451">
+          <Shape shapeId="7" name="Width_Lighting_1_Right" translation="0.08 0 0" nodeId="452" materialIds="93" receiveShadows="true">
+            <Shape shapeId="8" name="1" nodeId="453" materialIds="102" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="Width_Lighting_1" translation="1.245 -2.994 -1.021" rotation="-90 -90 0" nodeId="454">
+          <Shape shapeId="7" name="Width_Lighting_1_Right" translation="0.08 0 0" nodeId="455" materialIds="93" receiveShadows="true">
+            <Shape shapeId="8" name="1" nodeId="456" materialIds="102" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="Width_Lighting_1" translation="-1.245 -2.944 -1.021" rotation="-90 -90 -180" nodeId="457">
+          <Shape shapeId="7" name="Width_Lighting_1_Right" translation="0.08 0 0" nodeId="458" materialIds="22" receiveShadows="true">
+            <Shape shapeId="8" name="1" nodeId="459" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="Width_Lighting_1" translation="-1.245 -4.419 -1.021" rotation="-90 -90 -180" nodeId="460">
+          <Shape shapeId="7" name="Width_Lighting_1_Right" translation="0.08 0 0" nodeId="461" materialIds="22" receiveShadows="true">
+            <Shape shapeId="8" name="1" nodeId="462" materialIds="18" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="Achterbumper" nodeId="463">
+          <Shape shapeId="17" name="Achterlamp kapjes" translation="0 -1.5062 -0.648" nodeId="464" materialIds="79" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="18" name="Bumper" translation="0.013 0.92845 0.308898" scale="1.01 1 1" nodeId="465" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="11" name="HellaRally3000" translation="0.432369 -5.92283 -0.75683" rotation="-90.1817 2.21336e-05 -180" scale="0.35 0.37 0.45" nodeId="466" materialIds="39,27,12,103" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="11" name="HellaRally3000" translation="-0.438458 -5.92283 -0.757" rotation="-90.1817 2.21336e-05 -180" scale="0.35 0.37 0.45" nodeId="467" materialIds="39,27,12,103" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="19" name="kapjes" translation="0 0.929 0.31" scale="0.99 1 0.999" nodeId="468" materialIds="36" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="20" name="Stang" translation="-0.002 0.929 0.31" scale="1.01 1 0.999" nodeId="469" materialIds="36" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="21" name="Warning plaat" translation="0 -2.18123 -0.251156" scale="1.04 1 1" nodeId="470" materialIds="36" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="22" name="Warning Sign L" translation="0.842 -6.0019 -0.575" rotation="-179.215 -0 0" scale="1.8 1 1.5" nodeId="471" materialIds="66" distanceBlending="false"/>
+          <Shape shapeId="22" name="Warning Sign R" translation="-0.842 -6.002 -0.575" rotation="-179.215 0 0" scale="1.8 1 1.5" nodeId="472" materialIds="13" distanceBlending="false"/>
+        </TransformGroup>
+        <Shape shapeId="23" name="Zijstrip" translation="1.26 -2.567 -0.984" scale="0.03 6.955 0.1" nodeId="473" materialIds="98" distanceBlending="false"/>
+        <Shape shapeId="23" name="Zijstrip" translation="-1.25862 -2.567 -0.984" scale="0.03 6.955 0.1" nodeId="474" materialIds="98" distanceBlending="false"/>
+        <Shape shapeId="23" name="strip" translation="0.001 -6.02914 -0.984" rotation="1.57756e-12 3.05333e-12 90" scale="0.03 2.549 0.1" nodeId="475" materialIds="98" distanceBlending="false"/>
+        <TransformGroup name="TrailerAttacher" translation="0 -0.742442 -0.318214" nodeId="476">
+          <Shape shapeId="24" name="Support" translation="-0.361 3.44145 0.612263" scale="0.7 1 1" nodeId="477" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="24" name="Support" translation="0.361 3.44145 0.612263" scale="0.7 1 1" nodeId="478" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="25" name="trailerAttacher" translation="0.000863053 -4.99642 -0.134185" rotation="-90 8.16065e-06 0" clipDistance="200" nodeId="479" materialIds="70" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="23" name="verleng attach" translation="0 0 0.000561509" scale="0.803 0.145 0.145" nodeId="480" materialIds="14" distanceBlending="false"/>
+          </Shape>
+        </TransformGroup>
+        <Shape shapeId="26" name="Stootbumper" translation="0.0161397 -2.22702 0.31096" scale="1.04 1 1" nodeId="481" materialIds="14" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="23" name="verlenging" translation="-0.016 -3.4747 -1.15916" scale="1.05 0.3 0.2" nodeId="482" materialIds="14" distanceBlending="false"/>
+        </Shape>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

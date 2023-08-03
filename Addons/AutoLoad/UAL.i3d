@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="man22s" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+        <File fileId="1" filename="$data/shared/wire_diffuse.png"/>
+        <File fileId="2" filename="$data/shared/wire_normal.png"/>
+        <File fileId="3" filename="$data/vehicles/fliegl/timberRunner/timberRunner_specular.png"/>
+    </Files>
+    <Materials>
+        <Material name="ID16" materialId="75" specularColor="1 1 1">
+            <Texture fileId="1"/>
+        </Material>
+        <Material name="lambert1" materialId="90" diffuseColor="0.494118 0.494118 0.494118 1"/>
+        <Material name="marker_mat" materialId="149" customShaderId="4" customShaderVariation="Decal">
+            <Texture fileId="1"/>
+            <Normalmap fileId="2"/>
+            <Glossmap fileId="3"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="UAL.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="autoLoader" translation="0 0.675 0" nodeId="1856">
+            <Shape shapeId="1" name="marker" translation="0 0 -3.32539" scale="1 1 0.445798" visibility="false" nodeId="1857" materialIds="149" castsShadows="true" receiveShadows="true"/>
+            <TransformGroup name="objectTypes" translation="0 -0.114 0" nodeId="1858">
+                <TransformGroup name="pallets" nodeId="1859">
+                    <TransformGroup name="pallet" translation="0.711 0.834 -0.798" rotation="90.0001 90 90.0001" nodeId="1860"/>
+                    <TransformGroup name="pallet" translation="-0.711 0.834014 -0.797548" rotation="90.0001 90 90.0001" nodeId="1861"/>
+                    <TransformGroup name="pallet" translation="0.711 0.834014 -2.455" rotation="90.0001 90 90.0001" nodeId="1862"/>
+                    <TransformGroup name="pallet" translation="-0.711 0.834014 -2.45478" rotation="90.0001 90 90.0001" nodeId="1863"/>
+                    <TransformGroup name="pallet" translation="0.711 0.834014 -4.112" rotation="90.0001 90 90.0001" nodeId="1864"/>
+                    <TransformGroup name="pallet" translation="-0.711 0.834014 -4.112" rotation="90.0001 90 90.0001" nodeId="1865"/>
+                    <TransformGroup name="pallet" translation="0.711 0.834014 -5.769" rotation="90.0001 90 90.0001" nodeId="1866"/>
+                    <TransformGroup name="pallet" translation="-0.711 0.834014 -5.769" rotation="90.0001 90 90.0001" nodeId="1867"/>
+                </TransformGroup>
+                <TransformGroup name="squareBales" nodeId="1868">
+                    <TransformGroup name="bale" translation="0.605 1.197 -1.18072" nodeId="1869"/>
+                    <TransformGroup name="bale" translation="-0.605 1.19651 -1.18072" nodeId="1870"/>
+                    <TransformGroup name="bale" translation="0.605 1.19651 -3.54466" nodeId="1871"/>
+                    <TransformGroup name="bale" translation="-0.605 1.19651 -3.54466" nodeId="1872"/>
+                    <TransformGroup name="bale" translation="0.605 1.19651 -5.90017" nodeId="1873"/>
+                    <TransformGroup name="bale" translation="-0.605 1.19651 -5.90017" nodeId="1874"/>
+                    <TransformGroup name="bale" translation="2.66038e-08 1.98 -0.572122" rotation="1.46638e-05 90 1.46629e-05" nodeId="1875"/>
+                    <TransformGroup name="bale" translation="0.605 1.98 -2.34962" nodeId="1876"/>
+                    <TransformGroup name="bale" translation="-0.605 1.98 -2.34962" nodeId="1877"/>
+                    <TransformGroup name="bale" translation="0.605 1.98 -4.7231" nodeId="1878"/>
+                    <TransformGroup name="bale" translation="-0.605 1.98 -4.7231" nodeId="1879"/>
+                    <TransformGroup name="bale" translation="-2.32672e-07 1.98 -6.50367" rotation="1.46638e-05 90 1.46629e-05" nodeId="1880"/>
+                    <TransformGroup name="bale" translation="0.605 2.763 -1.18072" nodeId="1881"/>
+                    <TransformGroup name="bale" translation="-0.605 2.763 -1.18072" nodeId="1882"/>
+                    <TransformGroup name="bale" translation="0.605 2.763 -3.54466" nodeId="1883"/>
+                    <TransformGroup name="bale" translation="-0.605 2.763 -3.54466" nodeId="1884"/>
+                    <TransformGroup name="bale" translation="0.605 2.763 -5.90017" nodeId="1885"/>
+                    <TransformGroup name="bale" translation="-0.605 2.763 -5.90017" nodeId="1886"/>
+                </TransformGroup>
+                <TransformGroup name="roundBales" nodeId="1887">
+                    <TransformGroup name="bale" translation="0.57 1.43675 -0.592" rotation="5.92702e-06 90 5.92019e-06" nodeId="1888"/>
+                    <TransformGroup name="bale" translation="-0.57 1.43675 -0.591646" rotation="5.92702e-06 90 5.92019e-06" nodeId="1889"/>
+                    <TransformGroup name="bale" translation="0.57 1.43675 -1.89" rotation="5.92702e-06 90 5.92019e-06" nodeId="1890"/>
+                    <TransformGroup name="bale" translation="-0.57 1.43675 -1.89015" rotation="5.92702e-06 90 5.92019e-06" nodeId="1891"/>
+                    <TransformGroup name="bale" translation="0.57 1.43675 -3.188" rotation="5.92702e-06 90 5.92019e-06" nodeId="1892"/>
+                    <TransformGroup name="bale" translation="-0.57 1.43675 -3.188" rotation="5.92702e-06 90 5.92019e-06" nodeId="1893"/>
+                    <TransformGroup name="bale" translation="0.57 1.43675 -4.486" rotation="5.92702e-06 90 5.92019e-06" nodeId="1894"/>
+                    <TransformGroup name="bale" translation="-0.57 1.43675 -4.486" rotation="5.92702e-06 90 5.92019e-06" nodeId="1895"/>
+                    <TransformGroup name="bale" translation="0.57 1.43675 -5.784" rotation="5.92702e-06 90 5.92019e-06" nodeId="1896"/>
+                    <TransformGroup name="bale" translation="-0.57 1.43675 -5.784" rotation="5.92702e-06 90 5.92019e-06" nodeId="1897"/>
+                    <TransformGroup name="bale" translation="0.57 2.44862 -1.241" rotation="5.92702e-06 90 5.92019e-06" nodeId="1898"/>
+                    <TransformGroup name="bale" translation="-0.57 2.44862 -1.241" rotation="5.92702e-06 90 5.92019e-06" nodeId="1899"/>
+                    <TransformGroup name="bale" translation="0.57 2.449 -2.539" rotation="5.92702e-06 90 5.92019e-06" nodeId="1900"/>
+                    <TransformGroup name="bale" translation="-0.57 2.44862 -2.539" rotation="5.92702e-06 90 5.92019e-06" nodeId="1901"/>
+                    <TransformGroup name="bale" translation="0.57 2.44862 -3.837" rotation="5.92702e-06 90 5.92019e-06" nodeId="1902"/>
+                    <TransformGroup name="bale" translation="-0.57 2.44862 -3.837" rotation="5.92702e-06 90 5.92019e-06" nodeId="1903"/>
+                    <TransformGroup name="bale" translation="0.57 2.449 -5.135" rotation="5.92702e-06 90 5.92019e-06" nodeId="1904"/>
+                    <TransformGroup name="bale" translation="-0.57 2.44862 -5.135" rotation="5.92702e-06 90 5.92019e-06" nodeId="1905"/>
+                </TransformGroup>
+                <TransformGroup name="--notFinal--" nodeId="1906">
+                    <TransformGroup name="pallet" translation="0.711 0.834 -0.798" rotation="90.0001 90 90.0001" nodeId="1907"/>
+                    <TransformGroup name="pallet" translation="-0.711 0.834014 -0.797548" rotation="90.0001 90 90.0001" nodeId="1908"/>
+                    <TransformGroup name="pallet" translation="0.711 0.834014 -2.455" rotation="90.0001 90 90.0001" nodeId="1909"/>
+                    <TransformGroup name="pallet" translation="-0.711 0.834014 -2.45478" rotation="90.0001 90 90.0001" nodeId="1910"/>
+                    <TransformGroup name="pallet" translation="0.711 0.834014 -4.112" rotation="90.0001 90 90.0001" nodeId="1911"/>
+                    <TransformGroup name="pallet" translation="-0.711 0.834014 -4.112" rotation="90.0001 90 90.0001" nodeId="1912"/>
+                    <TransformGroup name="pallet" translation="0.711 0.834014 -5.769" rotation="90.0001 90 90.0001" nodeId="1913"/>
+                    <TransformGroup name="pallet" translation="-0.711 0.834014 -5.769" rotation="90.0001 90 90.0001" nodeId="1914"/>
+                </TransformGroup>
+                <TransformGroup name="cottonModules" nodeId="1915">
+                    <TransformGroup name="bale" translation="0 2.05977 -2.51384" rotation="0.768355 -0 0" nodeId="1916"/>
+                </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="markerPositions" nodeId="1917">
+                <TransformGroup name="center" nodeId="1918"/>
+                <TransformGroup name="left" translation="4 -0.7 0" nodeId="1919"/>
+                <TransformGroup name="back" translation="0 -0.7 -16.101" nodeId="1920"/>
+                <TransformGroup name="right" translation="-4 -0.7 0" nodeId="1921"/>
+            </TransformGroup>
+            <TransformGroup name="triggers" nodeId="1922">
+                <Shape shapeId="2" name="forkTrigger" visibility="false" kinematic="true" compound="true" trigger="true" nodeId="1923" materialIds="90" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <Shape shapeId="3" name="groundTrigger" translation="0 -1.149 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="16777216" nodeId="1924" materialIds="90" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </TransformGroup>
+            <Shape shapeId="4" name="marker" translation="0 -1 -3.325" scale="1 1 0.446" visibility="false" clipDistance="300" nodeId="1925" materialIds="75" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+    </Scene>
+    <UserAttributes>
+        <UserAttribute nodeId="1859">
+            <Attribute name="excludedFillTypes" type="string" value="woodchips"/>
+            <Attribute name="sizeLength" type="string" value="2.00"/>
+            <Attribute name="sizeWidth" type="string" value="2.00"/>
+            <Attribute name="usePalletSize" type="boolean" value="true"/>
+        </UserAttribute>
+        <UserAttribute nodeId="1868">
+            <Attribute name="baleLength" type="string" value="2.40"/>
+            <Attribute name="baleWidth" type="string" value="1.20"/>
+            <Attribute name="isSquareBale" type="boolean" value="true"/>
+        </UserAttribute>
+        <UserAttribute nodeId="1887">
+            <Attribute name="diameter" type="string" value="1.30"/>
+            <Attribute name="isRoundBale" type="boolean" value="true"/>
+        </UserAttribute>
+        <UserAttribute nodeId="1906">
+            <Attribute name="isMissionPallet" type="boolean" value="true"/>
+        </UserAttribute>
+        <UserAttribute nodeId="1915">
+            <Attribute name="baleLength" type="string" value="4.88"/>
+            <Attribute name="baleWidth" type="string" value="2.44"/>
+            <Attribute name="isSquareBale" type="boolean" value="true"/>
+        </UserAttribute>
+    </UserAttributes>
+</i3D>

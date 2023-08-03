@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="Blender" version="2.79.0" />
+  </Asset>
+  <Files />
+  <Materials>
+    <Material ambientColor="1 1 1" diffuseColor="0.3 0.3 0.3 1" materialId="1" name="default" specularColor="0 0 0" />
+  </Materials>
+  <Shapes>
+    <IndexedTriangleSet bvCenter="0.000416 0.459923 0.588356" bvRadius="1.784874" isOptimized="false" name="Cube.001" shapeId="1">
+      <Vertices count="8" normal="true">
+        <v n="-0.577349 0.577349 0.577349" p="-1.281605 1.691538 0.747473" />
+        <v n="-0.577349 -0.577349 -0.577349" p="-1.281605 -0.771693 0.429239" />
+        <v n="-0.577349 -0.577349 0.577349" p="-1.281605 -0.771693 0.747473" />
+        <v n="-0.577349 0.577349 -0.577349" p="-1.281605 1.691538 0.429239" />
+        <v n="0.577349 -0.577349 -0.577349" p="1.282437 -0.771693 0.429239" />
+        <v n="0.577349 0.577349 -0.577349" p="1.282437 1.691538 0.429239" />
+        <v n="0.577349 -0.577349 0.577349" p="1.282437 -0.771693 0.747473" />
+        <v n="0.577349 0.577349 0.577349" p="1.282437 1.691538 0.747473" />
+      </Vertices>
+      <Triangles count="12">
+        <t vi="0 1 2" />
+        <t vi="3 4 1" />
+        <t vi="5 6 4" />
+        <t vi="7 2 6" />
+        <t vi="4 2 1" />
+        <t vi="3 7 5" />
+        <t vi="0 3 1" />
+        <t vi="3 5 4" />
+        <t vi="5 7 6" />
+        <t vi="7 0 2" />
+        <t vi="4 6 2" />
+        <t vi="3 0 7" />
+      </Triangles>
+      <Subsets count="1">
+        <Subset firstIndex="0" firstVertex="0" numIndices="36" numVertices="8" />
+      </Subsets>
+    </IndexedTriangleSet>
+  </Shapes>
+  <Scene>
+    <Shape castsShadows="true" materialIds="1" name="Cube" nodeId="1" receiveShadows="true" rotation="-0.000 -0.000 0.000" scale="1.000000 1.000000 1.000000" shapeId="1" skinWidth="0.05000000074505806" static="true" translation="0.000000 2.068417 -0.000000" />
+  </Scene>
+  <Animation />
+  <UserAttributes />
+</i3D>

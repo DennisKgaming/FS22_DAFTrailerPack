@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="Blender" version="2.79.0" />
+  </Asset>
+  <Files />
+  <Materials>
+    <Material ambientColor="1 1 1" diffuseColor="0.3 0.3 0.3 1" materialId="1" name="default" specularColor="0 0 0" />
+  </Materials>
+  <Shapes>
+    <IndexedTriangleSet bvCenter="1.317110 -5.210225 -0.478736" bvRadius="0.040016" isOptimized="false" name="kelsaSidebar.005" shapeId="1">
+      <Vertices count="4" normal="true" uv0="true">
+        <v n="1.000000 0.000000 -0.000000" p="1.317110 -5.249650 -0.471882" t0="0.272459 0.415011" />
+        <v n="1.000000 0.000000 -0.000000" p="1.317110 -5.249650 -0.485591" t0="0.272459 0.247100" />
+        <v n="1.000000 0.000000 -0.000000" p="1.317110 -5.170800 -0.485591" t0="0.020531 0.247100" />
+        <v n="1.000000 0.000000 -0.000000" p="1.317110 -5.170800 -0.471882" t0="0.020531 0.415011" />
+      </Vertices>
+      <Triangles count="2">
+        <t vi="0 1 2" />
+        <t vi="2 3 0" />
+      </Triangles>
+      <Subsets count="1">
+        <Subset firstIndex="0" firstVertex="0" numIndices="6" numVertices="4" />
+      </Subsets>
+    </IndexedTriangleSet>
+  </Shapes>
+  <Scene>
+    <Shape castsShadows="true" materialIds="1" name="kelsaSidebar.000" nodeId="1" receiveShadows="true" rotation="90.000 -0.000 0.000" scale="1.000000 1.000000 1.000000" shapeId="1" skinWidth="0.05000000074505806" static="true" translation="0.000000 0.000000 0.000000" />
+  </Scene>
+  <Animation />
+  <UserAttributes />
+</i3D>
