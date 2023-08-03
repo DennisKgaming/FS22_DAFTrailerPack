@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<wheel>
+	<default>
+        <physics radius="0.50" width="0.84" />
+        <tire filename="Wheels/RimColor/WheelsDubbel/WheelsDubbel2.i3d" nodeLeft="0|0|2" nodeRight="1|0|2" isCareWheel="false" />
+		<innerRim filename="Wheels/RimColor/WheelsDubbel/WheelsDubbel2.i3d" nodeLeft="0|0|3" nodeRight="1|0|3" />
+    </default>
+</wheel>
