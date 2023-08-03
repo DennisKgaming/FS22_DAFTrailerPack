@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="BaleTrailerVP" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
+        <File fileId="2" filename="shared/dirt_lite.dds"/>
+        <File fileId="1" filename="textures/Witcreme.png"/>
+    </Files>
+    <Materials>
+        <Material name="default" materialId="26" customShaderId="3">
+            <Texture fileId="1"/>
+            <Glossmap fileId="2"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="Daflogo.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="Logo_Daf" translation="-3.60317 -7.538 1.32" rotation="6.36111e-15 -4.07111e-13 -91.0572" scale="1 1.5 1.5" nodeId="361" materialIds="26" castsShadows="true" receiveShadows="true"/>
+    </Scene>
+</i3D>

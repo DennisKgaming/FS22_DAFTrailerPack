@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="BaleTrailerVP" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
+        <File fileId="8" filename="Addons/Driehoek/Textures/Ref.dds"/>
+        <File fileId="10" filename="Addons/Kenteken/Texture/ns_jukka.dds"/>
+        <File fileId="2" filename="shared/dirt_lite.dds"/>
+        <File fileId="9" filename="textures/Warning Sign.dds"/>
+        <File fileId="1" filename="textures/Witcreme.png"/>
+    </Files>
+    <Materials>
+        <Material name="01 - Default" materialId="41" customShaderId="3">
+            <Texture fileId="10"/>
+            <Glossmap fileId="2"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+        </Material>
+        <Material name="lambert2" materialId="5">
+            <Texture fileId="8"/>
+        </Material>
+        <Material name="default" materialId="26" customShaderId="3">
+            <Texture fileId="1"/>
+            <Glossmap fileId="2"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+        </Material>
+        <Material name="UnnamedMaterial" materialId="10" customShaderId="3">
+            <Texture fileId="9"/>
+            <Glossmap fileId="2"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+        </Material>
+        <Material name="default" materialId="50" diffuseColor="0 0 0 1" customShaderId="3">
+            <Glossmap fileId="2"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="Achterbumper.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="Achterbumper" nodeId="247">
+            <Shape shapeId="1" name="Bumper" translation="0.013 0.92845 0.308898" scale="1.01 1 1" nodeId="248" materialIds="26" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="Stang" translation="-0.002 0.929 0.31" scale="1.01 1 0.999" nodeId="249" materialIds="50" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="3" name="Warning plaat" translation="0 -2.18123 -0.251156" scale="1.04 1 1" nodeId="250" materialIds="50" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="2" name="Stang" translation="-0.006 0.937813 0.736341" scale="1 1 0.999" nodeId="251" materialIds="50" castsShadows="true" receiveShadows="true"/>
+            <TransformGroup name="gever" translation="0 -2.05867 -0.119646" rotation="-90 -0 0" nodeId="252">
+                <Shape shapeId="4" name="ref" translation="1.14546 0.245083 -3.90645" rotation="180 0 -180" scale="0.8 0.8 1" nodeId="253" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="ref" translation="-1 0.245083 -3.90645" rotation="180 0 -180" scale="0.8 0.8 1" nodeId="254" materialIds="5" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="TrailerAttacher" translation="0 -0.742442 -0.318" nodeId="255">
+            <Shape shapeId="5" name="Support" translation="-0.361 3.44145 0.612" scale="0.7 1 1" nodeId="256" materialIds="26" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="5" name="Support" translation="0.361 3.44145 0.612263" scale="0.7 1 1" nodeId="257" materialIds="26" castsShadows="true" receiveShadows="true"/>
+            <TransformGroup name="transform" translation="0.001 -4.996 -0.134" rotation="-90 0 0" nodeId="258">
+                <Shape shapeId="6" name="verleng attach" translation="0 0 0.000561509" scale="0.803 0.145 0.145" nodeId="259" materialIds="26" distanceBlending="false"/>
+            </TransformGroup>
+        </TransformGroup>
+        <Shape shapeId="7" name="Stootbumper" translation="0.0161397 -2.22702 0.31096" scale="1.04 1 1" nodeId="260" materialIds="26" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="6" name="verlenging" translation="-0.016 -3.4747 -1.14447" scale="1.05 0.3 0.2" nodeId="261" materialIds="26" distanceBlending="false"/>
+        </Shape>
+        <TransformGroup name="Markering" nodeId="262">
+            <Shape shapeId="8" name="Bord" translation="0.834952 -6.00242 -0.577311" rotation="-178.892 -8.515e-06 -2.01405e-17" scale="1.9 1 1.5" nodeId="263" materialIds="10" distanceBlending="false"/>
+            <Shape shapeId="8" name="Bord" translation="-0.835 -6.00242 -0.577311" rotation="-178.892 -8.515e-06 -2.01405e-17" scale="1.9 1 1.5" nodeId="264" materialIds="10" distanceBlending="false"/>
+        </TransformGroup>
+        <TransformGroup name="Kenteken" translation="-2.32 -6.03 -0.715" rotation="-90 -8.62324e-06 -180" scale="0.8 0.8 1" nodeId="265">
+            <Shape shapeId="9" name="ns_grosz" translation="-2.89917 0.0572881 -0.0704644" rotation="-90 0 180" scale="0.04 0.04 0.04" nodeId="266" materialIds="41" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+    </Scene>
+</i3D>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="benalu40_optiliner133" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+        <File fileId="8" filename="$data/shared/connectionHoses/airConnector_normal.png"/>
+        <File fileId="9" filename="$data/shared/connectionHoses/airConnector_specular.png"/>
+        <File fileId="2" filename="$data/shared/connectionHoses/connectors1_normal.png"/>
+        <File fileId="3" filename="$data/shared/connectionHoses/connectors1_specular.png"/>
+    </Files>
+    <Materials>
+        <Material name="connectors1_mat" materialId="17" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+            <Normalmap fileId="2"/>
+            <Glossmap fileId="3"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+            <CustomParameter name="colorMat0" value="0.3587 0.0328 0.0352 1"/>
+            <CustomParameter name="colorMat1" value="0.673 0.4783 0.023 1"/>
+            <CustomParameter name="colorMat2" value="0.01 0.01 0.01 1"/>
+            <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+            <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+            <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+            <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+            <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+        </Material>
+        <Material name="airConnector_mat" materialId="29" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+            <Normalmap fileId="8"/>
+            <Glossmap fileId="9"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+            <CustomParameter name="colorMat0" value="0.5356 0.0254 0.0254 1"/>
+            <CustomParameter name="colorMat1" value="0.673 0.4704 0.022 1"/>
+            <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+            <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+            <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+            <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+            <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+            <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="HosesInput.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="Hoses" translation="0.331279 1.726 5.698" rotation="0 180 0" nodeId="366">
+            <Shape shapeId="1" name="hydraulic01" translation="0.06 0 -1.52896e-07" clipDistance="50" nodeId="367" materialIds="17" castsShadows="true" receiveShadows="true">
+                <TransformGroup name="referencePoint_h1" translation="-4.45064e-08 -1.08658e-11 -0.0557194" rotation="0 180 0" nodeId="368"/>
+                <Shape shapeId="2" name="detachedCab_h1" translation="-1.97047e-08 8.5563e-08 -0.0445183" rotation="0 0 -45" clipDistance="50" nodeId="369" materialIds="17" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="3" name="attachedCab_h1" translation="-1.97047e-08 0 -0.0445183" rotation="0 0 -44.76" visibility="false" clipDistance="50" nodeId="370" materialIds="17" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="4" name="hydraulic02" translation="-0.06 0 -3.0803e-10" clipDistance="50" nodeId="371" materialIds="17" castsShadows="true" receiveShadows="true">
+                <TransformGroup name="referencePoint_h2" translation="1.90735e-08 0 -0.0412251" rotation="0 180 0" nodeId="372"/>
+                <Shape shapeId="5" name="detachedCab_h2" translation="8.53212e-09 8.43309e-08 -0.0352999" clipDistance="50" nodeId="373" materialIds="17" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="6" name="attachedCab_h2" translation="8.53212e-09 8.43309e-08 -0.0352999" rotation="0 0 -22.5" visibility="false" clipDistance="50" nodeId="374" materialIds="17" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="7" name="airYellow" translation="0.06 -0.08 0" clipDistance="50" nodeId="375" materialIds="29" castsShadows="true" receiveShadows="true">
+                <TransformGroup name="referencePoint_ay" translation="-0.0156625 0 -0.068" rotation="0 180 0" nodeId="376"/>
+                <Shape shapeId="8" name="cab_ay" translation="-0.0174319 0.0273966 -0.0398716" rotation="-95 0 0" clipDistance="50" nodeId="377" materialIds="29" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="9" name="airYellowConnector" translation="-0.008 0 -0.064" visibility="false" clipDistance="50" nodeId="378" materialIds="29" castsShadows="true" receiveShadows="true">
+                    <TransformGroup name="referencePointConnector_ay" translation="-0.00627288 0.000206222 -0.063" rotation="0 180 0" nodeId="379"/>
+                </Shape>
+            </Shape>
+            <Shape shapeId="7" name="airRed" translation="-0.06 -0.08 0" clipDistance="50" nodeId="380" materialIds="29" castsShadows="true" receiveShadows="true">
+                <TransformGroup name="referencePoint_ar" translation="-0.0156625 0 -0.0680247" rotation="0 180 0" nodeId="381"/>
+                <Shape shapeId="10" name="cab_ar" translation="-0.0174319 0.0273966 -0.0398716" rotation="-95 0 0" clipDistance="50" nodeId="382" materialIds="29" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="11" name="airRedConnector" translation="-0.00881311 0 -0.064" visibility="false" clipDistance="50" nodeId="383" materialIds="29" castsShadows="true" receiveShadows="true">
+                    <TransformGroup name="referencePointConnector_ar" translation="-0.00627288 0.000206222 -0.063" rotation="0 180 0" nodeId="384"/>
+                </Shape>
+            </Shape>
+        </TransformGroup>
+    </Scene>
+</i3D>
