@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="man22s" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="4" filename="$data/fs17support/shaders/fs17VehicleShader.xml"/>
+        <File fileId="1" filename="Wheels/Onzichtbaar.dds"/>
+        <File fileId="12" filename="Wheels/tyre_rear.dds"/>
+        <File fileId="10" filename="shaders/vehicleShaderDirt.xml"/>
+        <File fileId="7" filename="shared/vehicleShaderDirt.xml"/>
+        <File fileId="11" filename="textur/Blauw.png"/>
+        <File fileId="9" filename="textur/DefaultMaterial_BaseColor12.dds"/>
+        <File fileId="13" filename="textur/specmain40_t.dds"/>
+    </Files>
+    <Materials>
+        <Material name="lambert1" materialId="63" diffuseColor="1 1 1 1" specularColor="0.827451 1 0" customShaderId="4" customShaderVariation="colorMask">
+            <CustomParameter name="RDT" value="1 1 20 20"/>
+            <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
+        </Material>
+        <Material name="05 - Default" materialId="17" specularColor="1 1 1" customShaderId="10">
+            <Texture fileId="11"/>
+            <CustomParameter name="RDT" value="1 0 20 20"/>
+        </Material>
+        <Material name="Standard_2" materialId="13" specularColor="0.266667 1 0.266667" customShaderId="7">
+            <CustomParameter name="RDT" value="1 1 20 20"/>
+        </Material>
+        <Material name="07 - Default" materialId="84" specularColor="1 1 1" customShaderId="10">
+            <Texture fileId="9"/>
+            <CustomParameter name="RDT" value="1 0 20 20"/>
+        </Material>
+        <Material name="default" materialId="74" customShaderId="10">
+            <Texture fileId="12"/>
+            <Glossmap fileId="13"/>
+            <CustomParameter name="RDT" value="1 0 20 20"/>
+        </Material>
+        <Material name="UnnamedMaterial" materialId="133">
+            <Texture fileId="1"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="Wheels.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="Wheel" translation="0.984 0.63 -2.826" scale="1 1.1 1.1" nodeId="414">
+            <Shape shapeId="1" name="Wiel" nodeId="415" materialIds="133" distanceBlending="false">
+                <Shape shapeId="2" name="Cylinder01" nodeId="416" materialIds="63" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+                <Shape shapeId="3" name="volvo2" nodeId="417" materialIds="13" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="8" nodeId="418" materialIds="84" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="17" translation="-0.009 0 0" nodeId="419" materialIds="84" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="6" name="10" nodeId="420" materialIds="17" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="7" name="315_80" nodeId="421" materialIds="74" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+        </TransformGroup>
+        <TransformGroup name="Wheel" translation="-0.984 0.63 -2.826" scale="1 1.1 1.1" nodeId="422">
+            <Shape shapeId="1" name="Wiel" nodeId="423" materialIds="133" distanceBlending="false">
+                <Shape shapeId="2" name="Cylinder01" rotation="180 -5.00896e-06 180" nodeId="424" materialIds="63" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+                <Shape shapeId="3" name="volvo2" rotation="0 180 0" nodeId="425" materialIds="13" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="8" rotation="0 180 0" nodeId="426" materialIds="84" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="17" translation="0.009 0 0" rotation="0 180 0" nodeId="427" materialIds="84" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="6" name="10" rotation="0 180 0" nodeId="428" materialIds="17" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="7" name="315_80" nodeId="429" materialIds="74" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+        </TransformGroup>
+    </Scene>
+</i3D>
