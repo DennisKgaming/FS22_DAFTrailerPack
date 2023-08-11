@@ -183,10 +183,12 @@
         </inputAttacherJoints>
 
 		<support animationName="moveSupport"/>
-        <!-- <brakeForce>0.7</brakeForce> -->
+        
 		<brakeForce force="0.1" maxForce="0.9" maxForceMass="8000"/>
+		
     </attachable>
-    <attacherJoints>
+    
+	<attacherJoints>
          <attacherJoint node="mainAttacherJoint" jointType="trailer" lowerRotLimit="10 65 65" upperRotationOffset="0" allowsJointLimitMovement="false" >
            <schema position="1 0" rotation="0" invertX="false" />
                   </attacherJoint>
@@ -275,59 +277,59 @@
 
     <lights>
 
-        <sharedLight linkNode="rearLightL_01"		node="0" filename="$data/shared/assets/lights/lizard/rearLight10_left.xml"/>
-        <sharedLight linkNode="rearLightL_02" 		node="0" filename="$data/shared/assets/lights/lizard/rearLight10_left.xml"/>
-        <sharedLight linkNode="rearLightL_03" 		node="0" filename="$data/shared/assets/lights/lizard/rearLight10_left.xml"/>
-        <sharedLight linkNode="rearLightL_04" 		node="0" filename="$data/shared/assets/lights/lizard/rearLight10_left.xml"/>
-        <sharedLight linkNode="rearLightR_01" 		node="0" filename="$data/shared/assets/lights/lizard/rearLight10_right.xml"/>
-        <sharedLight linkNode="rearLightR_02" 		node="0" filename="$data/shared/assets/lights/lizard/rearLight10_right.xml"/>
-        <sharedLight linkNode="rearLightR_03" 		node="0" filename="$data/shared/assets/lights/lizard/rearLight10_right.xml"/>
-        <sharedLight linkNode="rearLightR_04" 		node="0" filename="$data/shared/assets/lights/lizard/rearLight10_right.xml"/>
+        <sharedLight linkNode="rearLightL_01"		node="0" filename="Lights/rearLight10_left.xml"/>
+        <sharedLight linkNode="rearLightL_02" 		node="0" filename="Lights/rearLight10_left.xml"/>
+        <sharedLight linkNode="rearLightL_03" 		node="0" filename="Lights/rearLight10_left.xml"/>
+        <sharedLight linkNode="rearLightL_04" 		node="0" filename="Lights/rearLight10_left.xml"/>
+        <sharedLight linkNode="rearLightR_01" 		node="0" filename="Lights/rearLight10_right.xml"/>
+        <sharedLight linkNode="rearLightR_02" 		node="0" filename="Lights/rearLight10_right.xml"/>
+        <sharedLight linkNode="rearLightR_03" 		node="0" filename="Lights/rearLight10_right.xml"/>
+        <sharedLight linkNode="rearLightR_04" 		node="0" filename="Lights/rearLight10_right.xml"/>
 		
-        <sharedLight linkNode="sideLightR_01" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
-        <sharedLight linkNode="sideLightR_02" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
-        <sharedLight linkNode="sideLightR_03" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
-        <sharedLight linkNode="sideLightR_04" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
-        <sharedLight linkNode="sideLightR_05" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
-        <sharedLight linkNode="sideLightR_06" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
-        <sharedLight linkNode="sideLightR_07" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
-        <sharedLight linkNode="sideLightR_08" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightR_01" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightR_02" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightR_03" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightR_04" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightR_05" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightR_06" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightR_07" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightR_08" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
 		
-        <sharedLight linkNode="sideLightL_01" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
-        <sharedLight linkNode="sideLightL_02" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
-        <sharedLight linkNode="sideLightL_03" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
-        <sharedLight linkNode="sideLightL_04" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
-        <sharedLight linkNode="sideLightL_05" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
-        <sharedLight linkNode="sideLightL_06" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
-        <sharedLight linkNode="sideLightL_07" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
-        <sharedLight linkNode="sideLightL_08" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightL_01" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightL_02" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightL_03" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightL_04" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightL_05" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightL_06" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightL_07" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
+        <sharedLight linkNode="sideLightL_08" 		node="0" filename="Lights/sideMarker05Orange.xml"/>
 		
-        <sharedLight linkNode="sidebarLightR_01"	node="0" filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml"/>
-        <sharedLight linkNode="sidebarLightR_02" 	node="0" filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml"/>
-        <sharedLight linkNode="sidebarLightR_03" 	node="0" filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml"/>
-        <sharedLight linkNode="sidebarLightR_04" 	node="0" filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml"/>
-        <sharedLight linkNode="sidebarLightR_05" 	node="0" filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml"/>
-        <sharedLight linkNode="sidebarLightR_06" 	node="0" filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml"/>
-        <sharedLight linkNode="sidebarLightL_01" 	node="0" filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml"/>
-        <sharedLight linkNode="sidebarLightL_02" 	node="0" filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml"/>
-        <sharedLight linkNode="sidebarLightL_03" 	node="0" filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml"/>
-        <sharedLight linkNode="sidebarLightL_04" 	node="0" filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml"/>
-        <sharedLight linkNode="sidebarLightL_05" 	node="0" filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml"/>
-        <sharedLight linkNode="sidebarLightL_06" 	node="0" filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLightR_01"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLightR_02" 	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLightR_03" 	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLightR_04" 	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLightR_05" 	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLightR_06" 	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLightL_01" 	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLightL_02" 	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLightL_03" 	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLightL_04" 	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLightL_05" 	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLightL_06" 	node="0" filename="Lights/sideMarker11Orange.xml"/>
 		
-        <sharedLight linkNode="frontLightL_01" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05White.xml"/>
-        <sharedLight linkNode="frontLightL_02" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05White.xml"/>
-        <sharedLight linkNode="frontLightR_01" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05White.xml"/>
-        <sharedLight linkNode="frontLightR_02" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05White.xml"/>
+        <sharedLight linkNode="frontLightL_01" 		node="0" filename="Lights/sideMarker05White.xml"/>
+        <sharedLight linkNode="frontLightL_02" 		node="0" filename="Lights/sideMarker05White.xml"/>
+        <sharedLight linkNode="frontLightR_01" 		node="0" filename="Lights/sideMarker05White.xml"/>
+        <sharedLight linkNode="frontLightR_02" 		node="0" filename="Lights/sideMarker05White.xml"/>
 		
-        <sharedLight linkNode="sideMarkerL" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05_left.xml"/>
-        <sharedLight linkNode="sideMarkerR" 		node="0" filename="$data/shared/assets/lights/lizard/sideMarker05_right.xml"/>
+        <sharedLight linkNode="sideMarkerL" 		node="0" filename="Lights/sideMarker05_left.xml"/>
+        <sharedLight linkNode="sideMarkerR" 		node="0" filename="Lights/sideMarker05_right.xml"/>
 		
-        <sharedLight linkNode="licensePlateL" 		node="0" filename="$data/shared/assets/lights/lizard/plateNumberLight01.xml"/>
-        <sharedLight linkNode="licensePlateR" 		node="0" filename="$data/shared/assets/lights/lizard/plateNumberLight01.xml"/>
+        <sharedLight linkNode="licensePlateL" 		node="0" filename="Lights/plateNumberLight01.xml"/>
+        <sharedLight linkNode="licensePlateR" 		node="0" filename="Lights/plateNumberLight01.xml"/>
 		
-        <sharedLight linkNode="reverseLightL" 		node="0" filename="$data/shared/assets/lights/lizard/workingLight10.xml"/>
-        <sharedLight linkNode="reverseLightR" 		node="0" filename="$data/shared/assets/lights/lizard/workingLight10.xml"/>
+        <sharedLight linkNode="reverseLightL" 		node="0" filename="Lights/workingLight10.xml"/>
+        <sharedLight linkNode="reverseLightR" 		node="0" filename="Lights/workingLight10.xml"/>
 
 		<states>
 			<state lightTypes="0"/>
@@ -358,25 +360,6 @@
 		
         <defaultLights>
 
-            <!--SideLights-->
-            <defaultLight shaderNode="sideLightR_01" 		lightTypes="0" intensity="0.5"/>
-            <defaultLight shaderNode="sideLightR_02" 		lightTypes="0" intensity="0.5"/>
-            <defaultLight shaderNode="sideLightR_03" 		lightTypes="0" intensity="0.5"/>
-            <defaultLight shaderNode="sideLightR_04" 		lightTypes="0" intensity="0.5"/>
-            <defaultLight shaderNode="sideLightR_05" 		lightTypes="0" intensity="0.5"/>
-            <defaultLight shaderNode="sideLightR_06" 		lightTypes="0" intensity="0.5"/>
-            <defaultLight shaderNode="sideLightR_07" 		lightTypes="0" intensity="0.5"/>
-            <defaultLight shaderNode="sideLightR_08" 		lightTypes="0" intensity="0.5"/>
-
-            <defaultLight shaderNode="sideLightL_01" 		lightTypes="0" intensity="0.5"/>
-            <defaultLight shaderNode="sideLightL_02" 		lightTypes="0" intensity="0.5"/>
-            <defaultLight shaderNode="sideLightL_03" 		lightTypes="0" intensity="0.5"/>
-            <defaultLight shaderNode="sideLightL_04" 		lightTypes="0" intensity="0.5"/>
-            <defaultLight shaderNode="sideLightL_05" 		lightTypes="0" intensity="0.5"/>
-            <defaultLight shaderNode="sideLightL_06" 		lightTypes="0" intensity="0.5"/>
-            <defaultLight shaderNode="sideLightL_07" 		lightTypes="0" intensity="0.5"/>
-            <defaultLight shaderNode="sideLightL_08" 		lightTypes="0" intensity="0.5"/>
-            <!--SideLights-->
 
             <!--SideBarLights-->
             <defaultLight shaderNode="sidebarLightR_01" 	lightTypes="0" intensity="0.5" />
@@ -453,16 +436,14 @@
             </foldingConfiguration>
          </foldingConfigurations>
     </foldable>
-	
+
 
 	<pickup>
 		<animation name="liftAxle_anim" lowerSpeed="1" liftSpeed="-1"  isDefaultLowered="false"/>
 	</pickup>
 
-
 	<wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
 	<washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
-
 
 	<i3dMappings>
 		<i3dMapping id="DAFTrailerShort" 				node="0>" />
@@ -642,4 +623,5 @@
 		<i3dMapping id="MudFlap11"						node="15>" />
 
 	</i3dMappings>
+
 </vehicle>

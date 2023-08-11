@@ -82,9 +82,9 @@ Changelog 2.0.0.0:
 			<specialization name="pickup" />
 		</type> -->
 		
-		<!-- <type name="DAFTrailer" parent="dynamicMountAttacherTrailer" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+		<type name="DAFTrailer" parent="dynamicMountAttacherTrailer" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
 			<specialization name="pickup" />
-		</type> -->
+		</type>
 		
 		<type name="DAFTrailerShort" parent="dynamicMountAttacherTrailer" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
 			<!--
@@ -96,8 +96,8 @@ Changelog 2.0.0.0:
 	
 	
 	<storeItems>
-        <!-- <storeItem rootNode="vehicle" xmlFilename="DAFTrailerLong.xml"/>
-		<storeItem rootNode="vehicle" xmlFilename="DAFTrailer.xml"/> -->
+        <!-- <storeItem rootNode="vehicle" xmlFilename="DAFTrailerLong.xml"/> -->
+		<storeItem rootNode="vehicle" xmlFilename="DAFTrailer.xml"/>
 		<storeItem rootNode="vehicle" xmlFilename="DAFTrailerShort.xml"/>
     </storeItems>
 </modDesc>

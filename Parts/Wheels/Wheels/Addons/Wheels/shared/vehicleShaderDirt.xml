@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CustomShader version="4">
+<CustomShader version="5">
     <Parameters>
         <Parameter name="RDT" target="RDT" type="float4" group="base" defaultValue="1.0 1.0 20.0 20.0" minValue="0.0 0.0 0.0 0.0" maxValue="1.0 1.0 50.0 50.0"/>
         <Parameter name="offsetUV" target="offsetUV" type="float4" group="offsetUV" defaultValue="0.0 0.0 0.0 0.0" minValue="-10.0 -10.0 -10.0 -10.0" maxValue="10.0 10.0 10.0 10.0"/>
