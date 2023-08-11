@@ -535,40 +535,98 @@
 	<lights>
 	
 		<!--TailLights-->
-		<sharedLight linkNode="rearLightL_01_shared" node="0" filename="Lights/rearLight10_left.xml"/>
-		<sharedLight linkNode="rearLightL_02_shared" node="0" filename="Lights/rearLight10_left.xml"/>
-		<sharedLight linkNode="rearLightL_03_shared" node="0" filename="Lights/rearLight10_left.xml"/>
-		<sharedLight linkNode="rearLightL_04_shared" node="0" filename="Lights/rearLight10_left.xml"/>
-		<sharedLight linkNode="rearLightR_01_shared" node="0" filename="Lights/rearLight10_right.xml"/>
-		<sharedLight linkNode="rearLightR_02_shared" node="0" filename="Lights/rearLight10_right.xml"/>
-		<sharedLight linkNode="rearLightR_03_shared" node="0" filename="Lights/rearLight10_right.xml"/>
-		<sharedLight linkNode="rearLightR_04_shared" node="0" filename="Lights/rearLight10_right.xml"/>
+		<sharedLight linkNode="rearLightL_01" node="0" filename="Lights/rearLight10_left.xml"/>
+		<sharedLight linkNode="rearLightL_02" node="0" filename="Lights/rearLight10_left.xml"/>
+		<sharedLight linkNode="rearLightL_03" node="0" filename="Lights/rearLight10_left.xml"/>
+		<sharedLight linkNode="rearLightL_04" node="0" filename="Lights/rearLight10_left.xml"/>
+		<sharedLight linkNode="rearLightR_01" node="0" filename="Lights/rearLight10_right.xml"/>
+		<sharedLight linkNode="rearLightR_02" node="0" filename="Lights/rearLight10_right.xml"/>
+		<sharedLight linkNode="rearLightR_03" node="0" filename="Lights/rearLight10_right.xml"/>
+		<sharedLight linkNode="rearLightR_04" node="0" filename="Lights/rearLight10_right.xml"/>
 		<!--TailLights-->
 		
 		<!--SideLights-->
-		<sharedLight linkNode="contourLightL_01_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightL_02_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightL_03_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightL_04_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightL_05_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightL_06_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightL_07_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightL_08_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightL_09_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_01" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_02" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_03" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_04" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_05" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_06" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_07" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_08" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_09" node="0" filename="Lights/sideMarker05Orange.xml"/>
 		
-		<sharedLight linkNode="contourLightR_01_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightR_02_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightR_03_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightR_04_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightR_05_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightR_06_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightR_07_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightR_08_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
-		<sharedLight linkNode="contourLightR_09_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_01" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_02" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_03" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_04" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_05" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_06" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_07" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_08" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_09" node="0" filename="Lights/sideMarker05Orange.xml"/>
 		<!--SideLights-->
 
-
-
+		<!-- SidebarLights -->
+        <sharedLight linkNode="sidebarLights_backL"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_backR"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+		
+        <sharedLight linkNode="sidebarLights_dualL_01"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dualL_02"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dualL_03"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dualL_04"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dualL_05"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dualR_01"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dualR_02"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dualR_03"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dualR_04"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dualR_05"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+		
+        <sharedLight linkNode="sidebarLights_dual2L_01"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dual2L_02"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dual2L_03"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dual2L_04"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dual2L_05"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dual2R_01"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dual2R_02"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dual2R_03"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dual2R_04"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_dual2R_05"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+		
+        <sharedLight linkNode="sidebarLights_tripleL_01"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_tripleL_02"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_tripleL_03"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_tripleL_04"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_tripleL_05"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_tripleR_01"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_tripleR_02"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_tripleR_03"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_tripleR_04"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+        <sharedLight linkNode="sidebarLights_tripleR_05"	node="0" filename="Lights/sideMarker11Orange.xml"/>
+		<!-- SidebarLights -->
+		
+		<!--WhiteFront-->
+        <sharedLight linkNode="frontLightL_01" 		node="0" filename="Lights/sideMarker05White.xml"/>
+        <sharedLight linkNode="frontLightL_02" 		node="0" filename="Lights/sideMarker05White.xml"/>
+        <sharedLight linkNode="frontLightR_01" 		node="0" filename="Lights/sideMarker05White.xml"/>
+        <sharedLight linkNode="frontLightR_02" 		node="0" filename="Lights/sideMarker05White.xml"/>
+		<!--WhiteFront-->
+		
+		<!-- SideMarkers -->
+        <sharedLight linkNode="sidemarkerLightL_01" 		node="0" filename="Lights/sideMarker05_left.xml"/>
+        <sharedLight linkNode="sidemarkerLightR_01" 		node="0" filename="Lights/sideMarker05_right.xml"/>
+		<!-- SideMarkers -->
+		
+		<!--Licenseplate-->
+        <sharedLight linkNode="licenseplateLightL" 		node="0" filename="Lights/plateNumberLight01.xml"/>
+        <sharedLight linkNode="licenseplateLightR" 		node="0" filename="Lights/plateNumberLight01.xml"/>		
+		<!--Licenseplate-->
+		
+		<!--Reverse-->
+        <sharedLight linkNode="reverseLightL" 		node="0" filename="Lights/workingLight10.xml"/>
+        <sharedLight linkNode="reverseLightR" 		node="0" filename="Lights/workingLight10.xml"/>
+		<!--Reverse-->
+		
         <states>
             <state lightTypes="0"/>
             <state lightTypes="0 1"/>
@@ -595,88 +653,12 @@
         </realLights>
         <defaultLights>
 
-			<!--SideLights-->
-			<defaultLight shaderNode="contourLightL_01_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightL_02_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightL_03_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightL_04_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightL_05_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightL_06_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightL_07_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightL_08_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightL_09_shared" lightTypes="0" /> <!-- @todo make shared -->
-
-			<defaultLight shaderNode="contourLightR_01_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightR_02_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightR_03_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightR_04_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightR_05_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightR_06_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightR_07_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightR_08_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="contourLightR_09_shared" lightTypes="0" /> <!-- @todo make shared -->
-			<!--SideLights-->
-
-			<!--SideBarLights-->
-			<defaultLight shaderNode="sidebarLights_backL" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_backR" lightTypes="0" /> <!-- @todo make shared -->
-
-			<defaultLight shaderNode="sidebarLights_dualL_01" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dualL_02" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dualL_03" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dualL_04" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dualL_05" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dualR_01" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dualR_02" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dualR_03" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dualR_04" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dualR_05" lightTypes="0" /> <!-- @todo make shared -->
-
-			<defaultLight shaderNode="sidebarLights_dual2L_01" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dual2L_02" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dual2L_03" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dual2L_04" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dual2L_05" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dual2R_01" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dual2R_02" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dual2R_03" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dual2R_04" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_dual2R_05" lightTypes="0" /> <!-- @todo make shared -->
-
-			<defaultLight shaderNode="sidebarLights_tripleL_01" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_tripleL_02" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_tripleL_03" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_tripleL_04" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_tripleL_05" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_tripleR_01" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_tripleR_02" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_tripleR_03" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_tripleR_04" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidebarLights_tripleR_05" lightTypes="0" /> <!-- @todo make shared -->
-			<!--SideBarLights-->
-
-			<!--WhiteFront-->
-			<defaultLight shaderNode="frontLightL_01" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="frontLightL_02" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="frontLightR_01" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="frontLightR_02" lightTypes="0" /> <!-- @todo make shared -->
-			<!--WhiteFront-->
-
-			<!--Sidemarkers-->
-			<defaultLight shaderNode="sidemarkerLightL_01" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="sidemarkerLightR_01" lightTypes="0" /> <!-- @todo make shared -->
-			<!--Sidemarkers-->
-
-			<!--Licenseplate-->
-			<defaultLight shaderNode="licenseplateLightL" lightTypes="0" /> <!-- @todo make shared -->
-			<defaultLight shaderNode="licenseplateLightR" lightTypes="0" /> <!-- @todo make shared -->
-			<!--Licenseplate-->
 
         </defaultLights>
 
         <reverseLights>
-            <reverseLight shaderNode="reverseLightL_shared"/> <!-- @todo make shared -->
-            <reverseLight shaderNode="reverseLightR_shared"/> <!-- @todo make shared -->
+            <reverseLight shaderNode="reverseLightL"/>
+            <reverseLight shaderNode="reverseLightR"/>
         </reverseLights>
 
 		<!-- #todo create soundfile -->
@@ -945,88 +927,88 @@
 		
 		<i3dMapping id="licensePlate_vis"					node="0>0|6|5|1|4|0" />
 		
-		<i3dMapping id="contourLightL_01_shared"			node="0>0|6|6|0|0|0" />
-		<i3dMapping id="contourLightL_02_shared"			node="0>0|6|6|0|0|1" />
-		<i3dMapping id="contourLightL_03_shared"			node="0>0|6|6|0|0|2" />
-		<i3dMapping id="contourLightL_04_shared"			node="0>0|6|6|0|0|3" />
-		<i3dMapping id="contourLightL_05_shared"			node="0>0|6|6|0|0|4" />
-		<i3dMapping id="contourLightL_06_shared"			node="0>0|6|6|0|0|5" />
-		<i3dMapping id="contourLightL_07_shared"			node="0>0|6|6|0|0|6" />
-		<i3dMapping id="contourLightL_08_shared"			node="0>0|6|6|0|0|7" />
-		<i3dMapping id="contourLightL_09_shared"			node="0>0|6|6|0|0|8" />
+		<i3dMapping id="contourLightL_01"					node="0>0|6|6|0|0|0" /> <!-- shared -->
+		<i3dMapping id="contourLightL_02"					node="0>0|6|6|0|0|1" /> <!-- shared -->
+		<i3dMapping id="contourLightL_03"					node="0>0|6|6|0|0|2" /> <!-- shared -->
+		<i3dMapping id="contourLightL_04"					node="0>0|6|6|0|0|3" /> <!-- shared -->
+		<i3dMapping id="contourLightL_05"					node="0>0|6|6|0|0|4" /> <!-- shared -->
+		<i3dMapping id="contourLightL_06"					node="0>0|6|6|0|0|5" /> <!-- shared -->
+		<i3dMapping id="contourLightL_07"					node="0>0|6|6|0|0|6" /> <!-- shared -->
+		<i3dMapping id="contourLightL_08"					node="0>0|6|6|0|0|7" /> <!-- shared -->
+		<i3dMapping id="contourLightL_09"					node="0>0|6|6|0|0|8" /> <!-- shared -->
 		
-		<i3dMapping id="contourLightR_01_shared"			node="0>0|6|6|0|1|0" />
-		<i3dMapping id="contourLightR_02_shared"			node="0>0|6|6|0|1|1" />
-		<i3dMapping id="contourLightR_03_shared"			node="0>0|6|6|0|1|2" />
-		<i3dMapping id="contourLightR_04_shared"			node="0>0|6|6|0|1|3" />
-		<i3dMapping id="contourLightR_05_shared"			node="0>0|6|6|0|1|4" />
-		<i3dMapping id="contourLightR_06_shared"			node="0>0|6|6|0|1|5" />
-		<i3dMapping id="contourLightR_07_shared"			node="0>0|6|6|0|1|6" />
-		<i3dMapping id="contourLightR_08_shared"			node="0>0|6|6|0|1|7" />
-		<i3dMapping id="contourLightR_09_shared"			node="0>0|6|6|0|1|8" />
+		<i3dMapping id="contourLightR_01"					node="0>0|6|6|0|1|0" /> <!-- shared -->
+		<i3dMapping id="contourLightR_02"					node="0>0|6|6|0|1|1" /> <!-- shared -->
+		<i3dMapping id="contourLightR_03"					node="0>0|6|6|0|1|2" /> <!-- shared -->
+		<i3dMapping id="contourLightR_04"					node="0>0|6|6|0|1|3" /> <!-- shared -->
+		<i3dMapping id="contourLightR_05"					node="0>0|6|6|0|1|4" /> <!-- shared -->
+		<i3dMapping id="contourLightR_06"					node="0>0|6|6|0|1|5" /> <!-- shared -->
+		<i3dMapping id="contourLightR_07"					node="0>0|6|6|0|1|6" /> <!-- shared -->
+		<i3dMapping id="contourLightR_08"					node="0>0|6|6|0|1|7" /> <!-- shared -->
+		<i3dMapping id="contourLightR_09"					node="0>0|6|6|0|1|8" /> <!-- shared -->
 		
-		<i3dMapping id="rearLightL_01_shared"				node="0>0|6|6|1|0" />
-		<i3dMapping id="rearLightL_02_shared"				node="0>0|6|6|1|1" />
-		<i3dMapping id="rearLightL_03_shared"				node="0>0|6|6|1|2" />
-		<i3dMapping id="rearLightL_04_shared"				node="0>0|6|6|1|3" />
-		<i3dMapping id="rearLightR_01_shared"				node="0>0|6|6|1|4" />
-		<i3dMapping id="rearLightR_02_shared"				node="0>0|6|6|1|5" />
-		<i3dMapping id="rearLightR_03_shared"				node="0>0|6|6|1|6" />
-		<i3dMapping id="rearLightR_04_shared"				node="0>0|6|6|1|7" />
+		<i3dMapping id="rearLightL_01"						node="0>0|6|6|1|0" /> <!-- shared -->
+		<i3dMapping id="rearLightL_02"						node="0>0|6|6|1|1" /> <!-- shared -->
+		<i3dMapping id="rearLightL_03"						node="0>0|6|6|1|2" /> <!-- shared -->
+		<i3dMapping id="rearLightL_04"						node="0>0|6|6|1|3" /> <!-- shared -->
+		<i3dMapping id="rearLightR_01"						node="0>0|6|6|1|4" /> <!-- shared -->
+		<i3dMapping id="rearLightR_02"						node="0>0|6|6|1|5" /> <!-- shared -->
+		<i3dMapping id="rearLightR_03"						node="0>0|6|6|1|6" /> <!-- shared -->
+		<i3dMapping id="rearLightR_04"						node="0>0|6|6|1|7" /> <!-- shared -->
 		
-		<i3dMapping id="reverseLightL_shared"				node="0>0|6|6|1|8|0|0" /> <!-- @todo make shared -->
-		<i3dMapping id="reverseLightR_shared"				node="0>0|6|6|1|9|0|0" /> <!-- @todo make shared -->
+		<i3dMapping id="reverseLightL"						node="0>0|6|6|1|8" /> <!-- shared -->
+		<i3dMapping id="reverseLightR"						node="0>0|6|6|1|9" /> <!-- shared -->
 		
-		<i3dMapping id="sidemarkerLightL_01"				node="0>0|6|6|2|0|3" /> <!-- @todo make shared -->
-		<i3dMapping id="sidemarkerLightR_01"				node="0>0|6|6|2|1|3" /> <!-- @todo make shared -->
+		<i3dMapping id="sidemarkerLightL_01"				node="0>0|6|6|2|0" /> <!-- shared -->
+		<i3dMapping id="sidemarkerLightR_01"				node="0>0|6|6|2|1" /> <!-- shared -->
 		
-		<i3dMapping id="frontLightL_01"						node="0>0|6|6|3|0|0" /> <!-- @todo make shared -->
-		<i3dMapping id="frontLightL_02"						node="0>0|6|6|3|1|0" /> <!-- @todo make shared -->
-		<i3dMapping id="frontLightR_01"						node="0>0|6|6|3|2|0" /> <!-- @todo make shared -->
-		<i3dMapping id="frontLightR_02"						node="0>0|6|6|3|3|0" /> <!-- @todo make shared -->
+		<i3dMapping id="frontLightL_01"						node="0>0|6|6|3|0" /> <!-- shared -->
+		<i3dMapping id="frontLightL_02"						node="0>0|6|6|3|1" /> <!-- shared -->
+		<i3dMapping id="frontLightR_01"						node="0>0|6|6|3|2" /> <!-- shared -->
+		<i3dMapping id="frontLightR_02"						node="0>0|6|6|3|3" /> <!-- shared -->
 		
-		<i3dMapping id="licenseplateLightL"					node="0>0|6|6|4|0|0" /> <!-- @todo make shared -->
-		<i3dMapping id="licenseplateLightR"					node="0>0|6|6|4|1|0" /> <!-- @todo make shared -->
+		<i3dMapping id="licenseplateLightL"					node="0>0|6|6|4|0" /> <!-- hared -->
+		<i3dMapping id="licenseplateLightR"					node="0>0|6|6|4|1" /> <!-- shared -->
 		
 		<i3dMapping id="sidebarLights_back_group"			node="0>0|6|6|5|0" />
-		<i3dMapping id="sidebarLights_backL"				node="0>0|6|6|5|0|0" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_backR"				node="0>0|6|6|5|0|1" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_backL"				node="0>0|6|6|5|0|0" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_backR"				node="0>0|6|6|5|0|1" /> <!-- shared -->
 		
 		<i3dMapping id="sidebarLights_dual_group"			node="0>0|6|6|5|1" />
-		<i3dMapping id="sidebarLights_dualL_01"				node="0>0|6|6|5|1|0" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dualL_02"				node="0>0|6|6|5|1|1" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dualL_03"				node="0>0|6|6|5|1|2" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dualL_04"				node="0>0|6|6|5|1|3" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dualL_05"				node="0>0|6|6|5|1|4" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dualR_01"				node="0>0|6|6|5|1|5" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dualR_02"				node="0>0|6|6|5|1|6" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dualR_03"				node="0>0|6|6|5|1|7" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dualR_04"				node="0>0|6|6|5|1|8" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dualR_05"				node="0>0|6|6|5|1|9" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dualL_01"				node="0>0|6|6|5|1|0" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dualL_02"				node="0>0|6|6|5|1|1" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dualL_03"				node="0>0|6|6|5|1|2" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dualL_04"				node="0>0|6|6|5|1|3" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dualL_05"				node="0>0|6|6|5|1|4" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dualR_01"				node="0>0|6|6|5|1|5" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dualR_02"				node="0>0|6|6|5|1|6" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dualR_03"				node="0>0|6|6|5|1|7" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dualR_04"				node="0>0|6|6|5|1|8" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dualR_05"				node="0>0|6|6|5|1|9" /> <!-- shared -->
 		
 		<i3dMapping id="sidebarLights_dual2_group"			node="0>0|6|6|5|2" />
-		<i3dMapping id="sidebarLights_dual2L_01"			node="0>0|6|6|5|2|0" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dual2L_02"			node="0>0|6|6|5|2|1" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dual2L_03"			node="0>0|6|6|5|2|2" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dual2L_04"			node="0>0|6|6|5|2|3" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dual2L_05"			node="0>0|6|6|5|2|4" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dual2R_01"			node="0>0|6|6|5|2|5" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dual2R_02"			node="0>0|6|6|5|2|6" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dual2R_03"			node="0>0|6|6|5|2|7" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dual2R_04"			node="0>0|6|6|5|2|8" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_dual2R_05"			node="0>0|6|6|5|2|9" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dual2L_01"			node="0>0|6|6|5|2|0" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dual2L_02"			node="0>0|6|6|5|2|1" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dual2L_03"			node="0>0|6|6|5|2|2" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dual2L_04"			node="0>0|6|6|5|2|3" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dual2L_05"			node="0>0|6|6|5|2|4" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dual2R_01"			node="0>0|6|6|5|2|5" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dual2R_02"			node="0>0|6|6|5|2|6" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dual2R_03"			node="0>0|6|6|5|2|7" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dual2R_04"			node="0>0|6|6|5|2|8" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_dual2R_05"			node="0>0|6|6|5|2|9" /> <!-- shared -->
 		
 		<i3dMapping id="sidebarLights_triple_group"			node="0>0|6|6|5|3" />
-		<i3dMapping id="sidebarLights_tripleL_01"			node="0>0|6|6|5|3|0" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_tripleL_02"			node="0>0|6|6|5|3|1" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_tripleL_03"			node="0>0|6|6|5|3|2" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_tripleL_04"			node="0>0|6|6|5|3|3" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_tripleL_05"			node="0>0|6|6|5|3|4" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_tripleR_01"			node="0>0|6|6|5|3|5" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_tripleR_02"			node="0>0|6|6|5|3|6" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_tripleR_03"			node="0>0|6|6|5|3|7" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_tripleR_04"			node="0>0|6|6|5|3|8" /> <!-- @todo make shared -->
-		<i3dMapping id="sidebarLights_tripleR_05"			node="0>0|6|6|5|3|9" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_tripleL_01"			node="0>0|6|6|5|3|0" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_tripleL_02"			node="0>0|6|6|5|3|1" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_tripleL_03"			node="0>0|6|6|5|3|2" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_tripleL_04"			node="0>0|6|6|5|3|3" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_tripleL_05"			node="0>0|6|6|5|3|4" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_tripleR_01"			node="0>0|6|6|5|3|5" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_tripleR_02"			node="0>0|6|6|5|3|6" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_tripleR_03"			node="0>0|6|6|5|3|7" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_tripleR_04"			node="0>0|6|6|5|3|8" /> <!-- shared -->
+		<i3dMapping id="sidebarLights_tripleR_05"			node="0>0|6|6|5|3|9" /> <!-- shared -->
 		
 		<i3dMapping id="AttacherJoint" 						node="0>0|6|10" />
 		
