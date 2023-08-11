@@ -98,35 +98,35 @@
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="100" brand="NOKIAN">
                 <wheels autoRotateBackSpeed="1.0">
-                    <wheel filename="nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true">
+                    <wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="0" repr="wheelLiftaxleR_ref" radius="0.5" width="0.84" mass="0.089" suspTravel="0.10" deltaY="0.1" spring="65" damper="5"/>
                         <tire tireTrackAtlasIndex="1" />
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
-                    <wheel filename="nokianTires.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true">
+                    <wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="0" repr="wheelLiftaxleL_ref" radius="0.5" width="0.84" mass="0.089" suspTravel="0.10" deltaY="0.1" spring="65" damper="5"/>
                         <tire tireTrackAtlasIndex="1" />
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-                    <wheel filename="nokianTires.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true">
+                    <wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="0" repr="wheelBackaxleL_ref" radius="0.5" width="0.84" mass="0.4" suspTravel="0.10" deltaY="0.1" spring="65" damper="5"/>
                         <tire tireTrackAtlasIndex="1" />
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-                    <wheel filename="nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true">
+                    <wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="0" repr="wheelBackaxleR_ref" radius="0.5" width="0.84" mass="0.4" suspTravel="0.10" deltaY="0.1" spring="65" damper="5"/>
                         <tire tireTrackAtlasIndex="1" />
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
-                    <wheel filename="nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true">
+                    <wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="0" repr="wheelFrontaxleR_ref" radius="0.5" width="0.84" mass="0.2" suspTravel="0.10" deltaY="0.1" spring="65" damper="5"/>
                         <tire tireTrackAtlasIndex="1" />
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
-                    <wheel filename="nokianTires.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true">
+                    <wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="0" repr="wheelFrontaxleL_ref" radius="0.5" width="0.84" mass="0.2" suspTravel="0.10" deltaY="0.1" spring="65" damper="5"/>
                         <tire tireTrackAtlasIndex="1" />
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
                 </wheels>
             </wheelConfiguration>

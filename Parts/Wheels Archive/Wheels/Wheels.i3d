@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="BaleTrailerVP" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="4" filename="$data/fs17support/shaders/fs17VehicleShader.xml"/>
+        <File fileId="11" filename="$data/shaders/vehicleShader.xml"/>
+        <File fileId="1" filename="Addons/Wheels/Wheels/Onzichtbaar.dds"/>
+        <File fileId="17" filename="Addons/Wheels/Wheels/tyre_rear.dds"/>
+        <File fileId="16" filename="Addons/Wheels/shaders/vehicleShaderDirt.xml"/>
+        <File fileId="7" filename="Addons/Wheels/shared/vehicleShaderDirt.xml"/>
+        <File fileId="15" filename="Addons/Wheels/textur/Blauw.png"/>
+        <File fileId="9" filename="Addons/Wheels/textur/DefaultMaterial_BaseColor12.dds"/>
+        <File fileId="18" filename="Addons/Wheels/textur/specmain40_t.dds"/>
+        <File fileId="10" filename="Wheels/RimColor/WheelsDubbel/Hooklift/textures/gen_dirt_1.dds"/>
+        <File fileId="20" filename="Wheels/Wheels/Hooklift/textures/gen_dirt_1.dds"/>
+    </Files>
+    <Materials>
+        <Material name="Standard_2" materialId="6" specularColor="0.266667 1 0.266667" customShaderId="7">
+            <CustomParameter name="RDT" value="1 1 20 20"/>
+        </Material>
+        <Material name="05 - Default" materialId="28" specularColor="1 1 1" customShaderId="16">
+            <Texture fileId="15"/>
+            <CustomParameter name="RDT" value="1 0 20 20"/>
+        </Material>
+        <Material name="07 - Default" materialId="30" customShaderId="11">
+            <Texture fileId="9"/>
+            <Glossmap fileId="10"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+        </Material>
+        <Material name="lambert1" materialId="36" diffuseColor="1 1 1 1" specularColor="0.827451 1 0" customShaderId="4" customShaderVariation="colorMask">
+            <CustomParameter name="RDT" value="1 1 20 20"/>
+            <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
+        </Material>
+        <Material name="default" materialId="37" diffuseColor="0.294118 0.294118 0.294118 1" customShaderId="11" customShaderVariation="colorMask">
+            <Glossmap fileId="20"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+            <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+            <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+            <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+            <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+            <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+            <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+            <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+            <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+        </Material>
+        <Material name="default" materialId="34" customShaderId="16">
+            <Texture fileId="17"/>
+            <Glossmap fileId="18"/>
+            <CustomParameter name="RDT" value="1 0 20 20"/>
+        </Material>
+        <Material name="UnnamedMaterial" materialId="12">
+            <Texture fileId="1"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="Wheels.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="Wheel" translation="0.984 0.587 -7.557" scale="1 1.1 1.1" nodeId="308">
+            <Shape shapeId="1" name="Wiel" nodeId="309" materialIds="12" distanceBlending="false">
+                <Shape shapeId="2" name="Cylinder01" visibility="false" nodeId="310" materialIds="36" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+                <Shape shapeId="3" name="volvo2" visibility="false" nodeId="311" materialIds="6" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="8" nodeId="312" materialIds="30" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="17" translation="-0.009 0 0" nodeId="313" materialIds="30" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="6" name="10" visibility="false" nodeId="314" materialIds="28" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="7" name="315_80" visibility="false" nodeId="315" materialIds="34" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="8" name="Wielring" translation="-1.267 -0.019 -1.105" rotation="108.493 0 0" scale="1 0.92 0.92" nodeId="316" materialIds="37" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+        </TransformGroup>
+        <TransformGroup name="Wheel" translation="-0.984 0.587 -7.557" scale="1 1.1 1.1" nodeId="317">
+            <Shape shapeId="1" name="Wiel" nodeId="318" materialIds="12" distanceBlending="false">
+                <Shape shapeId="2" name="Cylinder01" rotation="180 -5.00896e-06 180" visibility="false" nodeId="319" materialIds="36" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+                <Shape shapeId="3" name="volvo2" rotation="0 180 0" visibility="false" nodeId="320" materialIds="6" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="8" rotation="0 180 0" nodeId="321" materialIds="30" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="17" translation="0.009 0 0" rotation="0 180 0" nodeId="322" materialIds="30" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="6" name="10" rotation="0 180 0" visibility="false" nodeId="323" materialIds="28" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="7" name="315_80" visibility="false" nodeId="324" materialIds="34" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="8" name="Wielring" translation="1.267 -0.018 1.107" rotation="108.493 180 0" scale="1 0.92 0.92" nodeId="325" materialIds="37" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+        </TransformGroup>
+    </Scene>
+</i3D>

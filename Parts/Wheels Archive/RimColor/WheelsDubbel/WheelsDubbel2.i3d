@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="DAF_3600" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="9" filename="$data/shaders/vehicleShader.xml"/>
+        <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
+        <File fileId="11" filename="Hooklift/textures/gen_dirt_1.dds"/>
+        <File fileId="1" filename="Wheels/Onzichtbaar.dds"/>
+        <File fileId="8" filename="Wheels/specmain40_t.dds"/>
+        <File fileId="7" filename="Wheels/tyre_rear.dds"/>
+    </Files>
+    <Materials>
+        <Material name="default" materialId="5" customShaderId="9" customShaderVariation="tirePressureDeformation">
+            <Texture fileId="7"/>
+            <Glossmap fileId="8"/>
+            <CustomParameter name="RDT" value="1 0 20 20"/>
+            <CustomParameter name="morphPosition" value="-0.4 -3.46 0.5 0.39"/>
+        </Material>
+        <Material name="UnnamedMaterial" materialId="4">
+            <Texture fileId="1"/>
+        </Material>
+        <Material name="default" materialId="6" diffuseColor="1 1 1 1" customShaderId="3" customShaderVariation="colorMask">
+            <Glossmap fileId="11"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+            <CustomParameter name="colorMat0" value="0.8 0.55 0.05 32"/>
+            <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+            <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+            <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+            <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+            <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+            <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+            <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+        </Material>
+        <Material name="07 - Default" materialId="7" diffuseColor="1 1 1 1" specularColor="1 1 1" customShaderId="3">
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="WheelsDubbel2.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="Wheel" translation="0.959 -0.05 -1.817" scale="1.05 1.1 1.1" nodeId="14">
+            <Shape shapeId="1" name="Wiel" nodeId="15" materialIds="4" distanceBlending="false">
+                <Shape shapeId="2" name="8" nodeId="16" materialIds="7" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="3" name="17" translation="-0.009 0 0" nodeId="17" materialIds="7" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="315_80" nodeId="18" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="RimKlein" translation="-0.959 0.045 1.654" rotation="90 -0 0" scale="0.996 0.91 0.91" nodeId="19" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+        </TransformGroup>
+        <TransformGroup name="Wheel" translation="-0.965 -0.05 -1.817" scale="1.05 1.1 1.1" nodeId="20">
+            <Shape shapeId="1" name="Wiel" nodeId="21" materialIds="4" distanceBlending="false">
+                <Shape shapeId="2" name="8" rotation="0 180 0" nodeId="22" materialIds="7" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="3" name="17" translation="0.009 0 0" rotation="0 180 0" nodeId="23" materialIds="7" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="315_80" nodeId="24" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="RimKlein" translation="0.959 -0.045 1.654" rotation="90 -0 -180" scale="0.996 0.91 0.91" nodeId="25" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+        </TransformGroup>
+    </Scene>
+</i3D>

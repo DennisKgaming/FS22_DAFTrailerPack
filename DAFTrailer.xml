@@ -74,6 +74,171 @@
 
     <wheels>
         <wheelConfigurations>
+			<wheelConfiguration name="$l10n_2Axles" price="0" brand="MICHELIN">
+					  <wheels>
+						<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
+							  <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|1|0|2|0" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
+							  <tire tireTrackAtlasIndex="1" />
+						  </wheel>
+						<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
+							  <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|1|0|2|1" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
+							  <tire tireTrackAtlasIndex="1" />
+						  </wheel>
+						  <wheel filename="Wheels/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+							  <physics restLoad="1.4" repr="0>0|4|2|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
+							  <tire tireTrackAtlasIndex="1" />
+						  </wheel>
+						  <wheel filename="Wheels/WheelsDubbel/WheelsDubbel2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+							  <physics restLoad="1.4" repr="0>0|4|2|0|2|1" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
+							  <tire tireTrackAtlasIndex="1" />
+						  </wheel>
+						<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
+							  <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|3|0|2|0" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
+							  <tire tireTrackAtlasIndex="1" />
+						  </wheel>
+						<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
+							  <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|3|0|2|1" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
+							  <tire tireTrackAtlasIndex="1" />
+						  </wheel>
+						<wheel filename="Wheels/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+							  <physics restLoad="1.4" repr="0>0|4|4|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
+							  <tire tireTrackAtlasIndex="1" />
+						  </wheel>
+						  <wheel filename="Wheels/WheelsDubbel/WheelsDubbel2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+							  <physics restLoad="1.4" repr="0>0|4|4|0|2|1" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
+							  <tire tireTrackAtlasIndex="1" />
+						  </wheel>
+					</wheels>
+					<objectChange node="centerAxle"  					visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="rearAxle"  						visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="dualAxle_conf"  				visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="sideSkirt_support_dual"  		visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="sidebarLights_dual_group"  		visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="sidebarLights_dual_real_group"	visibilityActive="true" visibilityInactive="false"/>
+
+					<objectChange node="wheelsMiddle_custom"  			visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="wheelsBack_custom"  			visibilityActive="true" visibilityInactive="false"/>
+
+					<objectChange node="MudFlap0"  						visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="MudFlap1"  						visibilityActive="true" visibilityInactive="false"/>
+
+					<objectChange node="MudFlap2"  						visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="MudFlap3"  						visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="MudFlap12"  					visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="MudFlap13"  					visibilityActive="true" visibilityInactive="false"/>
+				</wheelConfiguration>
+				<wheelConfiguration name="$l10n_2AxlesSideBar" price="3000" brand="MICHELIN">
+					<wheels>
+								<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
+									<physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|1|0|2|0" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
+									<tire tireTrackAtlasIndex="1" />
+								</wheel>
+								<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
+									<physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|1|0|2|1" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
+									<tire tireTrackAtlasIndex="1" />
+								</wheel>
+								<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
+									<physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|2|0|2|0" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
+									<tire tireTrackAtlasIndex="1" />
+								</wheel>
+								<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
+									<physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|2|0|2|1" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
+									<tire tireTrackAtlasIndex="1" />
+								</wheel>
+								<wheel filename="Wheels/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+									<physics restLoad="1.4" repr="0>0|4|3|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
+									<tire tireTrackAtlasIndex="1" />
+								</wheel>
+								<wheel filename="Wheels/WheelsDubbel/WheelsDubbel2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+									<physics restLoad="1.4" repr="0>0|4|3|0|2|1" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
+									<tire tireTrackAtlasIndex="1" />
+								</wheel>
+								<wheel filename="Wheels/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+									<physics restLoad="1.4" repr="0>0|4|4|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
+									<tire tireTrackAtlasIndex="1" />
+								</wheel>
+								<wheel filename="Wheels/WheelsDubbel/WheelsDubbel2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+									<physics restLoad="1.4" repr="0>0|4|4|0|2|1" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
+									<tire tireTrackAtlasIndex="1" />
+								</wheel>
+					</wheels>
+					<objectChange node="centerAxle2"  					visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="rearAxle"  						visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="dualAxle2_conf"  				visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="sideSkirt_support_dual2"  		visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="sidebarLights_dual2_group"  	visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="sidebarLights_dual2_real_group"	visibilityActive="true" visibilityInactive="false"/>
+
+					<objectChange node="wheelsMiddle2_custom"  			visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="wheelsBack_custom"  			visibilityActive="true" visibilityInactive="false"/>
+
+					<objectChange node="MudFlap0"  						visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="MudFlap1"  						visibilityActive="true" visibilityInactive="false"/>
+
+					<objectChange node="MudFlap4"  						visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="MudFlap5" 						visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="MudFlap8"  						visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="MudFlap9"  						visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="MudFlap14"  					visibilityActive="true" visibilityInactive="false"/>
+					<objectChange node="MudFlap15"  					visibilityActive="true" visibilityInactive="false"/>
+			</wheelConfiguration>
+			<wheelConfiguration name="$l10n_3Axles" price="7000" brand="MICHELIN">
+                <wheels>
+        					<wheel filename="Wheels/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+                                <physics  restLoad="1.4" repr="0>0|4|1|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
+                                <tire tireTrackAtlasIndex="1" />
+                            </wheel>
+                            <wheel filename="Wheels/WheelsDubbel/WheelsDubbel2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                                <physics restLoad="1.4" repr="0>0|4|1|0|2|1" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
+                                <tire tireTrackAtlasIndex="1" />
+                            </wheel>
+                            <wheel filename="Wheels/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+                                <physics restLoad="1.4" repr="0>0|4|2|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
+                                <tire tireTrackAtlasIndex="1" />
+                            </wheel>
+                            <wheel filename="Wheels/WheelsDubbel/WheelsDubbel2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                                <physics restLoad="1.4" repr="0>0|4|2|0|2|1" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
+                                <tire tireTrackAtlasIndex="1" />
+                            </wheel>
+        					<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
+                                <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|3|0|2|0" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
+                                <tire tireTrackAtlasIndex="1" />
+                            </wheel>
+        					<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
+                                <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|3|0|2|1" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
+                                <tire tireTrackAtlasIndex="1" />
+                            </wheel>
+        					<wheel filename="Wheels/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+                                <physics restLoad="1.4" repr="0>0|4|4|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
+                                <tire tireTrackAtlasIndex="1" />
+                            </wheel>
+                            <wheel filename="Wheels/WheelsDubbel/WheelsDubbel2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                                <physics restLoad="1.4" repr="0>0|4|4|0|2|1" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
+                                <tire tireTrackAtlasIndex="1" />
+                            </wheel>
+                </wheels>
+				<objectChange node="frontAxle" 							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="centerAxle"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="rearAxle"  							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="triAxle_conf"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sideSkirt_support_triple"  			visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_triple_group"  		visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_triple_real_group"	visibilityActive="true" visibilityInactive="false"/>
+
+				<objectChange node="wheelsFront_custom"  				visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="wheelsMiddle_custom"  				visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="wheelsBack_custom"  				visibilityActive="true" visibilityInactive="false"/>
+
+				<objectChange node="MudFlap0"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap1"  visibilityActive="true" visibilityInactive="false"/>
+
+				<objectChange node="MudFlap2"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap3"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap6"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap7"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap10"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap11"  visibilityActive="true" visibilityInactive="false"/>
+            </wheelConfiguration>
             <wheelConfiguration name="$l10n_2Axles" price="0" brand="LIZARD">
                 <wheels>
 					<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
@@ -227,13 +392,13 @@
 					<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
                         <physics rotSpeed="1"  restLoad="1.9" repr="wheelRightFront" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
                     </wheel>
-                    <wheel filename="nokianTires.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelLeftMiddle"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-                    <wheel filename="nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelRightMiddle" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
 					<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
                         <physics rotSpeed="1"  restLoad="1.9" repr="wheelLeftMiddle2" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
@@ -241,13 +406,13 @@
 					<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
                         <physics rotSpeed="1"  restLoad="1.9" repr="wheelRightMiddle2" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
                     </wheel>
-					<wheel filename="nokianTires.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+					<wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelLeftBack"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-                    <wheel filename="nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelRightBack" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
                 </wheels>
 				<objectChange node="centerAxle"  					visibilityActive="true" visibilityInactive="false"/>
@@ -279,57 +444,57 @@
 					<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
                         <physics rotSpeed="1"  restLoad="1.9" repr="wheelRightMiddle" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
                     </wheel>
-					<wheel filename="nokianTires.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+					<wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelLeftMiddle2"  forcePointRatio="0.5" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5" />
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-					<wheel filename="nokianTires.xml" configId="dual" isLeft="false"  hasTireTracks="true" hasParticles="true" >
+					<wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="false"  hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelRightMiddle2"  forcePointRatio="0.5" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5" />
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
-					<wheel filename="nokianTires.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+					<wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelLeftBack"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-                    <wheel filename="nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelRightBack" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
                 </wheels>
 				<objectChange node="centerAxle2"  			visibilityActive="true" visibilityInactive="false"/>
 				<objectChange node="rearAxle"  				visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="dualAxle2_conf"  				visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="sideSkirt_support_dual"  		visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="sidebarLights_dual2_group"  	visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="sidebarLights_dual2_real_group"	visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="dualAxle2_conf"  				visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sideSkirt_support_dual"  		visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_dual2_group"  	visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_dual2_real_group"	visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="MudFlap0"  						visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="MudFlap1"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap0"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap1"  						visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="MudFlap4"  						visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="MudFlap5"  						visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="MudFlap8"  						visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="MudFlap9"  						visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="MudFlap14"  					visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="MudFlap15"  					visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap4"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap5"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap8"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap9"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap14"  					visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap15"  					visibilityActive="true" visibilityInactive="false"/>
             </wheelConfiguration>
 			<wheelConfiguration name="$l10n_3Axles" price="7000" brand="NOKIAN">
                 <wheels>
-					<wheel filename="nokianTires.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+					<wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                         <physics  restLoad="1.4" repr="wheelLeftFront"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
                     <wheel filename="nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelRightFront" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06"  />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06"  />
                     </wheel>
-                    <wheel filename="nokianTires.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelLeftMiddle"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-                    <wheel filename="nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelRightMiddle" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
 					<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
                         <physics rotSpeed="1"  restLoad="1.9" repr="wheelLeftMiddle2" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
@@ -337,13 +502,13 @@
 					<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
                         <physics rotSpeed="1"  restLoad="1.9" repr="wheelRightMiddle2" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
                     </wheel>
-					<wheel filename="nokianTires.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+					<wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelLeftBack"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-                    <wheel filename="nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="Wheels/nokianTires.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelRightBack" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="Wheels/nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
                 </wheels>
 				<objectChange node="frontAxle" 							visibilityActive="true" visibilityInactive="false"/>
@@ -364,171 +529,7 @@
 				<objectChange node="MudFlap10"  						visibilityActive="true" visibilityInactive="false"/>
 				<objectChange node="MudFlap11"  						visibilityActive="true" visibilityInactive="false"/>
             </wheelConfiguration>
-            <wheelConfiguration name="$l10n_2Axles" price="0" brand="MICHELIN">
-                  <wheels>
-  					<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
-                          <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|1|0|2|0" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
-                          <tire tireTrackAtlasIndex="1" />
-                      </wheel>
-  					<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
-                          <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|1|0|2|1" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
-                          <tire tireTrackAtlasIndex="1" />
-                      </wheel>
-                      <wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
-                          <physics restLoad="1.4" repr="0>0|4|2|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                          <tire tireTrackAtlasIndex="1" />
-                      </wheel>
-                      <wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                          <physics restLoad="1.4" repr="0>0|4|2|0|2|1" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                          <tire tireTrackAtlasIndex="1" />
-                      </wheel>
-  					<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
-                          <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|3|0|2|0" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
-                          <tire tireTrackAtlasIndex="1" />
-                      </wheel>
-  					<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
-                          <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|3|0|2|1" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
-                          <tire tireTrackAtlasIndex="1" />
-                      </wheel>
-  					<wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
-                          <physics restLoad="1.4" repr="0>0|4|4|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                          <tire tireTrackAtlasIndex="1" />
-                      </wheel>
-                      <wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                          <physics restLoad="1.4" repr="0>0|4|4|0|2|1" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                          <tire tireTrackAtlasIndex="1" />
-                      </wheel>
-                </wheels>
-				<objectChange node="centerAxle"  					visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="rearAxle"  						visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="dualAxle_conf"  				visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="sideSkirt_support_dual"  		visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="sidebarLights_dual_group"  		visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="sidebarLights_dual_real_group"	visibilityActive="true" visibilityInactive="false"/>
-
-				<objectChange node="wheelsMiddle_custom"  			visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="wheelsBack_custom"  			visibilityActive="true" visibilityInactive="false"/>
-
-				<objectChange node="MudFlap0"  						visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap1"  						visibilityActive="true" visibilityInactive="false"/>
-
-				<objectChange node="MudFlap2"  						visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap3"  						visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap12"  					visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap13"  					visibilityActive="true" visibilityInactive="false"/>
-            </wheelConfiguration>
-			<wheelConfiguration name="$l10n_2AxlesSideBar" price="3000" brand="MICHELIN">
-                <wheels>
-        					<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
-                                <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|1|0|2|0" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-        					<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
-                                <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|1|0|2|1" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-        					<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
-                                <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|2|0|2|0" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-        					<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
-                                <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|2|0|2|1" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-        					<wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
-                                <physics restLoad="1.4" repr="0>0|4|3|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-                            <wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                                <physics restLoad="1.4" repr="0>0|4|3|0|2|1" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-        					<wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
-                                <physics restLoad="1.4" repr="0>0|4|4|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-                            <wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                                <physics restLoad="1.4" repr="0>0|4|4|0|2|1" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-                </wheels>
-				<objectChange node="centerAxle2"  					visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="rearAxle"  						visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="dualAxle2_conf"  				visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="sideSkirt_support_dual2"  		visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="sidebarLights_dual2_group"  	visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="sidebarLights_dual2_real_group"	visibilityActive="true" visibilityInactive="false"/>
-
-				<objectChange node="wheelsMiddle2_custom"  			visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="wheelsBack_custom"  			visibilityActive="true" visibilityInactive="false"/>
-
-				<objectChange node="MudFlap0"  						visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap1"  						visibilityActive="true" visibilityInactive="false"/>
-
-				<objectChange node="MudFlap4"  						visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap5" 						visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap8"  						visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap9"  						visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap14"  					visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap15"  					visibilityActive="true" visibilityInactive="false"/>
-            </wheelConfiguration>
-		<wheelConfiguration name="$l10n_3Axles" price="7000" brand="MICHELIN">
-                <wheels>
-        					<wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
-                                <physics  restLoad="1.4" repr="0>0|4|1|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-                            <wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                                <physics restLoad="1.4" repr="0>0|4|1|0|2|1" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-                            <wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
-                                <physics restLoad="1.4" repr="0>0|4|2|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-                            <wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                                <physics restLoad="1.4" repr="0>0|4|2|0|2|1" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-        					<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
-                                <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|3|0|2|0" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-        					<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
-                                <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|3|0|2|1" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-        					<wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
-                                <physics restLoad="1.4" repr="0>0|4|4|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-                            <wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
-                                <physics restLoad="1.4" repr="0>0|4|4|0|2|1" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                                <tire tireTrackAtlasIndex="1" />
-                            </wheel>
-                </wheels>
-				<objectChange node="frontAxle" 							visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="centerAxle"  						visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="rearAxle"  							visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="triAxle_conf"  						visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="sideSkirt_support_triple"  			visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="sidebarLights_triple_group"  		visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="sidebarLights_triple_real_group"	visibilityActive="true" visibilityInactive="false"/>
-
-				<objectChange node="wheelsFront_custom"  				visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="wheelsMiddle_custom"  				visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="wheelsBack_custom"  				visibilityActive="true" visibilityInactive="false"/>
-
-				<objectChange node="MudFlap0"  visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap1"  visibilityActive="true" visibilityInactive="false"/>
-
-				<objectChange node="MudFlap2"  visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap3"  visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap6"  visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap7"  visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap10"  visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MudFlap11"  visibilityActive="true" visibilityInactive="false"/>
-            </wheelConfiguration>
+            
         </wheelConfigurations>
     </wheels>
     
