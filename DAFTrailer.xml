@@ -33,44 +33,43 @@
         <components>
             <component centerOfMass="0 0.65 -0.17" solverIterationCount="10" mass="5370" />
 			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-      <component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
-			<joint component1="1" component2="2" node="componentJointMudFlap" rotLimit="30 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="3" node="2>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="4" node="3>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="5" node="4>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="6" node="5>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="7" node="6>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="8" node="7>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="9" node="8>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="10" node="9>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="11" node="10>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="12" node="11>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="13" node="12>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="14" node="13>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="15" node="14>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="16" node="15>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="17" node="16>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
-      <joint component1="1" component2="18" node="17>1" rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+			<component centerOfMass="0 -0.3 0" solverIterationCount="20" mass="300" />
+				<joint component1="1" component2="2"  node="componentJointMudFlap"	rotLimit="30 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="3"  node="MudFlap0_joint"  		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="4"  node="MudFlap1_joint"  		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="5"  node="MudFlap2_joint"  		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="6"  node="MudFlap3_joint"  		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="7"  node="MudFlap4_joint"  		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="8"  node="MudFlap5_joint"  		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="9"  node="MudFlap6_joint"  		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="10" node="MudFlap7_joint"  		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="11" node="MudFlap8_joint"  		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="12" node="MudFlap9_joint"  		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="13" node="MudFlap10_joint" 		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="14" node="MudFlap11_joint" 		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="15" node="MudFlap12_joint" 		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="16" node="MudFlap13_joint" 		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="17" node="MudFlap14_joint" 		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
+				<joint component1="1" component2="18" node="MudFlap15_joint" 		rotLimit="15 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" />
         </components>
-        <schemaOverlay attacherJointPosition="0 0">
-            <default name="DEFAULT_IMPLEMENT"/>
-            <selected name="DEFAULT_IMPLEMENT_SELECTED"/>
-        </schemaOverlay>
+		
+        <schemaOverlay attacherJointPosition="0 0" name="DEFAULT_IMPLEMENT" />
+		
     </base>
 
     <wheels>
@@ -83,13 +82,13 @@
 					<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
                         <physics rotSpeed="1"  restLoad="1.9" repr="wheelRightFront" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
                     </wheel>
-                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelLeftMiddle"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelRightMiddle" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
 					<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
                         <physics rotSpeed="1"  restLoad="1.9" repr="wheelLeftMiddle2" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
@@ -97,29 +96,29 @@
 					<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
                         <physics rotSpeed="1"  restLoad="1.9" repr="wheelRightMiddle2" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
                     </wheel>
-					<wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+					<wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelLeftBack"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelRightBack" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
                 </wheels>
-				<objectChange node="MidAksel"  visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="BakAksel"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|5|0"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|4|5|2"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|6|6|5|1"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|0|6"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="centerAxle"						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="rearAxle"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="dualAxle_conf"  				visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sideSkirt_support_dual" 		visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_dual_group"  		visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_dual_real_group"	visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="2>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="3>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap0"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap1"  						visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="4>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="5>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="14>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="15>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap2"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap3"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap12" 						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap13"  					visibilityActive="true" visibilityInactive="false"/>
             </wheelConfiguration>
 			<wheelConfiguration name="$l10n_2AxlesSideBar" price="3000" brand="LIZARD">
                 <wheels>
@@ -135,57 +134,57 @@
 					<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
                         <physics rotSpeed="1"  restLoad="1.9" repr="wheelRightMiddle" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
                     </wheel>
-					<wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+					<wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelLeftMiddle2"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelRightMiddle2" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
-					<wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+					<wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelLeftBack"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelRightBack" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
                 </wheels>
-				<objectChange node="MidAksel2"  visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="BakAksel"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|5|1"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|4|5|1"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|6|6|5|2"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|0|7"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="centerAxle2"  					visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="rearAxle"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="dualAxle2_conf"  				visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sideSkirt_support_dual2"		visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_dual2_group"  	visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_dual2_real_group" visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="2>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="3>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap0"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap1"  						visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="6>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="7>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="10>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="11>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="16>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="17>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap4"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap5"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap8"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap9"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap14"  					visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap15"  					visibilityActive="true" visibilityInactive="false"/>
             </wheelConfiguration>
 			<wheelConfiguration name="$l10n_3Axles" price="7000" brand="LIZARD">
                 <wheels>
-					<wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+					<wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                         <physics  restLoad="1.4" repr="wheelLeftFront"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelRightFront" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.06"  />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.06"  />
                     </wheel>
-                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelLeftMiddle"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelRightMiddle" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
 					<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
                         <physics rotSpeed="1"  restLoad="1.9" repr="wheelLeftMiddle2" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
@@ -193,32 +192,32 @@
 					<wheel isLeft="false" hasTireTracks="false" hasParticles="false" >
                         <physics rotSpeed="1"  restLoad="1.9" repr="wheelRightMiddle2" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
                     </wheel>
-					<wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
+					<wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelLeftBack"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.06" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.06" />
                     </wheel>
-                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true" >
                         <physics restLoad="1.4" repr="wheelRightBack" forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
-                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.06" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
                 </wheels>
-				<objectChange node="FrontAksel" visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MidAksel"  visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="BakAksel"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|5|2"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|4|5|0"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|6|6|5|3"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|0|8"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="frontAxle" 							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="centerAxle"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="rearAxle"  							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="triAxle_conf"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sideSkirt_support_triple"  			visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_triple_group"  		visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_triple_real_group"	visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="2>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="3>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap0"  							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap1"  							visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="4>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="5>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="8>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="9>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="12>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="13>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap2"  							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap3"  							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap6"  							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap7"  							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap10"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap11"  						visibilityActive="true" visibilityInactive="false"/>
             </wheelConfiguration>
 			<wheelConfiguration name="$l10n_2Axles" price="0" brand="NOKIAN">
                 <wheels>
@@ -251,20 +250,20 @@
                         <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
                 </wheels>
-				<objectChange node="MidAksel"  visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="BakAksel"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|5|0"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|4|5|2"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|6|6|5|1"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|0|6"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="centerAxle"  					visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="rearAxle"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="dualAxle_conf"  				visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sideSkirt_support_dual"  		visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_dual_group"  		visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_dual_real_group"  visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="2>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="3>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap0"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap1"  						visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="4>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="5>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="14>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="15>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap2"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap3"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap12"  					visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap13"  					visibilityActive="true" visibilityInactive="false"/>
             </wheelConfiguration>
 			<wheelConfiguration name="$l10n_2AxlesSideBar" price="3000" brand="NOKIAN">
                 <wheels>
@@ -297,22 +296,22 @@
                         <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
                 </wheels>
-				<objectChange node="MidAksel2"  visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="BakAksel"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|5|1"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|4|5|1"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|6|6|5|2"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|0|7"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="centerAxle2"  			visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="rearAxle"  				visibilityActive="true" visibilityInactive="false"/>
+        <objectChange node="dualAxle2_conf"  				visibilityActive="true" visibilityInactive="false"/>
+        <objectChange node="sideSkirt_support_dual"  		visibilityActive="true" visibilityInactive="false"/>
+        <objectChange node="sidebarLights_dual2_group"  	visibilityActive="true" visibilityInactive="false"/>
+        <objectChange node="sidebarLights_dual2_real_group"	visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="2>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="3>"  visibilityActive="true" visibilityInactive="false"/>
+        <objectChange node="MudFlap0"  						visibilityActive="true" visibilityInactive="false"/>
+        <objectChange node="MudFlap1"  						visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="6>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="7>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="10>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="11>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="16>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="17>"  visibilityActive="true" visibilityInactive="false"/>
+        <objectChange node="MudFlap4"  						visibilityActive="true" visibilityInactive="false"/>
+        <objectChange node="MudFlap5"  						visibilityActive="true" visibilityInactive="false"/>
+        <objectChange node="MudFlap8"  						visibilityActive="true" visibilityInactive="false"/>
+        <objectChange node="MudFlap9"  						visibilityActive="true" visibilityInactive="false"/>
+        <objectChange node="MudFlap14"  					visibilityActive="true" visibilityInactive="false"/>
+        <objectChange node="MudFlap15"  					visibilityActive="true" visibilityInactive="false"/>
             </wheelConfiguration>
 			<wheelConfiguration name="$l10n_3Axles" price="7000" brand="NOKIAN">
                 <wheels>
@@ -347,23 +346,23 @@
                         <additionalWheel filename="nokianTires.xml" configId="dualConnector" isLeft="false" offset="0.06" />
                     </wheel>
                 </wheels>
-				<objectChange node="FrontAksel" visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="MidAksel"  visibilityActive="true" visibilityInactive="false"/>
-				<objectChange node="BakAksel"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|5|2"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|4|5|0"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|6|6|5|3"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|0|8"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="frontAxle" 							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="centerAxle"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="rearAxle"  							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="triAxle_conf"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sideSkirt_support_triple"  			visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_triple_group"  		visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_triple_real_group"	visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="2>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="3>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap0"  							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap1"  							visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="4>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="5>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="8>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="9>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="12>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="13>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap2"  							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap3"  							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap6"  							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap7"  							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap10"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap11"  						visibilityActive="true" visibilityInactive="false"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_2Axles" price="0" brand="MICHELIN">
                   <wheels>
@@ -400,25 +399,25 @@
                           <tire tireTrackAtlasIndex="1" />
                       </wheel>
                 </wheels>
-        <objectChange node="MidAksel"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="BakAksel"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|5|0"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|4|5|2"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|6|6|5|1"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|0|6"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="centerAxle"  					visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="rearAxle"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="dualAxle_conf"  				visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sideSkirt_support_dual"  		visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_dual_group"  		visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_dual_real_group"	visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="0>0|4|2|0|2"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|4|4|0|2"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="wheelsMiddle_custom"  			visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="wheelsBack_custom"  			visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="2>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="3>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap0"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap1"  						visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="4>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="5>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="14>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="15>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap2"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap3"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap12"  					visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap13"  					visibilityActive="true" visibilityInactive="false"/>
             </wheelConfiguration>
-      <wheelConfiguration name="$l10n_2AxlesSideBar" price="3000" brand="MICHELIN">
+			<wheelConfiguration name="$l10n_2AxlesSideBar" price="3000" brand="MICHELIN">
                 <wheels>
         					<wheel isLeft="true" hasTireTracks="false" hasParticles="false" >
                                 <physics rotSpeed="1"  restLoad="1.9" repr="0>0|4|1|0|2|0" radius="0.01" width="0.01" forcePointRatio="0.5" initialCompression="25" suspTravel="0.11" spring="66" damper="50" frictionScale="3" />
@@ -453,27 +452,27 @@
                                 <tire tireTrackAtlasIndex="1" />
                             </wheel>
                 </wheels>
-        <objectChange node="MidAksel2"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="BakAksel"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|5|1"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|4|5|1"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|6|6|5|2"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|0|7"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="centerAxle2"  					visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="rearAxle"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="dualAxle2_conf"  				visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sideSkirt_support_dual2"  		visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_dual2_group"  	visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_dual2_real_group"	visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="0>0|4|3|0|2"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|4|4|0|2"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="wheelsMiddle2_custom"  			visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="wheelsBack_custom"  			visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="2>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="3>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap0"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap1"  						visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="6>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="7>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="10>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="11>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="16>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="17>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap4"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap5" 						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap8"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap9"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap14"  					visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap15"  					visibilityActive="true" visibilityInactive="false"/>
             </wheelConfiguration>
-      <wheelConfiguration name="$l10n_3Axles" price="7000" brand="MICHELIN">
+		<wheelConfiguration name="$l10n_3Axles" price="7000" brand="MICHELIN">
                 <wheels>
         					<wheel filename="Parts/Wheels/RimColor/WheelsDubbel/WheelsDubbel2.xml" isLeft="true"  hasTireTracks="true" hasParticles="true" >
                                 <physics  restLoad="1.4" repr="0>0|4|1|0|2|0"  forcePointRatio="0.5" radius="0.56" initialCompression="31" suspTravel="0.13" spring="40" damper="42" frictionScale="1.5"/>
@@ -508,91 +507,67 @@
                                 <tire tireTrackAtlasIndex="1" />
                             </wheel>
                 </wheels>
-        <objectChange node="FrontAksel" visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="MidAksel"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="BakAksel"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|5|2"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|4|5|0"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|6|6|5|3"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|0|8"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="frontAxle" 							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="centerAxle"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="rearAxle"  							visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="triAxle_conf"  						visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sideSkirt_support_triple"  			visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_triple_group"  		visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="sidebarLights_triple_real_group"	visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="0>0|4|1|0|2"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|4|2|0|2"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="0>0|4|4|0|2"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="wheelsFront_custom"  				visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="wheelsMiddle_custom"  				visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="wheelsBack_custom"  				visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="2>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="3>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap0"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap1"  visibilityActive="true" visibilityInactive="false"/>
 
-        <objectChange node="4>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="5>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="8>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="9>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="12>"  visibilityActive="true" visibilityInactive="false"/>
-        <objectChange node="13>"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap2"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap3"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap6"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap7"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap10"  visibilityActive="true" visibilityInactive="false"/>
+				<objectChange node="MudFlap11"  visibilityActive="true" visibilityInactive="false"/>
             </wheelConfiguration>
         </wheelConfigurations>
     </wheels>
-    <attachable>
-      <inputAttacherJoints>
-          <inputAttacherJoint node="attacherJoint" jointType="semitrailer"/>
-      </inputAttacherJoints>
-        <brakeForce>1.6</brakeForce>
-		<support animationName="moveSupport" />
-    </attachable>
+    
+	<lights>
+	
+		<!--TailLights-->
+		<sharedLight linkNode="rearLightL_01_shared" node="0" filename="Lights/rearLight10_left.xml"/>
+		<sharedLight linkNode="rearLightL_02_shared" node="0" filename="Lights/rearLight10_left.xml"/>
+		<sharedLight linkNode="rearLightL_03_shared" node="0" filename="Lights/rearLight10_left.xml"/>
+		<sharedLight linkNode="rearLightL_04_shared" node="0" filename="Lights/rearLight10_left.xml"/>
+		<sharedLight linkNode="rearLightR_01_shared" node="0" filename="Lights/rearLight10_right.xml"/>
+		<sharedLight linkNode="rearLightR_02_shared" node="0" filename="Lights/rearLight10_right.xml"/>
+		<sharedLight linkNode="rearLightR_03_shared" node="0" filename="Lights/rearLight10_right.xml"/>
+		<sharedLight linkNode="rearLightR_04_shared" node="0" filename="Lights/rearLight10_right.xml"/>
+		<!--TailLights-->
+		
+		<!--SideLights-->
+		<sharedLight linkNode="contourLightL_01_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_02_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_03_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_04_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_05_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_06_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_07_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_08_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightL_09_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		
+		<sharedLight linkNode="contourLightR_01_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_02_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_03_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_04_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_05_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_06_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_07_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_08_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<sharedLight linkNode="contourLightR_09_shared" node="0" filename="Lights/sideMarker05Orange.xml"/>
+		<!--SideLights-->
 
-    <attacherJoints>
-         <attacherJoint node="0>0|6|10" jointType="trailer" lowerRotLimit="10 65 65" upperRotationOffset="0" allowsJointLimitMovement="false" >
-           <schema position="1 0" rotation="0" invertX="false" />
-                  </attacherJoint>
-                  <attacherJoint node="0>0|6|10" jointType="trailerLow" lowerRotLimit="10 65 65" upperRotationOffset="0" allowsJointLimitMovement="false" >
-                    <schema position="1 0" rotation="0" invertX="false" />
-                  </attacherJoint>
-    </attacherJoints>
 
-    <connectionHoses>
-      <target attacherJointIndices="1 2" type="airDoubleRed" node="airDoubleStorage" socket="air_red"/>
-      <target attacherJointIndices="1 2" type="airDoubleYellow" node="airDoubleControl" socket="air_yellow"/>
-      <target attacherJointIndices="1 2" type="electric" node="backElectric" socket="electric"/>
-      <target attacherJointIndices="1 2" type="hydraulicIn" node="hydraulic01_in"/>
-      <target attacherJointIndices="1 2" type="hydraulicOut" node="hydraulic01_out"/>
-      <target attacherJointIndices="1 2" type="hydraulicIn" node="hydraulic02_in"/>
-      <target attacherJointIndices="1 2" type="hydraulicOut" node="hydraulic02_out"/>
-
-      <hose inputAttacherJointIndices="1" type="hydraulicIn"  node="referencePoint_h1"  length="2.5" diameter="0.02" straighteningFactor="1.5" isTwoPointHose="true">
-         <objectChange node="detachedCab_h1" visibilityActive="false" visibilityInactive="true"/>
-     <objectChange node="attachedCab_h1" visibilityActive="true" visibilityInactive="false"/>
-      </hose>
-      <hose inputAttacherJointIndices="1" type="hydraulicOut"  node="referencePoint_h2"  length="2.5" diameter="0.02" straighteningFactor="1.5" isTwoPointHose="true">
-         <objectChange node="detachedCab_h2" visibilityActive="false" visibilityInactive="true"/>
-     <objectChange node="attachedCab_h2" visibilityActive="true" visibilityInactive="false"/>
-      </hose>
-      <hose inputAttacherJointIndices="1" type="airDoubleRed"  node="referencePointConnector_ar"  length="1" diameter="0.02" straighteningFactor="2" >
-         <objectChange node="cab_ar" visibilityActive="false" visibilityInactive="true"/>
-         <objectChange node="airRedConnector" visibilityActive="true" visibilityInactive="false"/>
-      </hose>
-      <hose inputAttacherJointIndices="1" type="airDoubleYellow"  node="referencePointConnector_ay"  length="1" diameter="0.02" straighteningFactor="2" >
-         <objectChange node="cab_ay" visibilityActive="false" visibilityInactive="true"/>
-         <objectChange node="airYellowConnector" visibilityActive="true" visibilityInactive="false"/>
-      </hose>
-      <hose inputAttacherJointIndices="1" type="electric"  node="frontElectric"  length="1" diameter="0.02" straighteningFactor="2" >
-         <objectChange node="0>0|6|14|4|0" visibilityActive="false" visibilityInactive="true"/>
-         <objectChange node="0>0|6|14|4|3" visibilityActive="true" visibilityInactive="false"/>
-      </hose>
-
-    </connectionHoses>
-
-    <dynamicMountAttacher triggerNode="dynamicMountTrigger" rootNode="DAFTrailer_main_component1" jointNode="DAFTrailer_main_component1" forceAcceleration="30"/>
-
-    <lights>
-
-      <sharedLight linkNode="0>0|6|6|1|0" node="0" filename="Parts/StaticLights/AchterLichten/rear3ChamberLight_03_left.xml"/>
-      <sharedLight linkNode="0>0|6|6|1|1" node="0" filename="Parts/StaticLights/AchterLichten/rear3ChamberLight_03_left.xml"/>
-      <sharedLight linkNode="0>0|6|6|1|2" node="0" filename="Parts/StaticLights/AchterLichten/rear3ChamberLight_03_left.xml"/>
-      <sharedLight linkNode="0>0|6|6|1|3" node="0" filename="Parts/StaticLights/AchterLichten/rear3ChamberLight_03_left.xml"/>
-      <sharedLight linkNode="0>0|6|6|1|4" node="0" filename="Parts/StaticLights/AchterLichten/rear3ChamberLight_03_right.xml"/>
-      <sharedLight linkNode="0>0|6|6|1|5" node="0" filename="Parts/StaticLights/AchterLichten/rear3ChamberLight_03_right.xml"/>
-      <sharedLight linkNode="0>0|6|6|1|6" node="0" filename="Parts/StaticLights/AchterLichten/rear3ChamberLight_03_right.xml"/>
-      <sharedLight linkNode="0>0|6|6|1|7" node="0" filename="Parts/StaticLights/AchterLichten/rear3ChamberLight_03_right.xml"/>
 
         <states>
             <state lightTypes="0"/>
@@ -601,121 +576,179 @@
         </states>
         <realLights>
             <low>
-                <light node="frontLightLow" lightTypes="0"/>
-                <light node="SideBar2xLow" lightTypes="0"/>
-                <light node="SideBar2x+Low" lightTypes="0"/>
-                <light node="SideBar3xLow" lightTypes="0"/>
+                <light 			node="frontLight_real"		lightTypes="0"/>
+                <light 			node="SideBar_dual_real" 	lightTypes="0"/>
+                <light 			node="SideBar_dual2_real" 	lightTypes="0"/>
+                <light 			node="SideBar_triple_real" 	lightTypes="0"/>
             </low>
             <high>
-                <light node="frontLightHigh" lightTypes="0"/>
-                <light node="SideBar2xHigh" lightTypes="0"/>
-                <light node="SideBar2x+High" lightTypes="0"/>
-                <light node="SideBar3xHigh" lightTypes="0"/>
-                <turnLightLeft node="turnLightLeftBack"/>
-                <turnLightRight node="turnLightRightBack"/>
-                <brakeLight node="backLightsHigh"/>
-                <reverseLight node="reverseLight"/>
+                <light 			node="frontLight_real" 		lightTypes="0"/>
+                <light 			node="SideBar_dual_real" 	lightTypes="0"/>
+                <light 			node="SideBar_dual2_real" 	lightTypes="0"/>
+                <light 			node="SideBar_triple_real" 	lightTypes="0"/>
+				
+                <turnLightLeft	node="turnLightLB_real"/>
+                <turnLightRight node="turnLightRB_real"/>
+                <brakeLight 	node="brakeLights_real"/>
+                <reverseLight 	node="reverseLight_real"/>
             </high>
         </realLights>
         <defaultLights>
 
-          <!--SideLights-->
-          <defaultLight shaderNode="0>0|6|6|0|0|0|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|0|0|1|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|0|0|2|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|0|0|3|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|0|0|4|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|0|0|5|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|0|0|6|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|0|0|7|0" lightTypes="0" />
+			<!--SideLights-->
+			<defaultLight shaderNode="contourLightL_01_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightL_02_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightL_03_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightL_04_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightL_05_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightL_06_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightL_07_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightL_08_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightL_09_shared" lightTypes="0" /> <!-- @todo make shared -->
 
-          <defaultLight shaderNode="0>0|6|6|0|1|0|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|0|1|1|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|0|1|2|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|0|1|3|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|0|1|4|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|0|1|5|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|0|1|6|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|0|1|7|0" lightTypes="0" />
-          <!--SideLights-->
+			<defaultLight shaderNode="contourLightR_01_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightR_02_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightR_03_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightR_04_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightR_05_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightR_06_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightR_07_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightR_08_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="contourLightR_09_shared" lightTypes="0" /> <!-- @todo make shared -->
+			<!--SideLights-->
 
-          <!--SideBarLights-->
-          <defaultLight shaderNode="0>0|6|6|5|0|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|0|1" lightTypes="0" />
+			<!--SideBarLights-->
+			<defaultLight shaderNode="sidebarLights_backL" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_backR" lightTypes="0" /> <!-- @todo make shared -->
 
-          <defaultLight shaderNode="0>0|6|6|5|1|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|1|1" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|1|2" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|1|3" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|1|4" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|1|5" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|1|6" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|1|7" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|1|8" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|1|9" lightTypes="0" />
+			<defaultLight shaderNode="sidebarLights_dualL_01" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dualL_02" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dualL_03" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dualL_04" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dualL_05" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dualR_01" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dualR_02" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dualR_03" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dualR_04" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dualR_05" lightTypes="0" /> <!-- @todo make shared -->
 
-          <defaultLight shaderNode="0>0|6|6|5|2|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|2|1" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|2|2" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|2|3" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|2|4" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|2|5" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|2|6" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|2|7" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|2|8" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|2|9" lightTypes="0" />
+			<defaultLight shaderNode="sidebarLights_dual2L_01" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dual2L_02" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dual2L_03" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dual2L_04" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dual2L_05" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dual2R_01" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dual2R_02" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dual2R_03" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dual2R_04" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_dual2R_05" lightTypes="0" /> <!-- @todo make shared -->
 
-          <defaultLight shaderNode="0>0|6|6|5|3|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|3|1" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|3|2" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|3|3" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|3|4" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|3|5" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|3|6" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|3|7" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|3|8" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|5|3|9" lightTypes="0" />
-          <!--SideBarLights-->
+			<defaultLight shaderNode="sidebarLights_tripleL_01" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_tripleL_02" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_tripleL_03" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_tripleL_04" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_tripleL_05" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_tripleR_01" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_tripleR_02" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_tripleR_03" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_tripleR_04" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidebarLights_tripleR_05" lightTypes="0" /> <!-- @todo make shared -->
+			<!--SideBarLights-->
 
-          <!--WhiteFront-->
-          <defaultLight shaderNode="0>0|6|6|3|0|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|3|1|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|3|2|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|3|3|0" lightTypes="0" />
-          <!--WhiteFront-->
+			<!--WhiteFront-->
+			<defaultLight shaderNode="frontLightL_01" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="frontLightL_02" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="frontLightR_01" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="frontLightR_02" lightTypes="0" /> <!-- @todo make shared -->
+			<!--WhiteFront-->
 
-          <!--BreedteLampjes-->
-          <defaultLight shaderNode="0>0|6|6|2|0|3" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|2|1|3" lightTypes="0" />
-          <!--BreedteLampjes-->
+			<!--Sidemarkers-->
+			<defaultLight shaderNode="sidemarkerLightL_01" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="sidemarkerLightR_01" lightTypes="0" /> <!-- @todo make shared -->
+			<!--Sidemarkers-->
 
-          <!--Kentekenverlichting-->
-          <defaultLight shaderNode="0>0|6|6|4|0|0" lightTypes="0" />
-          <defaultLight shaderNode="0>0|6|6|4|1|0" lightTypes="0" />
-          <!--Kentekenverlichting-->
+			<!--Licenseplate-->
+			<defaultLight shaderNode="licenseplateLightL" lightTypes="0" /> <!-- @todo make shared -->
+			<defaultLight shaderNode="licenseplateLightR" lightTypes="0" /> <!-- @todo make shared -->
+			<!--Licenseplate-->
 
         </defaultLights>
 
         <reverseLights>
-            <reverseLight shaderNode="0>0|6|6|1|8|0|0"/>
-            <reverseLight shaderNode="0>0|6|6|1|9|0|0"/>
+            <reverseLight shaderNode="reverseLightL_shared"/> <!-- @todo make shared -->
+            <reverseLight shaderNode="reverseLightR_shared"/> <!-- @todo make shared -->
         </reverseLights>
 
-        <sounds>
+		<!-- #todo create soundfile -->
+        <!-- <sounds>
             <switchLight template="SWITCH_01" linkNode="0>" />
             <turnLight template="SWITCH_TURNLIGHT" linkNode="0>" />
-        </sounds>
+        </sounds> -->
 
         <beaconLights>
-            <beaconLight node="0>0|0|5|0" filename="$data/shared/assets/beaconLights/lizard/beaconLight06.xml"/>
-            <beaconLight node="0>0|0|5|1" filename="$data/shared/assets/beaconLights/lizard/beaconLight06.xml"/>
+            <beaconLight node="beaconLightL" filename="$data/shared/assets/beaconLights/lizard/beaconLight06.xml"/>
+            <beaconLight node="beaconLightR" filename="$data/shared/assets/beaconLights/lizard/beaconLight06.xml"/>
         </beaconLights>
     </lights>
+	
+	<attachable>
+      <inputAttacherJoints>
+          <inputAttacherJoint node="attacherJoint" jointType="semitrailer"/>
+      </inputAttacherJoints>
+	  
+		<support animationName="moveSupport" />
+		
+		<brakeForce force="0.1" maxForce="0.9" maxForceMass="8000"/>
+		
+    </attachable>
+
+    <attacherJoints>
+		<attacherJoint node="AttacherJoint" jointType="trailer" lowerRotLimit="10 65 65" upperRotationOffset="0" allowsJointLimitMovement="false" >
+			<schema position="1 0" rotation="0" invertX="false" />
+		</attacherJoint>
+		<attacherJoint node="AttacherJoint" jointType="trailerLow" lowerRotLimit="10 65 65" upperRotationOffset="0" allowsJointLimitMovement="false" >
+			<schema position="1 0" rotation="0" invertX="false" />
+		</attacherJoint>
+    </attacherJoints>
+
+    <connectionHoses>
+      <target attacherJointIndices="1 2" type="airDoubleRed" 	node="airDoubleStorage" socket="air_red"/>
+      <target attacherJointIndices="1 2" type="airDoubleYellow" node="airDoubleControl" socket="air_yellow"/>
+      <target attacherJointIndices="1 2" type="electric" 		node="backElectric" 	socket="electric"/>
+      <target attacherJointIndices="1 2" type="hydraulicIn" 	node="hydraulic01_in"/>
+      <target attacherJointIndices="1 2" type="hydraulicOut" 	node="hydraulic01_out"/>
+      <target attacherJointIndices="1 2" type="hydraulicIn" 	node="hydraulic02_in"/>
+      <target attacherJointIndices="1 2" type="hydraulicOut" 	node="hydraulic02_out"/>
+
+      <hose inputAttacherJointIndices="1" type="hydraulicIn"  node="referencePoint_h1"  length="2.5" diameter="0.02" straighteningFactor="1.5" isTwoPointHose="true">
+         <objectChange node="detachedCab_h1" 		visibilityActive="false" visibilityInactive="true"/>
+		<objectChange node="attachedCab_h1" 		visibilityActive="true" visibilityInactive="false"/>
+      </hose>
+      <hose inputAttacherJointIndices="1" type="hydraulicOut"  node="referencePoint_h2"  length="2.5" diameter="0.02" straighteningFactor="1.5" isTwoPointHose="true">
+         <objectChange node="detachedCab_h2" 		visibilityActive="false" visibilityInactive="true"/>
+		<objectChange node="attachedCab_h2" 		visibilityActive="true" visibilityInactive="false"/>
+      </hose>
+      <hose inputAttacherJointIndices="1" type="airDoubleRed"  node="referencePointConnector_ar"  length="1" diameter="0.02" straighteningFactor="2" >
+         <objectChange node="cab_ar" 				visibilityActive="false" visibilityInactive="true"/>
+         <objectChange node="airRedConnector" 		visibilityActive="true" visibilityInactive="false"/>
+      </hose>
+      <hose inputAttacherJointIndices="1" type="airDoubleYellow"  node="referencePointConnector_ay"  length="1" diameter="0.02" straighteningFactor="2" >
+         <objectChange node="cab_ay" 				visibilityActive="false" visibilityInactive="true"/>
+         <objectChange node="airYellowConnector" 	visibilityActive="true" visibilityInactive="false"/>
+      </hose>
+      <hose inputAttacherJointIndices="1" type="electric"  node="frontElectric"  length="1" diameter="0.02" straighteningFactor="2" >
+         <objectChange node="frontElectric_closed"	visibilityActive="false" visibilityInactive="true"/>
+         <objectChange node="frontElectric_open" 	visibilityActive="true" visibilityInactive="false"/>
+      </hose>
+
+    </connectionHoses>
+
+    <dynamicMountAttacher triggerNode="dynamicMountTrigger" rootNode="trailerSemi_mainComponent" jointNode="trailerSemi_mainComponent" forceAcceleration="30"/>
 
     <tensionBelts>
         <tensionBeltsConfigurations>
             <tensionBeltsConfiguration>
-                <tensionBelts linkNode="tensionBelts" jointNode="DAFTrailer_main_component1" width="0.075" maxEdgeLength="0.1" geometryBias="0.01" ratchetPosition="0.2" defaultOffset="-0.25" defaultOffsetSide="0.1" defaultHeight="2.75" interactionRadius="1.5" totalInteractionRadius="6.5" activationTrigger="beltActivationTrigger">
+                <tensionBelts linkNode="tensionBelts" jointNode="trailerSemi_mainComponent" width="0.075" maxEdgeLength="0.1" geometryBias="0.01" ratchetPosition="0.2" defaultOffset="-0.25" defaultOffsetSide="0.1" defaultHeight="2.75" interactionRadius="1.5" totalInteractionRadius="6.5" activationTrigger="beltActivationTrigger">
                     <tensionBelt startNode="beltStart1" endNode="beltEnd1" offsetLeft="0.95"/>
                     <tensionBelt startNode="beltStart2" endNode="beltEnd2"/>
                     <tensionBelt startNode="beltStart3" endNode="beltEnd3"/>
@@ -737,38 +770,41 @@
     </tensionBelts>
 
 	<animations>
-    <animation name="moveTrigger">
-            <part node="ealTriggersIndex"   startTime="0"  endTime="0.001" startTrans="0 -10 0" endTrans="0 0 0" />
-          </animation>
-	    <animation name="rotatePickup">
-            <part node="FrontAkselLoft" startTime="0" endTime="1"   startTrans="0 0.15 0" endTrans="0 -0.12 0" />
-			<part node="BakAkselLyft" startTime="0" endTime="1"   startTrans="0 0.15 0" endTrans="0 -0.12 0" />
+        <animation name="rotatePickup">
+            <part node="frontAxle_lift" startTime="0" endTime="1"   startTrans="0 0.15 0" endTrans="0 -0.12 0" />
+			<part node="rearAxle_lift" startTime="0" endTime="1"   startTrans="0 0.15 0" endTrans="0 -0.12 0" />
         </animation>
 	    <animation name="moveSupport">
-        <part node="support1"   startTime="0"  endTime="0.2" startTrans="0 0.28 0" endTrans="0 -0.1 0" />
-        <part node="support2"   startTime="0"  endTime="0.15" startTrans="0 0.38 0" endTrans="0 -0.1 0" />
+			<part node="supportLegs"   startTime="0"  endTime="0.2" startTrans="0 0.28 0" endTrans="0 -0.1 0" />
+			<part node="supportLegs_col"   startTime="0"  endTime="0.15" startTrans="0 0.38 0" endTrans="0 -0.1 0" />
         </animation>
         <animation name="Ramps">
-          <part node="0>0|3" startTime="0" endTime="2" startTrans="0 0.125 -0.01" endTrans="0 0.125 -4.594"/>
-          <part node="0>0|3|0" startTime="2" endTime="4" startRot="0 0 0" endRot="-15 0 0"/>
+          <part node="ramps_group" startTime="0" endTime="2" startTrans="0 0.125 -0.01" endTrans="0 0.125 -4.594"/>
+          <part node="ramps_2" startTime="2" endTime="4" startRot="0 0 0" endRot="-15 0 0"/>
       </animation>
     </animations>
 
 	<cylindered>
 		<movingTools>
-            <movingTool node="BakAkselLyft" wheelIndices="7 8" playSound="true"/>
-			<movingTool node="FrontAkselLoft" wheelIndices="1 2" playSound="true"/>
+            <movingTool node="rearAxle_lift" wheelIndices="7 8" playSound="true"/>
+			<movingTool node="frontAxle_lift" wheelIndices="1 2" playSound="true"/>
 		</movingTools>
-		<sounds>
+		<!-- @todo create soundfile -->
+		<!-- <sounds>
 			<hydraulic template="DEFAULT_HYDRAULIC_SOUND" />
-		</sounds>
+		</sounds> -->
+		
 	</cylindered>
 
 	<foldable>
-		<foldingParts>
-      <foldingPart animationName="Ramps" speedScale="1"/>
-		</foldingParts>
-	</foldable>
+        <foldingConfigurations>
+			<foldingConfiguration>
+				<foldingParts>
+					<foldingPart animationName="Ramps" speedScale="1"/>
+				</foldingParts>
+            </foldingConfiguration>
+         </foldingConfigurations>
+    </foldable>
 
 	<pickup>
         <animation name="rotatePickup" lowerSpeed="1" liftSpeed="-1" />
@@ -783,146 +819,304 @@
   		<material name="default" baseNode="base">
               <shaderParameter name="colorMat0" value="SHARED_BLACK1"/>
           </material>
-  		<material name="Bsm_mat" baseNode="pootjes">
+  		<material name="Bsm_mat" baseNode="supportLegs">
               <shaderParameter name="colorMat1" value="SHARED_BLACK1"/>
           </material>
   	</baseMaterial>
-  	<baseMaterialConfigurations price="100" useDefaultColors="true" defaultColorIndex="8">
+  	
+	<baseMaterialConfigurations price="100" useDefaultColors="true" defaultColorIndex="8">
   		<material name="default" shaderParameter="colorMat0" />
   		<material name="Bsm_mat" shaderParameter="colorMat1" />
       </baseMaterialConfigurations>
+	
 	<rimColorConfigurations useDefaultColors="true" price="200" defaultColorIndex="8">
 		<rimColorConfiguration name="CHROME" color="1 1 1" material="2" price="300"/>
         <rimColorConfiguration name="SILVER" color="0.98 0.98 0.98" material="8" price="300"/>
     </rimColorConfigurations>
+	
     <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
     <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
 
-    <easyAutoLoad objectsIndex="ealObjectsIndex" triggersIndex="ealTriggersIndex" markerPositionsIndex="ealMarkerPositionsIndex" markerIndex="ealMarkerIndex" triggerAnimation="moveTrigger" centerMarkerIndex="1" unloadHeightOffset="-0.75">
-  		<levelBarOptions coloredIcons="true" iconColor="0.6307 0.6307 0.6307 1" fillLevelColor="0.991 0.3865 0.01 1"/>
-  		<palletIcon colorIcon="Parts/AutoLoad/Texture/pallet.png" overlayIcon="Parts/AutoLoad/Texture/palletIconOverlay.png"/>
-  		<roundBaleIcon colorIcon="Parts/AutoLoad/Texture/roundBale.png" overlayIcon="Parts/AutoLoad/Texture/roundBaleIconOverlay.png"/>
-  		<squareBaleIcon colorIcon="Parts/AutoLoad/Texture/squareBale.png" overlayIcon="Parts/AutoLoad/Texture/squareBaleIconOverlay.png"/>
-  		<weightIcon colorIcon="Parts/AutoLoad/Texture/weightIcon.png" overlayIcon="Parts/AutoLoad/Texture/weightIconOverlay.png"/>
-  		<moveableMarkerOptions minX="0 4 -25 -25" maxX="0 25 25 -4" minY="0 -0.7 -0.7 -0.7" maxY="0 15 15 15" minZ="0 -20 -30 -20" maxZ="0 20 -16 20" markerMoveSpeed="0.05"/>
-  	</easyAutoLoad>
 
     <i3dMappings>
-        <i3dMapping id="DAFTrailer_main_component1" node="0>" />
-        <i3dMapping id="base" node="0>0|6|0" />
-        <i3dMapping id="dynamicMountTrigger" node="0>0|7" />
-        <i3dMapping id="pootjes" node="0>0|2|0|0" />
-	    	<i3dMapping id="Henger_Ramme" node="0>0" />
-        <i3dMapping id="tensionBelts" node="0>0|1" />
-        <i3dMapping id="beltStart1" node="0>0|1|0" />
-        <i3dMapping id="beltEnd1" node="0>0|1|0|0" />
-        <i3dMapping id="beltStart2" node="0>0|1|1" />
-        <i3dMapping id="beltEnd2" node="0>0|1|1|0" />
-        <i3dMapping id="beltStart3" node="0>0|1|2" />
-        <i3dMapping id="beltEnd3" node="0>0|1|2|0" />
-        <i3dMapping id="beltStart4" node="0>0|1|3" />
-        <i3dMapping id="beltEnd4" node="0>0|1|3|0" />
-        <i3dMapping id="beltStart5" node="0>0|1|4" />
-        <i3dMapping id="beltEnd5" node="0>0|1|4|0" />
-        <i3dMapping id="beltStart6" node="0>0|1|5" />
-        <i3dMapping id="beltEnd6" node="0>0|1|5|0" />
-        <i3dMapping id="beltStart7" node="0>0|1|6" />
-        <i3dMapping id="beltEnd7" node="0>0|1|6|0" />
-        <i3dMapping id="beltStart8" node="0>0|1|7" />
-        <i3dMapping id="beltEnd8" node="0>0|1|7|0" />
-        <i3dMapping id="beltStart9" node="0>0|1|8" />
-        <i3dMapping id="beltEnd9" node="0>0|1|8|0" />
-        <i3dMapping id="beltStart10" node="0>0|1|9" />
-        <i3dMapping id="beltEnd10" node="0>0|1|9|0" />
-        <i3dMapping id="beltStart11" node="0>0|1|10" />
-        <i3dMapping id="beltEnd11" node="0>0|1|10|0" />
-        <i3dMapping id="beltStart12" node="0>0|1|11" />
-        <i3dMapping id="beltEnd12" node="0>0|1|11|0" />
-        <i3dMapping id="beltStart13" node="0>0|1|12" />
-        <i3dMapping id="beltEnd13" node="0>0|1|12|0" />
-        <i3dMapping id="beltStart14" node="0>0|1|13" />
-        <i3dMapping id="beltEnd14" node="0>0|1|13|0" />
-        <i3dMapping id="beltStart15" node="0>0|1|14" />
-        <i3dMapping id="beltEnd15" node="0>0|1|14|0" />
-        <i3dMapping id="beltActivationTrigger" node="0>0|1|15" />
+        <i3dMapping id="trailerSemi_mainComponent"			node="0>" />
+		
+	    <i3dMapping id="trailerSemi_vis" 					node="0>0" />
+		
+		<i3dMapping id="frontLight_real" 					node="0>0|0|0|0"/>
+		<i3dMapping id="brakeLights_real" 					node="0>0|0|1|0"/>
+		<i3dMapping id="turnLightRB_real" 					node="0>0|0|2|0"/>
+		<i3dMapping id="turnLightLB_real" 					node="0>0|0|3|0"/>
+		<i3dMapping id="reverseLight_real" 					node="0>0|0|4|0"/>
+		<i3dMapping id="beaconLightL" 						node="0>0|0|5|0"/>
+		<i3dMapping id="beaconLightR" 						node="0>0|0|5|1"/>
+		<i3dMapping id="SideBar_dual_real" 					node="0>0|0|6|0"/>
+		<i3dMapping id="SideBar_dual2_real" 				node="0>0|0|7|0"/>
+		<i3dMapping id="SideBar_triple_real" 				node="0>0|0|8|0"/>
+		
+		<i3dMapping id="sidebarLights_dual_real_group" 		node="0>0|0|6"/>
+		<i3dMapping id="sidebarLights_dual2_real_group" 	node="0>0|0|7"/>
+		<i3dMapping id="sidebarLights_triple_real_group"	node="0>0|0|8"/>
+		
+        <i3dMapping id="tensionBelts" 						node="0>0|1" />
+        <i3dMapping id="beltStart1" 						node="0>0|1|0" />
+        <i3dMapping id="beltEnd1" 							node="0>0|1|0|0" />
+        <i3dMapping id="beltStart2" 						node="0>0|1|1" />
+        <i3dMapping id="beltEnd2" 							node="0>0|1|1|0" />
+        <i3dMapping id="beltStart3" 						node="0>0|1|2" />
+        <i3dMapping id="beltEnd3" 							node="0>0|1|2|0" />
+        <i3dMapping id="beltStart4" 						node="0>0|1|3" />
+        <i3dMapping id="beltEnd4" 							node="0>0|1|3|0" />
+        <i3dMapping id="beltStart5" 						node="0>0|1|4" />
+        <i3dMapping id="beltEnd5" 							node="0>0|1|4|0" />
+        <i3dMapping id="beltStart6" 						node="0>0|1|5" />
+        <i3dMapping id="beltEnd6" 							node="0>0|1|5|0" />
+        <i3dMapping id="beltStart7" 						node="0>0|1|6" />
+        <i3dMapping id="beltEnd7" 							node="0>0|1|6|0" />
+        <i3dMapping id="beltStart8" 						node="0>0|1|7" />
+        <i3dMapping id="beltEnd8" 							node="0>0|1|7|0" />
+        <i3dMapping id="beltStart9" 						node="0>0|1|8" />
+        <i3dMapping id="beltEnd9" 							node="0>0|1|8|0" />
+        <i3dMapping id="beltStart10" 						node="0>0|1|9" />
+        <i3dMapping id="beltEnd10" 							node="0>0|1|9|0" />
+        <i3dMapping id="beltStart11" 						node="0>0|1|10" />
+        <i3dMapping id="beltEnd11" 							node="0>0|1|10|0" />
+        <i3dMapping id="beltStart12" 						node="0>0|1|11" />
+        <i3dMapping id="beltEnd12" 							node="0>0|1|11|0" />
+        <i3dMapping id="beltStart13" 						node="0>0|1|12" />
+        <i3dMapping id="beltEnd13" 							node="0>0|1|12|0" />
+        <i3dMapping id="beltStart14" 						node="0>0|1|13" />
+        <i3dMapping id="beltEnd14" 							node="0>0|1|13|0" />
+        <i3dMapping id="beltStart15" 						node="0>0|1|14" />
+        <i3dMapping id="beltEnd15" 							node="0>0|1|14|0" />
+        <i3dMapping id="beltActivationTrigger" 				node="0>0|1|15" />
+		
+        <i3dMapping id="supportLegs" 						node="0>0|2|0|0" />
+        <i3dMapping id="supportLegs_col" 					node="0>0|2|0|1" />
+		
+        <i3dMapping id="ramps_group" 						node="0>0|3" />
+        <i3dMapping id="ramps_2" 							node="0>0|3|0" />
+        
+		<i3dMapping id="frontAxle" 							node="0>0|4|1" />
+		<i3dMapping id="frontAxle_lift" 					node="0>0|4|1|0" />
+		<i3dMapping id="wheelLeftFront" 					node="0>0|4|1|0|0" />
+        <i3dMapping id="wheelLeftFrontHub" 					node="0>0|4|1|0|0|0" />
+        <i3dMapping id="wheelRightFront" 					node="0>0|4|1|0|1" />
+        <i3dMapping id="wheelRightFrontHub" 				node="0>0|4|1|0|1|0" />
+		
+        <i3dMapping id="wheelsFront_custom" 				node="0>0|4|1|0|2" />
+		
+		<i3dMapping id="centerAxle" 						node="0>0|4|2" />
+		<i3dMapping id="centerAxle_lift" 					node="0>0|4|2|0" />
+		<i3dMapping id="wheelLeftMiddle" 					node="0>0|4|2|0|0" />
+        <i3dMapping id="wheelLeftMiddleHub" 				node="0>0|4|2|0|0|0" />
+        <i3dMapping id="wheelRightMiddle" 					node="0>0|4|2|0|1" />
+        <i3dMapping id="wheelRightMiddleHub" 				node="0>0|4|2|0|1|0" />
+		
+        <i3dMapping id="wheelsMiddle_custom" 				node="0>0|4|2|0|2" />
+		
+		<i3dMapping id="centerAxle2" 						node="0>0|4|3" />
+		<i3dMapping id="centerAxle_lift2" 					node="0>0|4|3|0" />
+		<i3dMapping id="wheelLeftMiddle2" 					node="0>0|4|3|0|0" />
+        <i3dMapping id="wheelLeftMiddleHub2" 				node="0>0|4|3|0|0|0" />
+        <i3dMapping id="wheelRightMiddle2" 					node="0>0|4|3|0|1" />
+        <i3dMapping id="wheelRightMiddleHub2" 				node="0>0|4|3|0|1|0" />
+		
+        <i3dMapping id="wheelsMiddle2_custom" 				node="0>0|4|3|0|2" />
+		
+		<i3dMapping id="rearAxle" 							node="0>0|4|4" />
+		<i3dMapping id="rearAxle_lift" 						node="0>0|4|4|0" />
+		<i3dMapping id="wheelLeftBack" 						node="0>0|4|4|0|0" />
+        <i3dMapping id="wheelLeftBackHub" 					node="0>0|4|4|0|0|0" />
+        <i3dMapping id="wheelRightBack" 					node="0>0|4|4|0|1" />
+        <i3dMapping id="wheelRightBackHub" 					node="0>0|4|4|0|1|0" />
+		
+        <i3dMapping id="wheelsBack_custom" 					node="0>0|4|4|0|2" />
+		
+        <i3dMapping id="sideSkirt_support_triple" 			node="0>0|4|5|0" />
+        <i3dMapping id="sideSkirt_support_dual2" 			node="0>0|4|5|1" />
+        <i3dMapping id="sideSkirt_support_dual" 			node="0>0|4|5|2" />
+		
+        <i3dMapping id="dualAxle_conf" 						node="0>0|5|0" />
+        <i3dMapping id="dualAxle2_conf" 					node="0>0|5|1" />
+        <i3dMapping id="triAxle_conf" 						node="0>0|5|2" />
+		
+		<i3dMapping id="base" 								node="0>0|6|0" />
+		
+		<i3dMapping id="licensePlate_vis"					node="0>0|6|5|1|4|0" />
+		
+		<i3dMapping id="contourLightL_01_shared"			node="0>0|6|6|0|0|0" />
+		<i3dMapping id="contourLightL_02_shared"			node="0>0|6|6|0|0|1" />
+		<i3dMapping id="contourLightL_03_shared"			node="0>0|6|6|0|0|2" />
+		<i3dMapping id="contourLightL_04_shared"			node="0>0|6|6|0|0|3" />
+		<i3dMapping id="contourLightL_05_shared"			node="0>0|6|6|0|0|4" />
+		<i3dMapping id="contourLightL_06_shared"			node="0>0|6|6|0|0|5" />
+		<i3dMapping id="contourLightL_07_shared"			node="0>0|6|6|0|0|6" />
+		<i3dMapping id="contourLightL_08_shared"			node="0>0|6|6|0|0|7" />
+		<i3dMapping id="contourLightL_09_shared"			node="0>0|6|6|0|0|8" />
+		
+		<i3dMapping id="contourLightR_01_shared"			node="0>0|6|6|0|1|0" />
+		<i3dMapping id="contourLightR_02_shared"			node="0>0|6|6|0|1|1" />
+		<i3dMapping id="contourLightR_03_shared"			node="0>0|6|6|0|1|2" />
+		<i3dMapping id="contourLightR_04_shared"			node="0>0|6|6|0|1|3" />
+		<i3dMapping id="contourLightR_05_shared"			node="0>0|6|6|0|1|4" />
+		<i3dMapping id="contourLightR_06_shared"			node="0>0|6|6|0|1|5" />
+		<i3dMapping id="contourLightR_07_shared"			node="0>0|6|6|0|1|6" />
+		<i3dMapping id="contourLightR_08_shared"			node="0>0|6|6|0|1|7" />
+		<i3dMapping id="contourLightR_09_shared"			node="0>0|6|6|0|1|8" />
+		
+		<i3dMapping id="rearLightL_01_shared"				node="0>0|6|6|1|0" />
+		<i3dMapping id="rearLightL_02_shared"				node="0>0|6|6|1|1" />
+		<i3dMapping id="rearLightL_03_shared"				node="0>0|6|6|1|2" />
+		<i3dMapping id="rearLightL_04_shared"				node="0>0|6|6|1|3" />
+		<i3dMapping id="rearLightR_01_shared"				node="0>0|6|6|1|4" />
+		<i3dMapping id="rearLightR_02_shared"				node="0>0|6|6|1|5" />
+		<i3dMapping id="rearLightR_03_shared"				node="0>0|6|6|1|6" />
+		<i3dMapping id="rearLightR_04_shared"				node="0>0|6|6|1|7" />
+		
+		<i3dMapping id="reverseLightL_shared"				node="0>0|6|6|1|8|0|0" /> <!-- @todo make shared -->
+		<i3dMapping id="reverseLightR_shared"				node="0>0|6|6|1|9|0|0" /> <!-- @todo make shared -->
+		
+		<i3dMapping id="sidemarkerLightL_01"				node="0>0|6|6|2|0|3" /> <!-- @todo make shared -->
+		<i3dMapping id="sidemarkerLightR_01"				node="0>0|6|6|2|1|3" /> <!-- @todo make shared -->
+		
+		<i3dMapping id="frontLightL_01"						node="0>0|6|6|3|0|0" /> <!-- @todo make shared -->
+		<i3dMapping id="frontLightL_02"						node="0>0|6|6|3|1|0" /> <!-- @todo make shared -->
+		<i3dMapping id="frontLightR_01"						node="0>0|6|6|3|2|0" /> <!-- @todo make shared -->
+		<i3dMapping id="frontLightR_02"						node="0>0|6|6|3|3|0" /> <!-- @todo make shared -->
+		
+		<i3dMapping id="licenseplateLightL"					node="0>0|6|6|4|0|0" /> <!-- @todo make shared -->
+		<i3dMapping id="licenseplateLightR"					node="0>0|6|6|4|1|0" /> <!-- @todo make shared -->
+		
+		<i3dMapping id="sidebarLights_back_group"			node="0>0|6|6|5|0" />
+		<i3dMapping id="sidebarLights_backL"				node="0>0|6|6|5|0|0" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_backR"				node="0>0|6|6|5|0|1" /> <!-- @todo make shared -->
+		
+		<i3dMapping id="sidebarLights_dual_group"			node="0>0|6|6|5|1" />
+		<i3dMapping id="sidebarLights_dualL_01"				node="0>0|6|6|5|1|0" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dualL_02"				node="0>0|6|6|5|1|1" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dualL_03"				node="0>0|6|6|5|1|2" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dualL_04"				node="0>0|6|6|5|1|3" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dualL_05"				node="0>0|6|6|5|1|4" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dualR_01"				node="0>0|6|6|5|1|5" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dualR_02"				node="0>0|6|6|5|1|6" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dualR_03"				node="0>0|6|6|5|1|7" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dualR_04"				node="0>0|6|6|5|1|8" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dualR_05"				node="0>0|6|6|5|1|9" /> <!-- @todo make shared -->
+		
+		<i3dMapping id="sidebarLights_dual2_group"			node="0>0|6|6|5|2" />
+		<i3dMapping id="sidebarLights_dual2L_01"			node="0>0|6|6|5|2|0" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dual2L_02"			node="0>0|6|6|5|2|1" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dual2L_03"			node="0>0|6|6|5|2|2" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dual2L_04"			node="0>0|6|6|5|2|3" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dual2L_05"			node="0>0|6|6|5|2|4" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dual2R_01"			node="0>0|6|6|5|2|5" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dual2R_02"			node="0>0|6|6|5|2|6" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dual2R_03"			node="0>0|6|6|5|2|7" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dual2R_04"			node="0>0|6|6|5|2|8" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_dual2R_05"			node="0>0|6|6|5|2|9" /> <!-- @todo make shared -->
+		
+		<i3dMapping id="sidebarLights_triple_group"			node="0>0|6|6|5|3" />
+		<i3dMapping id="sidebarLights_tripleL_01"			node="0>0|6|6|5|3|0" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_tripleL_02"			node="0>0|6|6|5|3|1" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_tripleL_03"			node="0>0|6|6|5|3|2" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_tripleL_04"			node="0>0|6|6|5|3|3" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_tripleL_05"			node="0>0|6|6|5|3|4" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_tripleR_01"			node="0>0|6|6|5|3|5" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_tripleR_02"			node="0>0|6|6|5|3|6" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_tripleR_03"			node="0>0|6|6|5|3|7" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_tripleR_04"			node="0>0|6|6|5|3|8" /> <!-- @todo make shared -->
+		<i3dMapping id="sidebarLights_tripleR_05"			node="0>0|6|6|5|3|9" /> <!-- @todo make shared -->
+		
+		<i3dMapping id="AttacherJoint" 						node="0>0|6|10" />
+		
+		<i3dMapping id="backElectric" 						node="0>0|6|11|0|0|0|0" />
+		<i3dMapping id="hydraulic01_out" 					node="0>0|6|11|0|0|1|0" />
+		<i3dMapping id="hydraulic01_in" 					node="0>0|6|11|0|0|2|0" />
+		<i3dMapping id="airDoubleControl" 					node="0>0|6|11|0|0|3|0" />
+		<i3dMapping id="airDoubleStorage" 					node="0>0|6|11|0|0|4|0" />
+		<i3dMapping id="hydraulic02_out" 					node="0>0|6|11|0|0|5|0" />
+		<i3dMapping id="hydraulic02_in" 					node="0>0|6|11|0|0|6|0" />
 
-        <i3dMapping id="support1" node="0>0|2|0|0" />
-        <i3dMapping id="support2" node="0>0|2|0|1" />
+		<i3dMapping id="attacherJoint" 						node="0>0|6|13" />
 
-		<i3dMapping id="FrontAksel" node="0>0|4|1" />
-		<i3dMapping id="FrontAkselLoft" node="0>0|4|1|0" />
-		<i3dMapping id="wheelLeftFront" node="0>0|4|1|0|0" />
-        <i3dMapping id="wheelLeftFrontHub" node="0>0|4|1|0|0|0" />
-        <i3dMapping id="wheelRightFront" node="0>0|4|1|0|1" />
-        <i3dMapping id="wheelRightFrontHub" node="0>0|4|1|0|1|0" />
-		<i3dMapping id="MidAksel" node="0>0|4|2" />
-		<i3dMapping id="MidAkselLyft" node="0>0|4|2|0" />
-		<i3dMapping id="wheelLeftMiddle" node="0>0|4|2|0|0" />
-        <i3dMapping id="wheelLeftMiddleHub" node="0>0|4|2|0|0|0" />
-        <i3dMapping id="wheelRightMiddle" node="0>0|4|2|0|1" />
-        <i3dMapping id="wheelRightMiddleHub" node="0>0|4|2|0|1|0" />
-		<i3dMapping id="MidAksel2" node="0>0|4|3" />
-		<i3dMapping id="MidAkselLyft2" node="0>0|4|3|0" />
-		<i3dMapping id="wheelLeftMiddle2" node="0>0|4|3|0|0" />
-        <i3dMapping id="wheelLeftMiddleHub2" node="0>0|4|3|0|0|0" />
-        <i3dMapping id="wheelRightMiddle2" node="0>0|4|3|0|1" />
-        <i3dMapping id="wheelRightMiddleHub2" node="0>0|4|3|0|1|0" />
-		<i3dMapping id="BakAksel" node="0>0|4|4" />
-		<i3dMapping id="BakAkselLyft" node="0>0|4|4|0" />
-		<i3dMapping id="wheelLeftBack" node="0>0|4|4|0|0" />
-        <i3dMapping id="wheelLeftBackHub" node="0>0|4|4|0|0|0" />
-        <i3dMapping id="wheelRightBack" node="0>0|4|4|0|1" />
-        <i3dMapping id="wheelRightBackHub" node="0>0|4|4|0|1|0" />
-		<i3dMapping id="mudFlap_Component4" node="1>" />
-		<i3dMapping id="componentJointMudFlap" node="1>1" />
-    <i3dMapping id="attacherJoint" node="0>0|6|13" />
+		<i3dMapping id="Hoses" 								node="0>0|6|14" />
+		<i3dMapping id="hydraulic01" 						node="0>0|6|14|0" />
+		<i3dMapping id="referencePoint_h1" 					node="0>0|6|14|0|0" />
+		<i3dMapping id="detachedCab_h1" 					node="0>0|6|14|0|1" />
+		<i3dMapping id="attachedCab_h1" 					node="0>0|6|14|0|2" />
+		<i3dMapping id="hydraulic02" 						node="0>0|6|14|1" />
+		<i3dMapping id="referencePoint_h2" 					node="0>0|6|14|1|0" />
+		<i3dMapping id="detachedCab_h2" 					node="0>0|6|14|1|1" />
+		<i3dMapping id="attachedCab_h2" 					node="0>0|6|14|1|2" />
+		<i3dMapping id="airYellow" 							node="0>0|6|14|2" />
+		<i3dMapping id="referencePoint_ay" 					node="0>0|6|14|2|0" />
+		<i3dMapping id="cab_ay" 							node="0>0|6|14|2|1" />
+		<i3dMapping id="airYellowConnector" 				node="0>0|6|14|2|2" />
+		<i3dMapping id="referencePointConnector_ay"			node="0>0|6|14|2|2|0" />
+		<i3dMapping id="airRed" 							node="0>0|6|14|3" />
+		<i3dMapping id="referencePoint_ar" 					node="0>0|6|14|3|0" />
+		<i3dMapping id="cab_ar" 							node="0>0|6|14|3|1" />
+		<i3dMapping id="airRedConnector" 					node="0>0|6|14|3|2" />
+		<i3dMapping id="referencePointConnector_ar"			node="0>0|6|14|3|2|0" />
+		<i3dMapping id="frontElectric_closed" 				node="0>0|6|14|4|0" />
+		<i3dMapping id="frontElectric" 						node="0>0|6|14|4|2" />
+		<i3dMapping id="frontElectric_open" 				node="0>0|6|14|4|3" />
+		
+        <i3dMapping id="dynamicMountTrigger" 				node="0>0|7" />
+		
+		<i3dMapping id="mudFlap_Component4" 				node="1>" />
+		<i3dMapping id="componentJointMudFlap" 				node="1>1" />
+		
+		<i3dMapping id="MudFlap0" 							node="2>" />
+		<i3dMapping id="MudFlap0_joint" 					node="2>1" />
+		
+		<i3dMapping id="MudFlap1" 							node="3>" />
+		<i3dMapping id="MudFlap1_joint" 					node="3>1" />
+		
+		<i3dMapping id="MudFlap2" 							node="4>" />
+		<i3dMapping id="MudFlap2_joint" 					node="4>1" />
+		
+		<i3dMapping id="MudFlap3" 							node="5>" />
+		<i3dMapping id="MudFlap3_joint" 					node="5>1" />
+		
+		<i3dMapping id="MudFlap4" 							node="6>" />
+		<i3dMapping id="MudFlap4_joint" 					node="6>1" />
+		
+		<i3dMapping id="MudFlap5" 							node="7>" />
+		<i3dMapping id="MudFlap5_joint" 					node="7>1" />
+		
+		<i3dMapping id="MudFlap6" 							node="8>" />
+		<i3dMapping id="MudFlap6_joint" 					node="8>1" />
+		
+		<i3dMapping id="MudFlap7" 							node="9>" />
+		<i3dMapping id="MudFlap7_joint" 					node="9>1" />
+		
+		<i3dMapping id="MudFlap8" 							node="10>" />
+		<i3dMapping id="MudFlap8_joint" 					node="10>1" />
+		
+		<i3dMapping id="MudFlap9" 							node="11>" />
+		<i3dMapping id="MudFlap9_joint" 					node="11>1" />
+		
+		<i3dMapping id="MudFlap10" 							node="12>" />
+		<i3dMapping id="MudFlap10_joint" 					node="12>1" />
+		
+		<i3dMapping id="MudFlap11" 							node="13>" />
+		<i3dMapping id="MudFlap11_joint" 					node="13>1" />
+		
+		<i3dMapping id="MudFlap12" 							node="14>" />
+		<i3dMapping id="MudFlap12_joint" 					node="14>1" />
+		
+		<i3dMapping id="MudFlap13" 							node="15>" />
+		<i3dMapping id="MudFlap13_joint" 					node="15>1" />
+		
+		<i3dMapping id="MudFlap14" 							node="16>" />
+		<i3dMapping id="MudFlap14_joint" 					node="16>1" />
+		
+		<i3dMapping id="MudFlap15" 							node="17>" />
+		<i3dMapping id="MudFlap15_joint" 					node="17>1" />
 
-    <i3dMapping id="frontLightLow" node="0>0|0|0|0"/>
-    <i3dMapping id="frontLightHigh" node="0>0|0|0|0"/>
-    <i3dMapping id="SideBar2xLow" node="0>0|0|6|0"/>
-    <i3dMapping id="SideBar2xHigh" node="0>0|0|6|0"/>
-    <i3dMapping id="SideBar2x+Low" node="0>0|0|7|0"/>
-    <i3dMapping id="SideBar2x+High" node="0>0|0|7|0"/>
-    <i3dMapping id="SideBar3xLow" node="0>0|0|8|0"/>
-    <i3dMapping id="SideBar3xHigh" node="0>0|0|8|0"/>
-    <i3dMapping id="turnLightRightBack" node="0>0|0|2|0"/>
-    <i3dMapping id="turnLightLeftBack" node="0>0|0|3|0"/>
-    <i3dMapping id="backLightsHigh" node="0>0|0|1|0"/>
-    <i3dMapping id="reverseLight" node="0>0|0|4|0"/>
 
-    <i3dMapping id="hydraulic01_in" node="0>0|6|11|0|0|2|0" />
-    <i3dMapping id="hydraulic01_out" node="0>0|6|11|0|0|1|0" />
-    <i3dMapping id="hydraulic02_in" node="0>0|6|11|0|0|6|0" />
-    <i3dMapping id="hydraulic02_out" node="0>0|6|11|0|0|5|0" />
-    <i3dMapping id="backElectric" node="0>0|6|11|0|0|0|0" />
-    <i3dMapping id="airDoubleControl" node="0>0|6|11|0|0|3|0" />
-    <i3dMapping id="airDoubleStorage" node="0>0|6|11|0|0|4|0" />
-
-    <i3dMapping id="Hoses" node="0>0|6|14" />
-    <i3dMapping id="hydraulic01" node="0>0|6|14|0" />
-    <i3dMapping id="referencePoint_h1" node="0>0|6|14|0|0" />
-    <i3dMapping id="detachedCab_h1" node="0>0|6|14|0|1" />
-    <i3dMapping id="attachedCab_h1" node="0>0|6|14|0|2" />
-    <i3dMapping id="hydraulic02" node="0>0|6|14|1" />
-    <i3dMapping id="referencePoint_h2" node="0>0|6|14|1|0" />
-    <i3dMapping id="detachedCab_h2" node="0>0|6|14|1|1" />
-    <i3dMapping id="attachedCab_h2" node="0>0|6|14|1|2" />
-    <i3dMapping id="airYellow" node="0>0|6|14|2" />
-    <i3dMapping id="referencePoint_ay" node="0>0|6|14|2|0" />
-    <i3dMapping id="cab_ay" node="0>0|6|14|2|1" />
-    <i3dMapping id="airYellowConnector" node="0>0|6|14|2|2" />
-    <i3dMapping id="referencePointConnector_ay" node="0>0|6|14|2|2|0" />
-    <i3dMapping id="airRed" node="0>0|6|14|3" />
-    <i3dMapping id="referencePoint_ar" node="0>0|6|14|3|0" />
-    <i3dMapping id="cab_ar" node="0>0|6|14|3|1" />
-    <i3dMapping id="airRedConnector" node="0>0|6|14|3|2" />
-    <i3dMapping id="referencePointConnector_ar" node="0>0|6|14|3|2|0" />
-    <i3dMapping id="frontElectric" node="0>0|6|14|4|2" />
-
-    <i3dMapping id="ealObjectsIndex" node="0>0|9|1" />
-    <i3dMapping id="ealTriggersIndex" node="0>0|9|3" />
-    <i3dMapping id="ealMarkerPositionsIndex" node="0>0|9|2" />
-    <i3dMapping id="ealMarkerIndex" node="0>0|9|0" />
 
     </i3dMappings>
 </vehicle>
