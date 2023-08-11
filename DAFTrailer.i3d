@@ -15,32 +15,32 @@
     <File fileId="37" filename="$data/shared/connectionHoses/frontConnector_normal.png"/>
     <File fileId="41" filename="$data/shared/default_specular.dds"/>
     <File fileId="35" filename="$data/shared/window_diffuse.dds"/>
-    <File fileId="28" filename="Parts/Bak/Deck/Addons/Bak/flatbedsemiV2diff.dds"/>
-    <File fileId="30" filename="Parts/Bak/Deck/Addons/Driehoek/Textures/Ref.dds"/>
-    <File fileId="32" filename="Parts/Bak/Deck/Addons/Kenteken/Texture/ns_jukka.dds"/>
-    <File fileId="31" filename="Parts/Bak/Deck/textures/Warning Sign.dds"/>
-    <File fileId="29" filename="Parts/Bak/Deck/textures/Witcreme.png"/>
-    <File fileId="44" filename="Parts/Bak/Spatlap/Addons/Spatlappen/1.dds"/>
-    <File fileId="45" filename="Parts/Bak/Spatlap/shared/gen_dirt_1.dds"/>
-    <File fileId="42" filename="Parts/Chassis/Schotelplaat/VP Model/textur/specular1.dds"/>
-    <File fileId="51" filename="Parts/Chassis/Spatlappen/Addons/Spatlappen/Dynamic/Exports/Textures/dlinnomer.dds"/>
-    <File fileId="52" filename="Parts/Chassis/Spatlappen/Addons/Spatlappen/Dynamic/Exports/Textures/spec1.dds"/>
-    <File fileId="48" filename="Parts/Chassis/Spatlappen/Addons/Spatlappen/Dynamic/Textures/spec.dds"/>
-    <File fileId="47" filename="Parts/Chassis/Spatlappen/Addons/Spatlappen/Dynamic/shared/default_normal.dds"/>
-    <File fileId="46" filename="Parts/Chassis/Spatlappen/Addons/Spatlappen/Dynamic/texture1/black.dds"/>
-    <File fileId="49" filename="Parts/Chassis/Spatlappen/Addons/Spatlappen/Dynamic/texture1/fari.dds"/>
-    <File fileId="50" filename="Parts/Chassis/Spatlappen/Addons/Spatlappen/Dynamic/texture1/fari_spec.dds"/>
-    <File fileId="8" filename="Parts/Chassis/Support/trailer_normal.png"/>
-    <File fileId="9" filename="Parts/Chassis/Support/trailer_specular.png"/>
-    <File fileId="33" filename="Parts/Ramps/Rampplaat Stootblok/Addons/Bak/Plaat/Plaat_diffuse.dds"/>
-    <File fileId="34" filename="Parts/Ramps/Rampplaat Stootblok/shared/dirt_lite.dds"/>
-    <File fileId="14" filename="Parts/Wheels/Wheels/Addons/Wheels/Wheels/Onzichtbaar.dds"/>
-    <File fileId="20" filename="Parts/Wheels/Wheels/Addons/Wheels/Wheels/tyre_rear.dds"/>
-    <File fileId="19" filename="Parts/Wheels/Wheels/Addons/Wheels/textur/Blauw.png"/>
-    <File fileId="17" filename="Parts/Wheels/Wheels/Addons/Wheels/textur/DefaultMaterial_BaseColor12.dds"/>
-    <File fileId="21" filename="Parts/Wheels/Wheels/Addons/Wheels/textur/specmain40_t.dds"/>
-    <File fileId="18" filename="Parts/Wheels/Wheels/Wheels/RimColor/WheelsDubbel/Hooklift/textures/gen_dirt_1.dds"/>
-    <File fileId="23" filename="Parts/Wheels/Wheels/Wheels/Wheels/Hooklift/textures/gen_dirt_1.dds"/>
+    <File fileId="28" filename="textures/flatbedsemiV2diff.dds"/>
+    <File fileId="30" filename="textures/warningTriangle.dds"/>
+    <File fileId="32" filename="textures/ns_jukka.dds"/>
+    <File fileId="31" filename="textures/warningSign.dds"/>
+    <File fileId="29" filename="textures/whiteCreme.png"/>
+    <File fileId="44" filename="textures/lizardLogistics.dds"/>
+    <File fileId="45" filename="textures/gen_dirt_1.dds"/>
+    <File fileId="42" filename="textures/specular1.dds"/>
+    <File fileId="51" filename="textures/dlinnomer.dds"/>
+    <File fileId="52" filename="textures/spec1.dds"/>
+    <File fileId="48" filename="textures/spec.dds"/>
+    <File fileId="47" filename="textures/default_normal.dds"/>
+    <File fileId="46" filename="textures/black.dds"/>
+    <File fileId="49" filename="textures/fari.dds"/>
+    <File fileId="50" filename="textures/fari_spec.dds"/>
+    <File fileId="8" filename="textures/trailer_normal.png"/>
+    <File fileId="9" filename="textures/trailer_specular.png"/>
+    <File fileId="33" filename="textures/plate_diffuse.dds"/>
+    <File fileId="34" filename="shared/dirt_lite.dds"/>
+    <File fileId="14" filename="Wheels/Texture/transparant.dds"/>
+    <File fileId="20" filename="Wheels/Texture/tyre_rear.dds"/>
+    <File fileId="19" filename="Wheels/Texture/Blue.png"/>
+    <File fileId="17" filename="Wheels/Texture/DefaultMaterial_BaseColor12.dds"/>
+    <File fileId="21" filename="Wheels/Texture/specmain40_t.dds"/>
+    <File fileId="18" filename="Wheels/Texture/gen_dirt_1.dds"/>
+    <File fileId="23" filename="Wheels/Texture/gen_dirt_1.dds"/>
     <File fileId="10" filename="shared/dirt_lite.dds"/>
     <File fileId="25" filename="textures/kelsaSidebar_diffuse.dds"/>
     <File fileId="26" filename="textures/kelsaSidebar_specular.dds"/>
